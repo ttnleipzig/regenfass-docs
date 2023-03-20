@@ -6,7 +6,7 @@
 
 ## ハードウェア
 
-### 部品
+### Parts
 
 次の部分は推奨事項です。必要に応じて、他のパーツを使用できます。ただし、コードを変更する必要がある場合があります。以下の部品が推奨されます。
 
@@ -39,10 +39,10 @@
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3Dプリント部品
+### 3D-Printed Parts
 
 -   [水槽](https://www.thingiverse.com/thing:2751000)
--   [ウォーターポンプ](https://www.thingiverse.com/thing:2751000)
+-   [Water Pump](https://www.thingiverse.com/thing:2751000)
 
 ## ソフトウェア
 
@@ -64,7 +64,7 @@
 
 **あなたは自由にできます：**
 
--   共有 — 素材をコピーし、任意の媒体または形式で再配布します
+-   共有 — 任意の媒体または形式で資料をコピーおよび再配布します
 -   適応 — 素材をリミックス、変換、構築する
 
 * * *
