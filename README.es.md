@@ -6,7 +6,7 @@
 
 ## Hardware
 
-### Partes
+### Parts
 
 Las siguientes partes son recomendaciones. Puedes usar otras partes si quieres. Pero puede que tenga que cambiar el código. Se recomiendan las siguientes piezas:
 
