@@ -4,33 +4,61 @@
 
 | [English](README.md) | [Deutsch](de-de/README.md) |
 
-## Table of Contents
-
-* [Table of Contents](#table-of-contents)
-* [Hardware](#hardware)
-  + [Parts](#parts)
-  + [Schematic](#schematic)
-  + [3D-Printed Parts](#3d-printed-parts)
-* [Software](#software)
-    - [Arduino](#arduino)
-    - [Server](#server)
-    - [Telegram Bot](#telegram-bot)
-* [License](#license)
-
 ## Hardware
 
 ### Parts
 
-* HC-SR04 Ultrasonic Sensor
+The following parts are recomnondations. You can use other parts if you want. But you may have to change the code. The following parts are recommended:
+
+#### Sensors
+
+To messure the water level you need a sensor.  It is not an easy task to find a sensor that is waterproof and can be used in a water tank. The following sensors are supported and recommended:
+
+##### Beginner
+
+* [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+* [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+
+#### Advanced
+
+* [Water Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+* [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+
+#### LoRaWAN
+
 * LoRaWAN Gateway
 
 #### Boards
 
-* [ESP32](Hardware/ESP32.md)
+It is ovious that you need a board to run the software. But you also need a LoRa chip to send the data to TTN. The following boards are supported:
+
+* [TTGO LoRa32](Hardware/TTGOLoRa32.md)
+* [Heltec LoRa32](Hardware/HeltecLoRa32.md)
 
 ### Schematic
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
+
+### 3D-Printed Parts
+
+* [Water Tank](https://www.thingiverse.com/thing:2751000)
+* [Water Pump](https://www.thingiverse.com/thing:2751000)
+
+## Software
+
+### Arduino
+
+* [Arduino](Software/Arduino/README.md)
+
+### Server
+
+* [Server](Software/Server/README.md)
+
+### Telegram Bot
+
+* [Telegram Bot](Software/TelegramBot/README.md)
+
+## License
 
 ---
 *Made with ❤️ by [docsify](https://docsify.js.org/)*
