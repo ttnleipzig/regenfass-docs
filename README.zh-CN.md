@@ -30,16 +30,16 @@
 
 #### 微控制器
 
-很明显，您需要一块板来运行该软件。但是你还需要一个 LoRa 芯片来将数据发送到 TTN。支持以下板：
+It is ovious that you need a board to run the software. But you also need a LoRa chip to send the data to TTN. The following boards are supported:
 
--   [去吃草](Hardware/TTGOLoRa32.md)
+-   [TTGO LoRa32](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
 
 ### 原理图
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印部件
+### 3D 打印零件
 
 -   [水箱](https://www.thingiverse.com/thing:2751000)
 -   [水泵](https://www.thingiverse.com/thing:2751000)
@@ -50,7 +50,7 @@
 
 -   [阿杜诺](Software/Arduino/README.md)
 
-### 服务器
+### Server
 
 -   [服务器](Software/Server/README.md)
 
