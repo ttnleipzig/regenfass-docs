@@ -51,7 +51,7 @@
 -   [Бак для води](https://www.thingiverse.com/thing:2751000)
 -   [Водяний насос](https://www.thingiverse.com/thing:2751000)
 
-## Software
+## програмне забезпечення
 
 ### Arduino
 
