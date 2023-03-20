@@ -28,11 +28,11 @@
 
 -   LoRaWAN ゲートウェイ
 
-#### ボード
+#### マイクロコントローラ
 
 ソフトウェアを実行するにはボードが必要であることは明らかです。ただし、データを TTN に送信するには LoRa チップも必要です。次のボードがサポートされています。
 
--   [放牧に向かう](Hardware/TTGOLoRa32.md)
+-   [TTGO LoRa32](Hardware/TTGOLoRa32.md)
 -   [ヘルテック LoRa32](Hardware/HeltecLoRa32.md)
 
 ### 回路図
@@ -64,7 +64,7 @@
 
 **あなたは自由にできます：**
 
--   共有 — 任意の媒体または形式で資料をコピーおよび再配布します
+-   Share — copy and redistribute the material in any medium or format
 -   適応 — 素材をリミックス、変換、構築する
 
 * * *
