@@ -8,7 +8,7 @@
 
 ### Запчастини
 
-The following parts are recomnondations. You can use other parts if you want. But you may have to change the code. The following parts are recommended:
+Наступні частини є рекомендаціями. Ви можете використовувати інші частини, якщо хочете. Але, можливо, вам доведеться змінити код. Рекомендуються такі частини:
 
 #### Датчики
 
