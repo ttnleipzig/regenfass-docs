@@ -28,7 +28,7 @@ Um den Wasserstand zu messen, benötigen Sie einen Sensor. Es ist keine leichte 
 
 -   LoRaWAN-Gateway
 
-#### Bretter
+#### Mikrocontroller
 
 Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführen. Sie benötigen aber auch einen LoRa-Chip, um die Daten an TTN zu senden. Folgende Boards werden unterstützt:
 
