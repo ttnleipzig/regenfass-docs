@@ -61,7 +61,7 @@ Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführ
 
 -   [Server](Software/Server/README.md)
 
-### Telegram Bot
+### Telegramm-Bot
 
 -   [Telegramm-Bot](Software/TelegramBot/README.md)
 
