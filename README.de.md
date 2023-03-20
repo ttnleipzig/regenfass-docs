@@ -8,7 +8,7 @@
 
 ### Teile
 
-Die folgenden Teile sind Empfehlungen. Sie können andere Teile verwenden, wenn Sie möchten. Möglicherweise müssen Sie jedoch den Code ändern. Folgende Teile werden empfohlen:
+Die folgenden Teile sind Empfehlungen. Sie können andere Teile verwenden, wenn Sie möchten. Aber möglicherweise müssen Sie den Code ändern. Folgende Teile werden empfohlen:
 
 #### Sensoren
 
