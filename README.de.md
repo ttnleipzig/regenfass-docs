@@ -2,11 +2,20 @@
 
 > Bei diesem Projekt geht es um einen intelligenten Wassertank. Es misst den Wasserstand und sendet die Daten an einen Server. Der Server kann zur Steuerung der Wasserpumpe verwendet werden. Die Pumpe kann über ein Webinterface oder über einen Telegrammbot gesteuert werden. Es verwendet einen HC-SR04-Ultraschallsensor, um den Wasserstand zu messen. Die Daten werden über ein LoRaWAN-Gateway an TTN gesendet.
 
+## Schnellstart
+
+Wenn Sie bereits über die Hardware verfügen und sofort loslegen möchten,
+
+1.  Verbinden Sie Ihr Board mit Ihrem Computer und
+2.  klicken Sie auf die folgende Schaltfläche:
+
+<esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
+
 ## Hardware
 
 ### Teile
 
-Die folgenden Teile sind Empfehlungen. Sie können andere Teile verwenden, wenn Sie möchten. Aber möglicherweise müssen Sie den Code ändern. Folgende Teile werden empfohlen:
+Die folgenden Teile sind Empfehlungen. Sie können andere Teile verwenden, wenn Sie möchten. Möglicherweise müssen Sie jedoch den Code ändern. Folgende Teile werden empfohlen:
 
 #### Sensoren
 
@@ -52,7 +61,7 @@ Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführ
 
 -   [Server](Software/Server/README.md)
 
-### Telegramm-Bot
+### Telegram Bot
 
 -   [Telegramm-Bot](Software/TelegramBot/README.md)
 
@@ -63,7 +72,7 @@ Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführ
 **Es steht Ihnen frei:**
 
 -   Teilen – Kopieren und Weitergeben des Materials in jedem Medium oder Format
--   Adapt — remix, transform, and build upon the material
+-   Anpassen – Material neu mischen, transformieren und darauf aufbauen
 
 * * *
 
