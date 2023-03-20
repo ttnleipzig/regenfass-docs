@@ -2,6 +2,15 @@
 
 > Ce projet concerne un réservoir d'eau intelligent. Il mesure le niveau d'eau et envoie les données à un serveur. Le serveur peut être utilisé pour contrôler la pompe à eau. La pompe peut être contrôlée via une interface Web ou via un bot de télégramme. Il utilise un capteur à ultrasons HC-SR04 pour mesurer le niveau d'eau. Les données sont envoyées à TTN via une passerelle LoRaWAN.
 
+## Quick start
+
+Si vous avez déjà le matériel et que vous voulez commencer tout de suite,
+
+1.  connectez votre carte à votre ordinateur et
+2.  cliquez sur le bouton suivant :
+
+<esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
+
 ## Matériel
 
 ### les pièces
@@ -28,7 +37,7 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 
 #### Microcontrôleur
 
-Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mais vous avez également besoin d'une puce LoRa pour envoyer les données à TTN. Les cartes suivantes sont prises en charge :
+It is ovious that you need a board to run the software. But you also need a LoRa chip to send the data to TTN. The following boards are supported:
 
 -   [En route pour paître](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
