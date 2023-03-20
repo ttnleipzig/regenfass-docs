@@ -28,7 +28,7 @@ To messure the water level you need a sensor.  It is not an easy task to find a 
 
 * LoRaWAN Gateway
 
-#### Boards
+#### Micro controller
 
 It is ovious that you need a board to run the software. But you also need a LoRa chip to send the data to TTN. The following boards are supported:
 

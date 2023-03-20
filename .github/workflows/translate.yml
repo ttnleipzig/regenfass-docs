@@ -21,7 +21,7 @@ jobs:
       - name: Adding README - Spanish
         uses: dephraiim/translate-readme@main
         with:
-          LANG: sp
+          LANG: es
       - name: Adding README - French
         uses: dephraiim/translate-readme@main
         with:
