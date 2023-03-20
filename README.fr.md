@@ -37,7 +37,7 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 
 #### Microcontrôleur
 
-It is ovious that you need a board to run the software. But you also need a LoRa chip to send the data to TTN. The following boards are supported:
+Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mais vous avez également besoin d'une puce LoRa pour envoyer les données à TTN. Les cartes suivantes sont prises en charge :
 
 -   [En route pour paître](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
