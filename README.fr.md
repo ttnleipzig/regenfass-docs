@@ -2,8 +2,6 @@
 
 > Ce projet concerne un réservoir d'eau intelligent. Il mesure le niveau d'eau et envoie les données à un serveur. Le serveur peut être utilisé pour contrôler la pompe à eau. La pompe peut être contrôlée via une interface Web ou via un bot de télégramme. Il utilise un capteur à ultrasons HC-SR04 pour mesurer le niveau d'eau. Les données sont envoyées à TTN via une passerelle LoRaWAN.
 
-\|[Anglais](README.md)\|[Allemand](de-de/README.md)\|
-
 ## Matériel
 
 ### les pièces
