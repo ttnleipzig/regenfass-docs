@@ -11,19 +11,19 @@
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
-## Hardware
+## Обладнання
 
 ### Запчастини
 
-Наступні частини є рекомендаціями. Ви можете використовувати інші частини, якщо хочете. Але, можливо, вам доведеться змінити код. Рекомендуються такі частини:
+The following parts are recomnondations. You can use other parts if you want. But you may have to change the code. The following parts are recommended:
 
 #### Датчики
 
 Для вимірювання рівня води потрібен датчик. Це непросте завдання знайти водонепроникний датчик, який можна використовувати в резервуарі для води. Підтримуються та рекомендуються такі датчики:
 
-##### Beginner
+##### Початківець
 
--   [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Ультразвуковий датчик HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Лазерний датчик](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### Просунутий
@@ -61,7 +61,7 @@
 
 -   [Сервер](Software/Server/README.md)
 
-### Telegram бот
+### Telegram Bot
 
 -   [Telegram бот](Software/TelegramBot/README.md)
 
