@@ -12,21 +12,21 @@ Les parties suivantes sont des recommandations. Vous pouvez utiliser d'autres pi
 
 #### Capteurs
 
-To messure the water level you need a sensor.  It is not an easy task to find a sensor that is waterproof and can be used in a water tank. The following sensors are supported and recommended:
+Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile de trouver un capteur étanche et pouvant être utilisé dans un réservoir d'eau. Les capteurs suivants sont pris en charge et recommandés :
 
 ##### Débutant
 
 -   [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Capteur laser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
-#### Avancé
+#### Advanced
 
 -   [Capteur d'eau](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Capteur à ultrasons étanche à l'eau](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### LoRaWAN
 
--   LoRaWAN Gateway
+-   Passerelle LoRaWAN
 
 #### Planches
 
@@ -62,7 +62,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 
 [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**Vous êtes libre de :**
+**You are free to:**
 
 -   Partager - copier et redistribuer le matériel sur n'importe quel support ou format
 -   Adaptez - remixez, transformez et construisez sur le matériel
