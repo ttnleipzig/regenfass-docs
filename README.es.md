@@ -8,7 +8,7 @@
 
 Las siguientes partes son recomendaciones. Puedes usar otras partes si quieres. Pero puede que tenga que cambiar el código. Se recomiendan las siguientes piezas:
 
-#### Sensors
+#### Sensores
 
 Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontrar un sensor que sea resistente al agua y pueda usarse en un tanque de agua. Los siguientes sensores son compatibles y recomendados:
 
@@ -40,7 +40,7 @@ Es obvio que necesita una placa para ejecutar el software. Pero también necesit
 ### Piezas impresas en 3D
 
 -   [Depósito de agua](https://www.thingiverse.com/thing:2751000)
--   [Water Pump](https://www.thingiverse.com/thing:2751000)
+-   [Bomba de agua](https://www.thingiverse.com/thing:2751000)
 
 ## Software
 
