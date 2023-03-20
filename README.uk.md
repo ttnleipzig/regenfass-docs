@@ -11,7 +11,7 @@
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
-## Обладнання
+## Hardware
 
 ### Запчастини
 
@@ -21,9 +21,9 @@
 
 Для вимірювання рівня води потрібен датчик. Це непросте завдання знайти водонепроникний датчик, який можна використовувати в резервуарі для води. Підтримуються та рекомендуються такі датчики:
 
-##### Початківець
+##### Beginner
 
--   [Ультразвуковий датчик HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Лазерний датчик](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### Просунутий
