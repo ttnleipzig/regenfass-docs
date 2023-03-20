@@ -54,7 +54,7 @@
 
 ### 电报机器人
 
--   [电报机器人](Software/TelegramBot/README.md)
+-   [Telegram Bot](Software/TelegramBot/README.md)
 
 ## 执照
 
