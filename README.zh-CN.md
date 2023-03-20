@@ -2,7 +2,7 @@
 
 > 这个项目是关于一个智能水箱的。它测量水位并将数据发送到服务器。服务器可用于控制水泵。该泵可以通过网络界面或电报机器人进行控制。它使用 HC-SR04 超声波传感器测量水位。数据通过 LoRaWAN 网关发送到 TTN。
 
-\|[英语](README.md)\|[德语](de-de/README.md)\|
+\|[English](README.md)\|[Deutsch](de-de/README.md)\|
 
 ## 硬件
 
@@ -21,7 +21,7 @@
 
 #### 先进的
 
--   [水传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Water Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [防水超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### 罗拉万
@@ -32,14 +32,14 @@
 
 很明显，您需要一块板来运行该软件。但是你还需要一个 LoRa 芯片来将数据发送到 TTN。支持以下板：
 
--   [TTGO LoRa32](Hardware/TTGOLoRa32.md)
+-   [去吃草](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
 
 ### 原理图
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印零件
+### 3D-Printed Parts
 
 -   [水箱](https://www.thingiverse.com/thing:2751000)
 -   [水泵](https://www.thingiverse.com/thing:2751000)
@@ -64,7 +64,7 @@
 
 **您可以自由地：**
 
--   Share — copy and redistribute the material in any medium or format
+-   分享——以任何媒介或格式复制和重新分发材料
 -   Adapt——重新混合、转换和构建材料
 
 * * *
