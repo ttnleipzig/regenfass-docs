@@ -16,7 +16,7 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 
 ##### Débutant
 
--   [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Capteur laser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### Avancé
@@ -39,7 +39,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D-Printed Parts
+### Pièces imprimées en 3D
 
 -   [Réservoir d'eau](https://www.thingiverse.com/thing:2751000)
 -   [Pompe à eau](https://www.thingiverse.com/thing:2751000)
