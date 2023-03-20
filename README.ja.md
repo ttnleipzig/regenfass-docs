@@ -2,9 +2,18 @@
 
 > このプロジェクトは、スマートな水タンクに関するものです。水位を測定し、データをサーバーに送信します。サーバーを使用してウォーターポンプを制御できます。ポンプは、Web インターフェイスまたは電報ボットを介して制御できます。 HC-SR04超音波センサーを使用して水位を測定します。データは LoRaWAN ゲートウェイ経由で TTN に送信されます。
 
+## クイックスタート
+
+すでにハードウェアをお持ちで、すぐに始めたい場合は、
+
+1.  ボードをコンピュータに接続し、
+2.  次のボタンをクリックします。
+
+<esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
+
 ## ハードウェア
 
-### 部品
+### Parts
 
 次の部分は推奨事項です。必要に応じて、他のパーツを使用できます。ただし、コードを変更する必要がある場合があります。以下の部品が推奨されます。
 
@@ -17,7 +26,7 @@
 -   [HC-SR04 超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [レーザーセンサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
-#### 高度
+#### Advanced
 
 -   [水センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [防水超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
