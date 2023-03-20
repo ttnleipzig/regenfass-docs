@@ -13,7 +13,7 @@ Si ya tiene el hardware y desea comenzar de inmediato,
 
 ## Hardware
 
-### Parts
+### Partes
 
 Las siguientes partes son recomendaciones. Puedes usar otras partes si quieres. Pero puede que tenga que cambiar el código. Se recomiendan las siguientes piezas:
 
@@ -21,7 +21,7 @@ Las siguientes partes son recomendaciones. Puedes usar otras partes si quieres. 
 
 Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontrar un sensor que sea resistente al agua y pueda usarse en un tanque de agua. Los siguientes sensores son compatibles y recomendados:
 
-##### Beginner
+##### Principiante
 
 -   [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
@@ -29,7 +29,7 @@ Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontr
 #### Avanzado
 
 -   [sensor de agua](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [Sensor ultrasónico a prueba de agua](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### LoRaWAN
 
@@ -39,7 +39,7 @@ Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontr
 
 Es obvio que necesita una placa para ejecutar el software. Pero también necesitas un chip LoRa para enviar los datos a TTN. Se admiten las siguientes placas:
 
--   [TTGO LoRa32](Hardware/TTGOLoRa32.md)
+-   [Rumbo a pastar](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
 
 ### Esquemático
@@ -57,7 +57,7 @@ Es obvio que necesita una placa para ejecutar el software. Pero también necesit
 
 -   [arduino](Software/Arduino/README.md)
 
-### Server
+### Servidor
 
 -   [Servidor](Software/Server/README.md)
 
