@@ -2,7 +2,7 @@
 
 > Este proyecto trata sobre un tanque de agua inteligente. Mide el nivel del agua y envía los datos a un servidor. El servidor se puede utilizar para controlar la bomba de agua. La bomba se puede controlar a través de una interfaz web o mediante un bot de Telegram. Utiliza un sensor ultrasónico HC-SR04 para medir el nivel del agua. Los datos se envían a TTN a través de una puerta de enlace LoRaWAN.
 
-\| [Inglés](README.md)\|[Alemán](de-de/README.md)\|
+\|[Inglés](README.md)\|[Alemán](de-de/README.md)\|
 
 ## Hardware
 
@@ -52,7 +52,7 @@ Es obvio que necesita una placa para ejecutar el software. Pero también necesit
 
 ### Servidor
 
--   [Server](Software/Server/README.md)
+-   [Servidor](Software/Server/README.md)
 
 ### robot de telegramas
 
