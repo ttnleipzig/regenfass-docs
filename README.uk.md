@@ -39,7 +39,7 @@
 
 Очевидно, що вам потрібна плата для запуску програмного забезпечення. Але вам також потрібен чіп LoRa, щоб надсилати дані на TTN. Підтримуються такі дошки:
 
--   [TTGO LoRa32](Hardware/TTGOLoRa32.md)
+-   [Заголовок на випас](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
 
 ### Схематичний
@@ -51,7 +51,7 @@
 -   [Бак для води](https://www.thingiverse.com/thing:2751000)
 -   [Водяний насос](https://www.thingiverse.com/thing:2751000)
 
-## програмне забезпечення
+## Software
 
 ### Arduino
 
