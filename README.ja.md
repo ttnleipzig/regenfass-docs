@@ -1,4 +1,4 @@
-# レインバレル
+# Regenfass
 
 > このプロジェクトは、スマートな水タンクに関するものです。水位を測定し、データをサーバーに送信します。サーバーを使用してウォーターポンプを制御できます。ポンプは、Web インターフェイスまたは電報ボットを介して制御できます。 HC-SR04超音波センサーを使用して水位を測定します。データは LoRaWAN ゲートウェイ経由で TTN に送信されます。
 
@@ -32,7 +32,7 @@
 
 ソフトウェアを実行するにはボードが必要であることは明らかです。ただし、データを TTN に送信するには LoRa チップも必要です。次のボードがサポートされています。
 
--   [TTGO LoRa32](Hardware/TTGOLoRa32.md)
+-   [放牧に向かう](Hardware/TTGOLoRa32.md)
 -   [ヘルテック LoRa32](Hardware/HeltecLoRa32.md)
 
 ### 回路図
@@ -44,7 +44,7 @@
 -   [水槽](https://www.thingiverse.com/thing:2751000)
 -   [ウォーターポンプ](https://www.thingiverse.com/thing:2751000)
 
-## ソフトウェア
+## Software
 
 ### アルドゥイーノ
 
@@ -64,9 +64,9 @@
 
 **あなたは自由にできます：**
 
--   Share — copy and redistribute the material in any medium or format
+-   共有 — 任意の媒体または形式で資料をコピーおよび再配布します
 -   適応 — 素材をリミックス、変換、構築する
 
 * * *
 
-_❤️で作られました[文書化する](https://docsify.js.org/)_
+_Made with ❤️ by [文書化する](https://docsify.js.org/)_
