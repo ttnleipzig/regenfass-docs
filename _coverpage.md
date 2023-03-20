@@ -11,12 +11,7 @@
 [GitHub](https://github.com/ttnleipzig/regenfass)
 [Get Started](#docsify)
 
-[🇩🇪](README.de.md) ‧
-[🇬🇧](README.md) ‧
-[🇫🇷](fr-fr/README.fr.md) ‧
-[🇪🇸](fr-fr/README.sp.md) ‧
-[🇨🇳](fr-fr/README.zn-CH.md) ‧
-[🇯🇵](fr-fr/README.ja.md)
+[🇩🇪](README.de.md) ‧ [🇬🇧](README.md) ‧ [🇫🇷](README.fr.md) ‧ [🇪🇸](README.sp.md) ‧ [🇨🇳](README.zn-CH.md) ‧ [🇯🇵](README.ja.md)
 
 <!-- background color -->
 
