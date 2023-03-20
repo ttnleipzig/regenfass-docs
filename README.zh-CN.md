@@ -21,8 +21,8 @@
 
 #### 先进的
 
--   [Water Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [水传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [防水超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### 罗拉万
 
@@ -32,14 +32,14 @@
 
 很明显，您需要一块板来运行该软件。但是你还需要一个 LoRa 芯片来将数据发送到 TTN。支持以下板：
 
--   [TTGO LoRa32](Hardware/TTGOLoRa32.md)
+-   [去吃草](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
 
 ### 原理图
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D-Printed Parts
+### 3D 打印零件
 
 -   [水箱](https://www.thingiverse.com/thing:2751000)
 -   [水泵](https://www.thingiverse.com/thing:2751000)
