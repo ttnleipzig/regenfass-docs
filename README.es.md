@@ -29,7 +29,7 @@ Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontr
 #### Avanzado
 
 -   [sensor de agua](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Sensor ultrasónico a prueba de agua](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### LoRaWAN
 
