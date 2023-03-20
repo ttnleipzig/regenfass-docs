@@ -28,7 +28,7 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 
 -   Passerelle LoRaWAN
 
-#### Planches
+#### Microcontrôleur
 
 Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mais vous avez également besoin d'une puce LoRa pour envoyer les données à TTN. Les cartes suivantes sont prises en charge :
 
@@ -39,7 +39,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### Pièces imprimées en 3D
+### 3D-Printed Parts
 
 -   [Réservoir d'eau](https://www.thingiverse.com/thing:2751000)
 -   [Pompe à eau](https://www.thingiverse.com/thing:2751000)
