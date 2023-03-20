@@ -13,7 +13,7 @@
 
 ## ハードウェア
 
-### Parts
+### 部品
 
 次の部分は推奨事項です。必要に応じて、他のパーツを使用できます。ただし、コードを変更する必要がある場合があります。以下の部品が推奨されます。
 
@@ -26,7 +26,7 @@
 -   [HC-SR04 超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [レーザーセンサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
-#### Advanced
+#### 高度
 
 -   [水センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [防水超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
@@ -65,7 +65,7 @@
 
 -   [電報ボット](Software/TelegramBot/README.md)
 
-## ライセンス
+## License
 
 [表示-非営利-継承 4.0 国際 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
