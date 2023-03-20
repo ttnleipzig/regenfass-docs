@@ -2,6 +2,15 @@
 
 > 这个项目是关于一个智能水箱的。它测量水位并将数据发送到服务器。服务器可用于控制水泵。该泵可以通过网络界面或电报机器人进行控制。它使用 HC-SR04 超声波传感器测量水位。数据通过 LoRaWAN 网关发送到 TTN。
 
+## 快速开始
+
+如果您已经拥有硬件并想立即开始，
+
+1.  将您的电路板连接到您的计算机，然后
+2.  单击以下按钮：
+
+<esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
+
 ## 硬件
 
 ### 部分
@@ -37,7 +46,7 @@
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印零件
+### 3D 打印部件
 
 -   [水箱](https://www.thingiverse.com/thing:2751000)
 -   [水泵](https://www.thingiverse.com/thing:2751000)
@@ -48,13 +57,13 @@
 
 -   [阿杜诺](Software/Arduino/README.md)
 
-### 服务器
+### Server
 
 -   [服务器](Software/Server/README.md)
 
 ### 电报机器人
 
--   [Telegram Bot](Software/TelegramBot/README.md)
+-   [电报机器人](Software/TelegramBot/README.md)
 
 ## 执照
 
