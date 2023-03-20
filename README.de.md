@@ -63,7 +63,7 @@ Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführ
 **Es steht Ihnen frei:**
 
 -   Teilen – Kopieren und Weitergeben des Materials in jedem Medium oder Format
--   Anpassen – Material neu mischen, transformieren und darauf aufbauen
+-   Adapt — remix, transform, and build upon the material
 
 * * *
 
