@@ -11,7 +11,10 @@
 [GitHub](https://github.com/ttnleipzig/regenfass)
 [Get Started](#docsify)
 
-[🇩🇪](README.de.md) ‧ [🇬🇧](README.md) ‧ [🇫🇷](README.fr.md) ‧ [🇪🇸](README.es.md) ‧ [🇨🇳](README.zh-CH.md) ‧ [🇯🇵](README.ja.md) ‧ [🇺🇦](README.uk.md)
+[🇩🇪](README.de.md) ‧ [🇬🇧](README.md) ‧ [🇫🇷](README.fr.md) ‧ [🇪🇸](README.es.md) ‧ [🇨🇳](README.zh-CN.md) ‧ [🇯🇵](README.ja.md) ‧ [🇺🇦](README.uk.md)
+
+**Follow us on**
+[Twiiter](https://twitter.com/ttnleipzig) ‧ [Meetup](https://www.meetup.com/de-DE/The-Things-Network-Leipzig/)
 
 <!-- background color -->
 
