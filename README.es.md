@@ -2,6 +2,8 @@
 
 > Este proyecto trata sobre un tanque de agua inteligente. Mide el nivel del agua y envía los datos a un servidor. El servidor se puede utilizar para controlar la bomba de agua. La bomba se puede controlar a través de una interfaz web o mediante un bot de Telegram. Utiliza un sensor ultrasónico HC-SR04 para medir el nivel del agua. Los datos se envían a TTN a través de una puerta de enlace LoRaWAN.
 
+?> El documento original está escrito en[Inglés](README.md). La traducción la hace Google Translate. Si encuentra algún error, intente ignorarlo. Si desea ayudar, puede crear una solicitud de extracción.
+
 * * *
 
 ## Tabla de contenidos
@@ -38,7 +40,7 @@
 6.  **Ingeniería de datos**
     1.  Nodo ROJO
     2.  Grafana
-    3.  Alexa Skill
+    3.  Habilidad de Alexa
     4.  conexión azul
 
 * * *
@@ -47,7 +49,7 @@
 
 ### Rápido - Introducción
 
-El inicio rápido está diseñado para personas que desean comenzar de inmediato. No está hecho para personas que quieren entender cómo funciona. Si quieres entender cómo funciona, puedes leer el[documentación](https://ttnleipzig.github.io/regenfass-docs/). Si desea comenzar de inmediato, puede seguir los siguientes pasos:
+El inicio rápido está diseñado para personas que desean comenzar de inmediato y tener un conocimiento profundo sobre IoT con Arudino Framework. Si quieres entender cómo funciona, puedes leer el[documentación](#hardware).
 
 ### Rápido: descripción general del hardware
 
@@ -88,10 +90,10 @@ Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontr
 | <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S$04 sensor" /> | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.                                           |
 | <img src="_media/hardware/sensor-hcsr04.svg">                        | [Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. Al igual que el HC-SRo4, no es resistente al agua pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
 
-#### Beginner
+#### Principiante
 
 -   [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### Avanzado
 
@@ -102,7 +104,7 @@ Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontr
 
 Para alimentar el microcontrolador necesita una fuente de alimentación. La batería 18650 es la mejor opción. Es barato y puedes cargarlo con un panel solar. Pero también puedes usar un banco de energía o una fuente de alimentación USB.
 
-| Parte                                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Parte                                                 | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/hardware-18650.svg" />      | **18650 batería:**La batería 18650 es la mejor opción. Es barato y puedes cargarlo con un panel solar. Está hecho de iones de litio y se puede cargar hasta 500 veces. La batería 18650 tiene un voltaje de 3.7V y una capacidad de 2200mAh. El panel solar tiene un voltaje de 5V y una potencia de 2W. El panel solar puede cargar la batería en 3 horas. Nuestro sensor necesita 5V y 100mA. El microcontrolador necesita 5V y 100mA. Entonces necesitamos dos baterías 18650 y un regulador de voltaje para obtener 5V. La batería no es resistente al agua. Tienes que ponerlo en una carcasa impermeable. También tenga cuidado con las altas temperaturas. La batería puede explotar si está demasiado caliente. Recomendamos esta batería si desea usarla durante mucho tiempo. |
 | <img src="_media/hardware/hardware-solarpanel.svg" /> | **Panel solar:**El panel solar no es necesario pero junto con la batería es la mejor opción. El panel solar es resistente al agua y se puede utilizar bajo la lluvia. Está fabricado en silicio policristalino y tiene una potencia de 2W. Si compra un panel solar, debe asegurarse de que tenga una salida de 5V con al menos 400mA.                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
