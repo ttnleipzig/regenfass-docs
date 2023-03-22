@@ -9,7 +9,7 @@
 1.  **快速开始**
     1.  介绍
     2.  硬件
-    3.  闪存软件
+    3.  Flash software
 2.  **硬件**
     1.  传感器
     2.  电源
@@ -43,7 +43,7 @@
 
 * * *
 
-## 快速开始
+## Quick start
 
 ### 快速介绍
 
@@ -56,7 +56,7 @@
 ![Overview](_media/hardware/hardware-overview.png)
 
 -   带 LoRa 芯片的微控制器
--   Sensor
+-   传感器
 -   电源
 -   住房
 
@@ -65,7 +65,7 @@
 ### Quick-Flash软件
 
 1.  将您的电路板连接到您的计算机，然后
-2.  单击以下按钮：
+2.  Click on the following button:
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
@@ -111,7 +111,7 @@
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印零件
+### 3D 打印部件
 
 -   [水箱](https://www.thingiverse.com/thing:2751000)
 -   [水泵](https://www.thingiverse.com/thing:2751000)
