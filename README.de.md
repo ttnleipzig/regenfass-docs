@@ -27,7 +27,7 @@
         3.  Decoder konfigurieren
         4.  Anmeldeinformationen kopieren
     2.  Gerät
-        1.  Treiber herunterladen
+        1.  Download driver
         2.  Blinkt
         3.  Aufbau
 5.  **Debuggen**
