@@ -71,11 +71,11 @@ You need the following parts:
 
 ## Hardware
 
-   1. Sensors
-   2. Power supply
-   3. Housing
-   4. Microcontroller
-   5. Antenna
+   1. [Sensors](#Sensors)
+   2. [Power supply](#Power-supply)
+   3. [Housing](#Housing)
+   4. [Microcontroller](#Microcontroller)
+   5. [Antenna](#Antenna)
   
 ### Sensors
 
@@ -83,13 +83,9 @@ To messure the water level you need a sensor.  It is not an easy task to find a 
 
 | Part | Description |
 | --- | --- |
-| ![HC-SR04](_media/hardware/sensor-hcsr04.svg) | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) The sensor is relativly cheap and easy to use. It is not waterproof. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. |  
-| ![Laser distance sensor](_media/hardware/sensor-hcsr04.svg) | [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) The sensor is relativly cheap and easy to use. As like the HC-SRo4 it is not waterproof but has a higher acuracy. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. |
-
-| Part | Description |
-| --- | --- |
-| <img src="_media/hardware/sensor-hcsr04.svg" /> | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) The sensor is relativly cheap and easy to use. It is not waterproof. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. |  
+| <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S$04 sensor" /> | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) The sensor is relativly cheap and easy to use. It is not waterproof. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. |  
 | <img src="_media/hardware/sensor-hcsr04.svg"> | [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) The sensor is relativly cheap and easy to use. As like the HC-SRo4 it is not waterproof but has a higher acuracy. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. |
+
 #### Beginner
 
 * [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
@@ -100,6 +96,20 @@ To messure the water level you need a sensor.  It is not an easy task to find a 
 * [Water Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 * [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
+### Power supply
+
+To power the microcontroller you need a power supply. The 18650 battery is the best option. It is cheap and you can charge it with a solar panel. But you can also use a power bank or a USB power supply.
+
+| Part | Description |
+| --- | --- |
+|  <img src="_media/hardware/hardware-18650.svg" /> | **18650 battery:** The 18650 battery is the best option. It is cheap and you can charge it with a solar panel. It is made of Lithium Ion and can be charged up to 500 times. The battery is not waterproof. You have to put it in a waterproof housing. Also take care about high temperatures. The battery can explode if it is too hot. We recommend this battery if you want to use it for a long time. |
+|  <img src="_media/hardware/hardware-solarpanel.svg" /> | **Solar panel:** The solar panel is not necessary but together with the battery it is the best option. The solar panel is waterproof and can be used in the rain. It is made of polycrystalline silicon and has a power of 2W. If you buy a solar panel, you have to make shure that it has a 5V output with at least 400mA.  |
+
+
+
+---
+
+
 | Part | Description |
 | --- | --- |
 |  <img src="_media/hardware/sensor-hcsr04.svg" width="244" /> | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
@@ -107,7 +117,7 @@ To messure the water level you need a sensor.  It is not an easy task to find a 
 |  <img src="_media/hardware/hardware-18650.svg" width="144" /> | 18650 battery |
 |  <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Solar panel |
 
-### Parts
+
 
 The following parts are recomnondations. You can use other parts if you want. But you may have to change the code. The following parts are recommended:
 
