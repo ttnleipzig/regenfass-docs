@@ -28,7 +28,7 @@
         4.  Copiar credenciales
     2.  Dispositivo
         1.  Descargar controlador
-        2.  Flashing
+        2.  Brillante
         3.  Configuración
 5.  **depuración**
     1.  monitor de serie
@@ -55,7 +55,7 @@ Necesitas las siguientes piezas:
 
 ![Overview](_media/hardware/hardware-overview.png)
 
--   Microcontroller with LoRa chip
+-   Microcontrolador con chip LoRa
 -   Sensor
 -   Fuente de alimentación
 -   Alojamiento
