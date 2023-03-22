@@ -4,7 +4,7 @@
 
 * * *
 
-## Table Of Content
+## Inhaltsverzeichnis
 
 1.  **Schnellstart**
     1.  Einführung
@@ -71,6 +71,30 @@ Sie benötigen folgende Teile:
 
 ## Hardware
 
+1.  Sensoren
+2.  Stromversorgung
+3.  Gehäuse
+4.  Mikrocontroller
+5.  Antenne
+
+### Sensoren
+
+Um den Wasserstand zu messen, benötigen Sie einen Sensor. Es ist keine leichte Aufgabe, einen Sensor zu finden, der wasserdicht ist und in einem Wassertank verwendet werden kann. Folgende Sensoren werden unterstützt und empfohlen:
+| Teil | Beschreibung |
+\| --- \| --- \|
+\|![HC-SR04](_media/hardware/sensor-hcsr04.svg)\|[HC-SR04 Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Der Sensor ist relativ billig und einfach zu bedienen. Es ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Wir empfehlen diesen Sensor, wenn Sie ihn nur ausprobieren möchten. Es wird nicht für eine langfristige Anwendung empfohlen. |
+\|![Laser distance sensor](_media/hardware/sensor-laser.svg)\|[Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Der Sensor ist relativ billig und einfach zu bedienen. Wie der HC-SRo4 ist er nicht wasserdicht, hat aber eine höhere Genauigkeit. Sie müssen es in ein wasserdichtes Gehäuse stecken. Wir empfehlen diesen Sensor, wenn Sie ihn nur ausprobieren möchten. Es wird nicht für eine langfristige Anwendung empfohlen. |
+
+#### Anfänger
+
+-   [HC-SR04 Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+
+#### Fortschrittlich
+
+-   [Wassersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Wasserdichter Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+
 | Teil                                                              | Beschreibung                                                                                                              |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [HC-SR04 Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
@@ -81,20 +105,6 @@ Sie benötigen folgende Teile:
 ### Teile
 
 Die folgenden Teile sind Empfehlungen. Sie können andere Teile verwenden, wenn Sie möchten. Möglicherweise müssen Sie jedoch den Code ändern. Folgende Teile werden empfohlen:
-
-#### Sensoren
-
-Um den Wasserstand zu messen, benötigen Sie einen Sensor. Es ist keine leichte Aufgabe, einen Sensor zu finden, der wasserdicht ist und in einem Wassertank verwendet werden kann. Folgende Sensoren werden unterstützt und empfohlen:
-
-##### Anfänger
-
--   [HC-SR04 Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
-
-#### Fortschrittlich
-
--   [Wassersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [Wasserdichter Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### LoRaWAN
 
@@ -112,9 +122,6 @@ Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführ
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
 ### 3D-gedruckte Teile
-
--   [Wassertank](https://www.thingiverse.com/thing:2751000)
--   [Wasserpumpe](https://www.thingiverse.com/thing:2751000)
 
 ## Software
 
