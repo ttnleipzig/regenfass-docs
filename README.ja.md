@@ -37,7 +37,7 @@
     4.  落とし穴
 6.  **データエンジニアリング**
     1.  ノードレッド
-    2.  グラファナ
+    2.  グラファーナ
     3.  アレクサスキル
     4.  アズール コネクト
 
@@ -64,7 +64,7 @@
 
 ### クイック - フラッシュ ソフトウェア
 
-1.  Connect your board to your computer and
+1.  ボードをコンピュータに接続し、
 2.  次のボタンをクリックします。
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
