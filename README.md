@@ -71,6 +71,30 @@ You need the following parts:
 
 ## Hardware
 
+   1. Sensors
+   2. Power supply
+   3. Housing
+   4. Microcontroller
+   5. Antenna
+  
+### Sensors
+
+To messure the water level you need a sensor.  It is not an easy task to find a sensor that is waterproof and can be used in a water tank. The following sensors are supported and recommended:
+| Part | Description |
+| --- | --- |
+|  ![HC-SR04](_media/hardware/sensor-hcsr04.svg)| [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) The sensor is relativly cheap and easy to use. It is not waterproof. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. | 
+|  ![Laser distance sensor](_media/hardware/sensor-laser.svg) | [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) The sensor is relativly cheap and easy to use. As like the HC-SRo4 it is not waterproof but has a higher acuracy. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. |
+
+#### Beginner
+
+* [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+* [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+
+#### Advanced
+
+* [Water Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+* [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+
 | Part | Description |
 | --- | --- |
 |  <img src="_media/hardware/sensor-hcsr04.svg" width="244" /> | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
@@ -81,20 +105,6 @@ You need the following parts:
 ### Parts
 
 The following parts are recomnondations. You can use other parts if you want. But you may have to change the code. The following parts are recommended:
-
-#### Sensors
-
-To messure the water level you need a sensor.  It is not an easy task to find a sensor that is waterproof and can be used in a water tank. The following sensors are supported and recommended:
-
-##### Beginner
-
-* [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
-* [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
-
-#### Advanced
-
-* [Water Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
-* [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### LoRaWAN
 
@@ -113,8 +123,6 @@ It is ovious that you need a board to run the software. But you also need a LoRa
 
 ### 3D-Printed Parts
 
-* [Water Tank](https://www.thingiverse.com/thing:2751000)
-* [Water Pump](https://www.thingiverse.com/thing:2751000)
 
 ## Software
 
