@@ -22,7 +22,7 @@
     3.  Fehlerbehebung
 4.  **Aufstellen**
     1.  TTN
-        1.  Create Account
+        1.  Benutzerkonto erstellen
         2.  App erstellen
         3.  Decoder konfigurieren
         4.  Anmeldeinformationen kopieren
@@ -36,7 +36,7 @@
     3.  MQTT-Client
     4.  Tücken
 6.  **Datentechnik**
-    1.  Node RED
+    1.  Knoten ROT
     2.  Grafana
     3.  Alexa-Skill
     4.  Azure Connect
@@ -51,7 +51,7 @@ Der Quickstart ist für Leute gemacht, die sofort loslegen wollen. Es ist nicht 
 
 ### Schnell - Hardware-Übersicht
 
-You need the following parts:
+Sie benötigen folgende Teile:
 
 ![Overview](_media/hardware/hardware-overview.png)
 
