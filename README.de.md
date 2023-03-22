@@ -2,18 +2,83 @@
 
 > Bei diesem Projekt geht es um einen intelligenten Wassertank. Es misst den Wasserstand und sendet die Daten an einen Server. Der Server kann zur Steuerung der Wasserpumpe verwendet werden. Die Pumpe kann über ein Webinterface oder über einen Telegrammbot gesteuert werden. Es verwendet einen HC-SR04-Ultraschallsensor, um den Wasserstand zu messen. Die Daten werden über ein LoRaWAN-Gateway an TTN gesendet.
 
+* * *
+
+## Inhaltsverzeichnis
+
+1.  **Schnellstart**
+    1.  Einführung
+    2.  Hardware
+    3.  Flash software
+2.  **Hardware**
+    1.  Sensoren
+    2.  Stromversorgung
+    3.  Gehäuse
+    4.  Mikrocontroller
+    5.  Antenne
+3.  **Zusammenbauen**
+    1.  Sensor zum Steuergerät
+    2.  Power to controller
+    3.  Fehlerbehebung
+4.  **Aufstellen**
+    1.  TTN
+        1.  Benutzerkonto erstellen
+        2.  App erstellen
+        3.  Decoder konfigurieren
+        4.  Copy Credentials
+    2.  Gerät
+        1.  Treiber herunterladen
+        2.  Flashing
+        3.  Aufbau
+5.  **Debuggen**
+    1.  Serieller Monitor
+    2.  TTN-Konsole
+    3.  MQTT-Client
+    4.  Tücken
+6.  **Datentechnik**
+    1.  Knoten ROT
+    2.  Grafana
+    3.  Alexa-Skill
+    4.  Azure Connect
+
+* * *
+
 ## Schnellstart
 
-Wenn Sie bereits über die Hardware verfügen und sofort loslegen möchten,
+### Schnell - Einführung
+
+Der Quickstart ist für Leute gemacht, die sofort loslegen wollen. Es ist nicht für Leute gemacht, die verstehen wollen, wie es funktioniert. Wenn Sie verstehen möchten, wie es funktioniert, können Sie die lesen[Dokumentation](https://ttnleipzig.github.io/regenfass-docs/). Wenn Sie gleich loslegen möchten, können Sie die folgenden Schritte befolgen:
+
+### Schnell - Hardware-Übersicht
+
+Sie benötigen folgende Teile:
+
+![Overview](_media/hardware/hardware-overview.png)
+
+-   Mikrocontroller mit LoRa-Chip
+-   Sensor
+-   Stromversorgung
+-   Gehäuse
+
+?> Wenn Sie mehr über die Teile erfahren möchten, können Sie die lesen[Hardware-Dokumentation](#Hardware).
+
+### Schnell - Flash-Software
 
 1.  Verbinden Sie Ihr Board mit Ihrem Computer und
-2.  klicken Sie auf die folgende Schaltfläche:
+2.  Klicken Sie auf die folgende Schaltfläche:
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
 ## Hardware
 
-### Teile
+| Teil                                                              | Beschreibung                                                                                                              |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [HC-SR04 Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
+| <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [Auf dem Weg zum Grasen](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)    |
+| <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650er Akku                                                                                                              |
+| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Sonnenkollektor                                                                                                           |
+
+### Parts
 
 Die folgenden Teile sind Empfehlungen. Sie können andere Teile verwenden, wenn Sie möchten. Möglicherweise müssen Sie jedoch den Code ändern. Folgende Teile werden empfohlen:
 
@@ -37,7 +102,7 @@ Um den Wasserstand zu messen, benötigen Sie einen Sensor. Es ist keine leichte 
 
 #### Mikrocontroller
 
-Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführen. Sie benötigen aber auch einen LoRa-Chip, um die Daten an TTN zu senden. Folgende Boards werden unterstützt:
+It is ovious that you need a board to run the software. But you also need a LoRa chip to send the data to TTN. The following boards are supported:
 
 -   [Auf dem Weg zum Grasen](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
