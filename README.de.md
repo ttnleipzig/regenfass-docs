@@ -9,7 +9,7 @@
 1.  **Schnellstart**
     1.  Einführung
     2.  Hardware
-    3.  Flash software
+    3.  Flash-Software
 2.  **Hardware**
     1.  Sensoren
     2.  Stromversorgung
@@ -18,17 +18,17 @@
     5.  Antenne
 3.  **Zusammenbauen**
     1.  Sensor zum Steuergerät
-    2.  Power to controller
+    2.  Strom zum Controller
     3.  Fehlerbehebung
 4.  **Aufstellen**
     1.  TTN
         1.  Benutzerkonto erstellen
         2.  App erstellen
         3.  Decoder konfigurieren
-        4.  Copy Credentials
+        4.  Anmeldeinformationen kopieren
     2.  Gerät
         1.  Treiber herunterladen
-        2.  Flashing
+        2.  Blinkt
         3.  Aufbau
 5.  **Debuggen**
     1.  Serieller Monitor
@@ -78,7 +78,7 @@ Sie benötigen folgende Teile:
 | <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650er Akku                                                                                                              |
 | <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Sonnenkollektor                                                                                                           |
 
-### Parts
+### Teile
 
 Die folgenden Teile sind Empfehlungen. Sie können andere Teile verwenden, wenn Sie möchten. Möglicherweise müssen Sie jedoch den Code ändern. Folgende Teile werden empfohlen:
 
@@ -102,7 +102,7 @@ Um den Wasserstand zu messen, benötigen Sie einen Sensor. Es ist keine leichte 
 
 #### Mikrocontroller
 
-It is ovious that you need a board to run the software. But you also need a LoRa chip to send the data to TTN. The following boards are supported:
+Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführen. Sie benötigen aber auch einen LoRa-Chip, um die Daten an TTN zu senden. Folgende Boards werden unterstützt:
 
 -   [Auf dem Weg zum Grasen](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
