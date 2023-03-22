@@ -2,6 +2,8 @@
 
 > Bei diesem Projekt geht es um einen intelligenten Wassertank. Es misst den Wasserstand und sendet die Daten an einen Server. Der Server kann zur Steuerung der Wasserpumpe verwendet werden. Die Pumpe kann über ein Webinterface oder über einen Telegrammbot gesteuert werden. Es verwendet einen HC-SR04-Ultraschallsensor, um den Wasserstand zu messen. Die Daten werden über ein LoRaWAN-Gateway an TTN gesendet.
 
+?> Das Originaldokument wird eingeschrieben[Englisch](README.md). Die Übersetzung erfolgt durch Google Translate. Wenn Sie Fehler finden, versuchen Sie diese bitte zu ignorieren. Wenn Sie helfen möchten, können Sie einen Pull-Request erstellen.
+
 * * *
 
 ## Inhaltsverzeichnis
@@ -38,7 +40,7 @@
 6.  **Datentechnik**
     1.  Knoten ROT
     2.  Grafana
-    3.  Alexa Skill
+    3.  Alexa-Skill
     4.  Azure Connect
 
 * * *
@@ -47,7 +49,7 @@
 
 ### Schnell - Einführung
 
-Der Quickstart ist für Leute gemacht, die sofort loslegen wollen. Es ist nicht für Leute gemacht, die verstehen wollen, wie es funktioniert. Wenn Sie verstehen möchten, wie es funktioniert, können Sie die lesen[Dokumentation](https://ttnleipzig.github.io/regenfass-docs/). Wenn Sie gleich loslegen möchten, können Sie die folgenden Schritte befolgen:
+Der Quickstart ist für Leute gemacht, die sofort loslegen möchten und tiefes Wissen über IoT mit dem Arudino Framework haben. Wenn Sie verstehen möchten, wie es funktioniert, können Sie die lesen[Dokumentation](#hardware).
 
 ### Schnell - Hardware-Übersicht
 
