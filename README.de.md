@@ -4,12 +4,12 @@
 
 * * *
 
-## Inhaltsverzeichnis
+## Table Of Content
 
 1.  **Schnellstart**
     1.  Einführung
     2.  Hardware
-    3.  Flash-Software
+    3.  Flash software
 2.  **Hardware**
     1.  Sensoren
     2.  Stromversorgung
@@ -69,6 +69,8 @@ Sie benötigen folgende Teile:
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
+?> Wenn Sie mehr über den Flash-Vorgang erfahren möchten, können Sie die lesen[Setup-Dokumentation](#Setup).
+
 ## Hardware
 
 1.  [Sensoren](#Sensors)
@@ -100,10 +102,10 @@ Um den Wasserstand zu messen, benötigen Sie einen Sensor. Es ist keine leichte 
 
 Um den Mikrocontroller mit Strom zu versorgen, benötigen Sie ein Netzteil. Der 18650 Akku ist die beste Option. Es ist billig und Sie können es mit einem Solarpanel aufladen. Sie können aber auch eine Powerbank oder ein USB-Netzteil verwenden.
 
-| Teil                                                  | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/hardware-18650.svg" />      | **18650 Akku:**Der 18650 Akku ist die beste Option. Es ist billig und Sie können es mit einem Solarpanel aufladen. Es besteht aus Lithium-Ionen und kann bis zu 500 Mal aufgeladen werden. Der Akku ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Achten Sie auch auf hohe Temperaturen. Der Akku kann explodieren, wenn er zu heiß wird. Wir empfehlen diesen Akku, wenn Sie ihn über einen längeren Zeitraum verwenden möchten. |
-| <img src="_media/hardware/hardware-solarpanel.svg" /> | **Sonnenkollektor:**Das Solarpanel ist nicht notwendig, aber zusammen mit der Batterie ist es die beste Option. Das Solarpanel ist wasserdicht und kann bei Regen verwendet werden. Es besteht aus polykristallinem Silizium und hat eine Leistung von 2W. Wenn Sie ein Solarpanel kaufen, müssen Sie darauf achten, dass es einen 5V-Ausgang mit mindestens 400mA hat.                                                                                        |
+| Teil                                                  | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/hardware-18650.svg" />      | **18650 Akku:**Der 18650 Akku ist die beste Option. Es ist billig und Sie können es mit einem Solarpanel aufladen. Es besteht aus Lithium-Ionen und kann bis zu 500 Mal aufgeladen werden. 18650 Akku hat eine Spannung von 3,7V und eine Kapazität von 2200mAh. Das Solarpanel hat eine Spannung von 5V und eine Leistung von 2W. Das Solarpanel kann den Akku in 3 Stunden aufladen. Unser Sensor benötigt 5V und 100mA. Der Mikrocontroller benötigt 5V und 100mA. Wir brauchen also zwei 18650-Batterien und einen Spannungsregler, um 5 V zu erhalten. Der Akku ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Achten Sie auch auf hohe Temperaturen. Der Akku kann explodieren, wenn er zu heiß wird. Wir empfehlen diesen Akku, wenn Sie ihn über einen längeren Zeitraum verwenden möchten. |
+| <img src="_media/hardware/hardware-solarpanel.svg" /> | **Sonnenkollektor:**Das Solarpanel ist nicht notwendig, aber zusammen mit der Batterie ist es die beste Option. Das Solarpanel ist wasserdicht und kann bei Regen verwendet werden. Es besteht aus polykristallinem Silizium und hat eine Leistung von 2W. Wenn Sie ein Solarpanel kaufen, müssen Sie darauf achten, dass es einen 5V-Ausgang mit mindestens 400mA hat.                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 * * *
 
