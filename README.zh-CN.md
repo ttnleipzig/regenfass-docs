@@ -8,13 +8,13 @@
 
 1.  **快速开始**
     1.  介绍
-    2.  硬件
+    2.  Hardware
     3.  闪存软件
 2.  **硬件**
     1.  传感器
     2.  电源
     3.  住房
-    4.  微控制器
+    4.  Microcontroller
     5.  天线
 3.  **组装**
     1.  传感器到控制器
@@ -47,7 +47,7 @@
 
 ### 快速介绍
 
-快速入门专为想要立即开始的人而设计。它不是为想要了解其工作原理的人而设计的。如果你想了解它是如何工作的，你可以阅读[文档](https://ttnleipzig.github.io/regenfass-docs/).如果您想立即开始，可以按照以下步骤操作：
+The quickstart is made for people who want to start right away. It is not made for people who want to understand how it works. If you want to understand how it works, you can read the [文档](https://ttnleipzig.github.io/regenfass-docs/).如果您想立即开始，可以按照以下步骤操作：
 
 ### 快速 - 硬件概述
 
@@ -94,7 +94,7 @@
 #### 先进的
 
 -   [水传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [防水超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### 罗拉万
 
