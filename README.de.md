@@ -22,7 +22,7 @@
     3.  Fehlerbehebung
 4.  **Aufstellen**
     1.  TTN
-        1.  Benutzerkonto erstellen
+        1.  Create Account
         2.  App erstellen
         3.  Decoder konfigurieren
         4.  Anmeldeinformationen kopieren
@@ -36,7 +36,7 @@
     3.  MQTT-Client
     4.  Tücken
 6.  **Datentechnik**
-    1.  Knoten ROT
+    1.  Node RED
     2.  Grafana
     3.  Alexa-Skill
     4.  Azure Connect
@@ -51,7 +51,7 @@ Der Quickstart ist für Leute gemacht, die sofort loslegen wollen. Es ist nicht 
 
 ### Schnell - Hardware-Übersicht
 
-Sie benötigen folgende Teile:
+You need the following parts:
 
 ![Overview](_media/hardware/hardware-overview.png)
 
@@ -82,8 +82,8 @@ Sie benötigen folgende Teile:
 Um den Wasserstand zu messen, benötigen Sie einen Sensor. Es ist keine leichte Aufgabe, einen Sensor zu finden, der wasserdicht ist und in einem Wassertank verwendet werden kann. Folgende Sensoren werden unterstützt und empfohlen:
 | Teil | Beschreibung |
 \| --- \| --- \|
-\|![HC-SR04](_media/hardware/sensor-hcsr04.svg)\|[HC-SR04 Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Der Sensor ist relativ billig und einfach zu bedienen. Es ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Wir empfehlen diesen Sensor, wenn Sie ihn nur ausprobieren möchten. Es wird nicht für eine langfristige Anwendung empfohlen. |
-\|![Laser distance sensor](_media/hardware/sensor-laser.svg)\|[Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Der Sensor ist relativ billig und einfach zu bedienen. Wie der HC-SRo4 ist er nicht wasserdicht, hat aber eine höhere Genauigkeit. Sie müssen es in ein wasserdichtes Gehäuse stecken. Wir empfehlen diesen Sensor, wenn Sie ihn nur ausprobieren möchten. Es wird nicht für eine langfristige Anwendung empfohlen. |
+\|![HC-SR04](_media/hardware/sensor-hcsr04.svg)\|[HC-SR04 Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Der Sensor ist relativ billig und einfach zu bedienen. Es ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Wir empfehlen diesen Sensor, wenn Sie ihn nur ausprobieren möchten. Es wird nicht für eine langfristige Anwendung empfohlen. |  
+\|![Laser distance sensor](_media/hardware/sensor-hcsr04.svg)\|[Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Der Sensor ist relativ billig und einfach zu bedienen. Wie der HC-SRo4 ist er nicht wasserdicht, hat aber eine höhere Genauigkeit. Sie müssen es in ein wasserdichtes Gehäuse stecken. Wir empfehlen diesen Sensor, wenn Sie ihn nur ausprobieren möchten. Es wird nicht für eine langfristige Anwendung empfohlen. |
 
 #### Anfänger
 
