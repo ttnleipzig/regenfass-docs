@@ -2,7 +2,9 @@
 
 > Ce projet concerne un réservoir d'eau intelligent. Il mesure le niveau d'eau et envoie les données à un serveur. Le serveur peut être utilisé pour contrôler la pompe à eau. La pompe peut être contrôlée via une interface Web ou via un bot de télégramme. Il utilise un capteur à ultrasons HC-SR04 pour mesurer le niveau d'eau. Les données sont envoyées à TTN via une passerelle LoRaWAN.
 
-## ?> Le document original a été rédigé en[Anglais](README.md). La traduction a été faite avec Google Translate. Si vous trouvez des erreurs, essayez de les ignorer. Merci!
+?> Le document original a été rédigé en[Anglais](README.md). La traduction a été faite avec Google Translate. Si vous trouvez des erreurs, essayez de les ignorer. Merci!
+
+* * *
 
 ## Table des matières
 
@@ -47,7 +49,7 @@
 
 ### Rapide - Introduction
 
-Le démarrage rapide est conçu pour les personnes qui souhaitent démarrer tout de suite et avoir une connaissance approfondie de l'IoT avec le framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
+Le démarrage rapide est fait pour les personnes qui veulent commencer tout de suite et avoir une connaissance approfondie de l'IoT avec le Framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
 
 ### Rapide - Présentation du matériel
 
@@ -74,7 +76,7 @@ Vous avez besoin des pièces suivantes :
 ## Matériel
 
 1.  [Capteurs](#Sensors)
-2.  [Source de courant](#Power-supply)
+2.  [Power supply](#Power-supply)
 3.  [Logement](#Housing)
 4.  [Microcontrôleur](#Microcontroller)
 5.  [Antenne](#Antenna)
@@ -98,7 +100,7 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 -   [Capteur d'eau](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Capteur à ultrasons étanche à l'eau](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
-### Source de courant
+### Power supply
 
 Pour alimenter le microcontrôleur, vous avez besoin d'une alimentation. La batterie 18650 est la meilleure option. Il est bon marché et vous pouvez le recharger avec un panneau solaire. Mais vous pouvez également utiliser une banque d'alimentation ou une alimentation USB.
 
@@ -112,11 +114,11 @@ Pour alimenter le microcontrôleur, vous avez besoin d'une alimentation. La batt
 Pour protéger le capteur et le microcontrôleur, vous avez besoin d'un boîtier. Le boîtier doit être étanche et un peu résistant aux hautes températures et aux rayons UV.
 Utilisez le PLA uniquement pour les prototypes. Il n'est pas étanche et peut être détruit par les rayons UV. Utilisez l'ABS pour une utilisation à long terme. Il est étanche et résistant aux UV. Vous pouvez également utiliser le PETG. Il est étanche et résistant aux UV. Mais ce n'est pas aussi solide que l'ABS.
 
-Even tupperware is a good option. It is waterproof and UV resistant.
+Même tupperware est une bonne option. Il est étanche et résistant aux UV.
 
 ### Microcontrôleur
 
-Le microcontrôleur est le cerveau du système. Il est chargé de mesurer le niveau d'eau et d'envoyer les données au serveur. Les microcontrôleurs suivants sont pris en charge et recommandés :
+The microcontroller is the brain of the system. It is responsible for measuring the water level and sending the data to the server. The following microcontrollers are supported and recommended:
 
 | Partie                                             | Description                                                                                                                                                                                                                                                                                                                             |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -160,7 +162,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 
 -   [Serveur](Software/Server/README.md)
 
-### Robot de télégramme
+### Telegram Bot
 
 -   [Robot de télégramme](Software/TelegramBot/README.md)
 
