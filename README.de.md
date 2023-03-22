@@ -25,9 +25,9 @@
         1.  Benutzerkonto erstellen
         2.  App erstellen
         3.  Decoder konfigurieren
-        4.  Anmeldeinformationen kopieren
+        4.  Copy Credentials
     2.  Gerät
-        1.  Download driver
+        1.  Treiber herunterladen
         2.  Blinkt
         3.  Aufbau
 5.  **Debuggen**
@@ -126,7 +126,7 @@ Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführ
 
 -   [Server](Software/Server/README.md)
 
-### Telegramm-Bot
+### Telegram Bot
 
 -   [Telegramm-Bot](Software/TelegramBot/README.md)
 
