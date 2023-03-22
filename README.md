@@ -69,6 +69,8 @@ You need the following parts:
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
+?> If you want to know more about the flashing process, you can read the [setup documentation](#Setup).
+
 ## Hardware
 
    1. [Sensors](#Sensors)
@@ -76,7 +78,7 @@ You need the following parts:
    3. [Housing](#Housing)
    4. [Microcontroller](#Microcontroller)
    5. [Antenna](#Antenna)
-  
+
 ### Sensors
 
 To messure the water level you need a sensor.  It is not an easy task to find a sensor that is waterproof and can be used in a water tank. The following sensors are supported and recommended:
@@ -102,13 +104,10 @@ To power the microcontroller you need a power supply. The 18650 battery is the b
 
 | Part | Description |
 | --- | --- |
-|  <img src="_media/hardware/hardware-18650.svg" /> | **18650 battery:** The 18650 battery is the best option. It is cheap and you can charge it with a solar panel. It is made of Lithium Ion and can be charged up to 500 times. The battery is not waterproof. You have to put it in a waterproof housing. Also take care about high temperatures. The battery can explode if it is too hot. We recommend this battery if you want to use it for a long time. |
+|  <img src="_media/hardware/hardware-18650.svg" /> | **18650 battery:** The 18650 battery is the best option. It is cheap and you can charge it with a solar panel. It is made of Lithium Ion and can be charged up to 500 times. 18650 battery has a voltage of 3.7V and a capacity of 2200mAh. The solar panel has a voltage of 5V and a power of 2W. The solar panel can charge the battery in 3 hours. Our sensor needs 5V and 100mA. The microcontroller needs 5V and 100mA. So we need two 18650 batteries an a voltage regulator to get 5V. The battery is not waterproof. You have to put it in a waterproof housing. Also take care about high temperatures. The battery can explode if it is too hot. We recommend this battery if you want to use it for a long time. |
 |  <img src="_media/hardware/hardware-solarpanel.svg" /> | **Solar panel:** The solar panel is not necessary but together with the battery it is the best option. The solar panel is waterproof and can be used in the rain. It is made of polycrystalline silicon and has a power of 2W. If you buy a solar panel, you have to make shure that it has a 5V output with at least 400mA.  |
 
-
-
 ---
-
 
 | Part | Description |
 | --- | --- |
@@ -116,8 +115,6 @@ To power the microcontroller you need a power supply. The 18650 battery is the b
 |  <img src="_media/hardware/hardware-esplora.svg" width="244" /> | [TTGO LoRa32](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
 |  <img src="_media/hardware/hardware-18650.svg" width="144" /> | 18650 battery |
 |  <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Solar panel |
-
-
 
 The following parts are recomnondations. You can use other parts if you want. But you may have to change the code. The following parts are recommended:
 
