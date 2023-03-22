@@ -36,7 +36,7 @@
     3.  Client MQTT
     4.  Pièges
 6.  **Ingénierie des données**
-    1.  Node RED
+    1.  Nœud ROUGE
     2.  Grafana
     3.  Compétence Alexa
     4.  Azure Connect
@@ -69,7 +69,7 @@ Vous avez besoin des pièces suivantes :
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
-?> If you want to know more about the flashing process, you can read the [documentation d'installation](#Setup).
+?> Si vous voulez en savoir plus sur le processus de clignotement, vous pouvez lire le[documentation d'installation](#Setup).
 
 ## Matériel
 
