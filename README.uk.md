@@ -25,7 +25,7 @@
         1.  Створити акаунт
         2.  Створити додаток
         3.  Налаштувати декодер
-        4.  Копіювати облікові дані
+        4.  Copy Credentials
     2.  пристрій
         1.  Завантажити драйвер
         2.  Блимає
@@ -71,7 +71,7 @@
 
 ## Обладнання
 
-| частина                                                           | опис                                                                                                                          |
+| Part                                                              | опис                                                                                                                          |
 | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [Ультразвуковий датчик HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
 | <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [Заголовок на випас](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)            |
@@ -86,7 +86,7 @@
 
 Для вимірювання рівня води потрібен датчик. Це непросте завдання знайти водонепроникний датчик, який можна використовувати в резервуарі для води. Підтримуються та рекомендуються такі датчики:
 
-##### Початківець
+##### Beginner
 
 -   [Ультразвуковий датчик HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Лазерний датчик](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
@@ -100,14 +100,14 @@
 
 -   Шлюз LoRaWAN
 
-#### Мікро контролер
+#### Micro controller
 
 Очевидно, що вам потрібна плата для запуску програмного забезпечення. Але вам також потрібен чіп LoRa, щоб надсилати дані на TTN. Підтримуються такі дошки:
 
 -   [Заголовок на випас](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
 
-### Схематичний
+### Schematic
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
