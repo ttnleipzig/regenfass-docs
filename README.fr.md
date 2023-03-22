@@ -2,16 +2,81 @@
 
 > Ce projet concerne un réservoir d'eau intelligent. Il mesure le niveau d'eau et envoie les données à un serveur. Le serveur peut être utilisé pour contrôler la pompe à eau. La pompe peut être contrôlée via une interface Web ou via un bot de télégramme. Il utilise un capteur à ultrasons HC-SR04 pour mesurer le niveau d'eau. Les données sont envoyées à TTN via une passerelle LoRaWAN.
 
+* * *
+
+## Table des matières
+
+1.  **Démarrage rapide**
+    1.  Introduction
+    2.  Matériel
+    3.  Logiciel flash
+2.  **Matériel**
+    1.  Capteurs
+    2.  Source de courant
+    3.  Logement
+    4.  Microcontrôleur
+    5.  Antenne
+3.  **Assemblage**
+    1.  Capteur vers contrôleur
+    2.  Alimentation du contrôleur
+    3.  Dépannage
+4.  **Installation**
+    1.  NTT
+        1.  Créer un compte
+        2.  Créer une application
+        3.  Configurer le décodeur
+        4.  Copier les informations d'identification
+    2.  Appareil
+        1.  Télécharger le pilote
+        2.  Clignotant
+        3.  Configuration
+5.  **Débogage**
+    1.  Moniteur série
+    2.  Console TTN
+    3.  MQTT Client
+    4.  Pièges
+6.  **Ingénierie des données**
+    1.  Nœud ROUGE
+    2.  Grafana
+    3.  Compétence Alexa
+    4.  Azure Connect
+
+* * *
+
 ## Démarrage rapide
 
-Si vous avez déjà le matériel et que vous voulez commencer tout de suite,
+### Rapide - Introduction
 
-1.  connectez votre carte à votre ordinateur et
-2.  cliquez sur le bouton suivant :
+Le quickstart est fait pour les personnes qui veulent commencer tout de suite. Il n'est pas fait pour les personnes qui veulent comprendre comment cela fonctionne. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](https://ttnleipzig.github.io/regenfass-docs/). Si vous souhaitez commencer tout de suite, vous pouvez suivre les étapes suivantes :
+
+### Rapide - Présentation du matériel
+
+Vous avez besoin des pièces suivantes :
+
+![Overview](_media/hardware/hardware-overview.png)
+
+-   Microcontrôleur avec puce LoRa
+-   Capteur
+-   Source de courant
+-   Logement
+
+?> Si vous voulez en savoir plus sur les pièces, vous pouvez lire le[documentation sur le matériel](#Hardware).
+
+### Rapide - Logiciel Flash
+
+1.  Connectez votre carte à votre ordinateur et
+2.  Cliquez sur le bouton suivant :
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
 ## Matériel
+
+| Partie                                                            | Description                                                                                                                 |
+| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
+| <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [En route pour paître](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)        |
+| <img src="_media/hardware/hardware-18650.svg" width="144" />      | Batterie 18650                                                                                                              |
+| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Panneau solaire                                                                                                             |
 
 ### les pièces
 
