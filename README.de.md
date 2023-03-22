@@ -4,12 +4,12 @@
 
 * * *
 
-## Table Of Content
+## Inhaltsverzeichnis
 
 1.  **Schnellstart**
     1.  Einführung
     2.  Hardware
-    3.  Flash software
+    3.  Flash-Software
 2.  **Hardware**
     1.  Sensoren
     2.  Stromversorgung
@@ -73,7 +73,7 @@ Sie benötigen folgende Teile:
 
 ## Hardware
 
-1.  [Sensoren](#Sensors)
+1.  [Sensors](#Sensors)
 2.  [Stromversorgung](#Power-supply)
 3.  [Gehäuse](#Housing)
 4.  [Mikrocontroller](#Microcontroller)
@@ -106,6 +106,21 @@ Um den Mikrocontroller mit Strom zu versorgen, benötigen Sie ein Netzteil. Der 
 | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/hardware-18650.svg" />      | **18650 Akku:**Der 18650 Akku ist die beste Option. Es ist billig und Sie können es mit einem Solarpanel aufladen. Es besteht aus Lithium-Ionen und kann bis zu 500 Mal aufgeladen werden. 18650 Akku hat eine Spannung von 3,7V und eine Kapazität von 2200mAh. Das Solarpanel hat eine Spannung von 5V und eine Leistung von 2W. Das Solarpanel kann den Akku in 3 Stunden aufladen. Unser Sensor benötigt 5V und 100mA. Der Mikrocontroller benötigt 5V und 100mA. Wir brauchen also zwei 18650-Batterien und einen Spannungsregler, um 5 V zu erhalten. Der Akku ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Achten Sie auch auf hohe Temperaturen. Der Akku kann explodieren, wenn er zu heiß wird. Wir empfehlen diesen Akku, wenn Sie ihn über einen längeren Zeitraum verwenden möchten. |
 | <img src="_media/hardware/hardware-solarpanel.svg" /> | **Sonnenkollektor:**Das Solarpanel ist nicht notwendig, aber zusammen mit der Batterie ist es die beste Option. Das Solarpanel ist wasserdicht und kann bei Regen verwendet werden. Es besteht aus polykristallinem Silizium und hat eine Leistung von 2W. Wenn Sie ein Solarpanel kaufen, müssen Sie darauf achten, dass es einen 5V-Ausgang mit mindestens 400mA hat.                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+### Gehäuse
+
+Zum Schutz des Sensors und des Mikrocontrollers benötigen Sie ein Gehäuse. Das Gehäuse muss wasserdicht und etwas widerstandsfähig gegen hohe Temperaturen und UV-Strahlung sein.
+Verwenden Sie PLA nur für Prototypen. Es ist nicht wasserdicht und kann durch UV-Strahlung zerstört werden. Verwenden Sie ABS für den Langzeitgebrauch. Es ist wasserdicht und UV-beständig. Sie können auch PETG verwenden. Es ist wasserdicht und UV-beständig. Aber es ist nicht so stark wie ABS.
+
+Auch Tupperware ist eine gute Option. Es ist wasserdicht und UV-beständig.
+
+### Mikrocontroller
+
+Der Mikrocontroller ist das Gehirn des Systems. Es ist dafür verantwortlich, den Wasserstand zu messen und die Daten an den Server zu senden. Die folgenden Mikrocontroller werden unterstützt und empfohlen:
+
+| Teil                                               | Beschreibung                                                                                                                                                                                                                                                                                                                                  |
+| -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/hardware-esplora.svg" /> | **eher bevormunden:**Der TTGO LoRa32 ist ein Mikrocontroller mit einem LoRa-Modul. Es ist billig und einfach zu bedienen. Es ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Wir empfehlen diesen Mikrocontroller, wenn Sie ihn nur ausprobieren möchten. Es wird nicht für eine langfristige Anwendung empfohlen. |
 
 * * *
 
