@@ -13,7 +13,7 @@
 2.  **ハードウェア**
     1.  センサー
     2.  電源
-    3.  Housing
+    3.  ハウジング
     4.  マイクロコントローラ
     5.  アンテナ
 3.  **組み立て**
@@ -37,7 +37,7 @@
     4.  落とし穴
 6.  **データエンジニアリング**
     1.  ノードレッド
-    2.  グラファナ
+    2.  グラファーナ
     3.  アレクサスキル
     4.  アズール コネクト
 
@@ -88,13 +88,13 @@
 
 ##### 初心者
 
--   [HC-SR04 超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [レーザーセンサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### 高度
 
 -   [水センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [防水超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### ロラワン
 
@@ -130,7 +130,7 @@
 
 -   [電報ボット](Software/TelegramBot/README.md)
 
-## ライセンス
+## License
 
 [表示-非営利-継承 4.0 国際 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
