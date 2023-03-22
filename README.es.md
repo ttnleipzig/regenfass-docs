@@ -2,7 +2,9 @@
 
 > Este proyecto trata sobre un tanque de agua inteligente. Mide el nivel del agua y envía los datos a un servidor. El servidor se puede utilizar para controlar la bomba de agua. La bomba se puede controlar a través de una interfaz web o mediante un bot de Telegram. Utiliza un sensor ultrasónico HC-SR04 para medir el nivel del agua. Los datos se envían a TTN a través de una puerta de enlace LoRaWAN.
 
-## ?> El documento original fue escrito en[Inglés](README.md). La traducción se hizo con Google Translate. Si encuentra algún error, intente ignorarlo. ¡Gracias!
+?> El documento original fue escrito en[Inglés](README.md). La traducción se hizo con Google Translate. Si encuentra algún error, intente ignorarlo. ¡Gracias!
+
+* * *
 
 ## Tabla de contenidos
 
@@ -15,7 +17,7 @@
     2.  Fuente de alimentación
     3.  Alojamiento
     4.  microcontrolador
-    5.  Antena
+    5.  Antenna
 3.  **Montaje**
     1.  Sensor a controlador
     2.  Alimentación al controlador
@@ -25,7 +27,7 @@
         1.  Crear una cuenta
         2.  Crear aplicación
         3.  Configurar decodificador
-        4.  Copiar credenciales
+        4.  Copy Credentials
     2.  Dispositivo
         1.  Descargar controlador
         2.  Brillante
@@ -51,7 +53,7 @@ El inicio rápido está diseñado para personas que desean comenzar de inmediato
 
 ### Rápido: descripción general del hardware
 
-Necesitas las siguientes piezas:
+You need the following parts:
 
 ![Overview](_media/hardware/hardware-overview.png)
 
@@ -85,7 +87,7 @@ Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontr
 
 | Parte                                                                | Descripción                                                                                                                                                                                                                                                                                                                                                                                 |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S$04 sensor" /> | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.                                           |
+| <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S$04 sensor" /> | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.                                            |
 | <img src="_media/hardware/sensor-hcsr04.svg">                        | [Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. Al igual que el HC-SRo4, no es resistente al agua pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
 
 #### Principiante
