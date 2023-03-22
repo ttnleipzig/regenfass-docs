@@ -107,6 +107,21 @@ To power the microcontroller you need a power supply. The 18650 battery is the b
 |  <img src="_media/hardware/hardware-18650.svg" /> | **18650 battery:** The 18650 battery is the best option. It is cheap and you can charge it with a solar panel. It is made of Lithium Ion and can be charged up to 500 times. 18650 battery has a voltage of 3.7V and a capacity of 2200mAh. The solar panel has a voltage of 5V and a power of 2W. The solar panel can charge the battery in 3 hours. Our sensor needs 5V and 100mA. The microcontroller needs 5V and 100mA. So we need two 18650 batteries an a voltage regulator to get 5V. The battery is not waterproof. You have to put it in a waterproof housing. Also take care about high temperatures. The battery can explode if it is too hot. We recommend this battery if you want to use it for a long time. |
 |  <img src="_media/hardware/hardware-solarpanel.svg" /> | **Solar panel:** The solar panel is not necessary but together with the battery it is the best option. The solar panel is waterproof and can be used in the rain. It is made of polycrystalline silicon and has a power of 2W. If you buy a solar panel, you have to make shure that it has a 5V output with at least 400mA.  |
 
+### Housing
+
+To protect the sensor and the microcontroller you need a housings. The housing has to be waterproof and a little bit resistant to high temperatures and UV radiation.
+Use PLA just for prototypes. It is not waterproof and can be destroyed by UV radiation. Use ABS for long term use. It is waterproof and UV resistant. You can also use PETG. It is waterproof and UV resistant. But it is not as strong as ABS.
+
+Even tupperware is a good option. It is waterproof and UV resistant.
+
+### Microcontroller
+
+The microcontroller is the brain of the system. It is responsible for measuring the water level and sending the data to the server. The following microcontrollers are supported and recommended:
+
+| Part | Description |
+| --- | --- |
+|  <img src="_media/hardware/hardware-esplora.svg" /> | **TTGO LoRa32:** The TTGO LoRa32 is a microcontroller with a LoRa module. It is cheap and easy to use. It is not waterproof. You have to put it in a waterproof housing. We recoment this microcontroller if you just want to try it out. It is not recommended for long term use. |
+
 ---
 
 | Part | Description |
