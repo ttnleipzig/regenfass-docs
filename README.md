@@ -2,6 +2,8 @@
 
 > This project is about a smart water tank. It measures the water level and sends the data to a server. The server can be used to control the water pump. The pump can be controlled via a web interface or via a telegram bot. It uses a  HC-SR04 ultrasonic sensor to measure the water level. The data is sent to TTN via a LoRaWAN gateway.
 
+?> The original document  is written in [English](README.md). The translation is done by Google Translate. If you find any errors, please try to ignore them. If you want to help, you can create a pull request.
+
 ---
 
 ## Table Of Content
@@ -47,7 +49,7 @@
 
 ### Quick - Introduction
 
-The quickstart is made for people who want to start right away. It is not made for people who want to understand how it works. If you want to understand how it works, you can read the [documentation](https://ttnleipzig.github.io/regenfass-docs/). If you want to start right away, you can follow the following steps:
+The quickstart is made for people who want to start right away and deep knowledge about IoT with the Arudino Framework. If you want to understand how it works, you can read the [documentation](#hardware).
 
 ### Quick - Hardware overview
 
