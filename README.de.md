@@ -4,7 +4,7 @@
 
 * * *
 
-## Inhaltsverzeichnis
+## Table Of Content
 
 1.  **Schnellstart**
     1.  Einführung
