@@ -22,7 +22,7 @@
     3.  トラブルシューティング
 4.  **設定**
     1.  TTN
-        1.  Create Account
+        1.  アカウントを作成する
         2.  アプリの作成
         3.  デコーダーの構成
         4.  資格証明のコピー
@@ -37,7 +37,7 @@
     4.  落とし穴
 6.  **データエンジニアリング**
     1.  ノードレッド
-    2.  グラファーナ
+    2.  グラファナ
     3.  アレクサスキル
     4.  アズール コネクト
 
@@ -49,7 +49,7 @@
 
 クイックスタートは、すぐに始めたい人向けです。それがどのように機能するかを理解したい人のために作られていません.それがどのように機能するかを理解したい場合は、[ドキュメンテーション](https://ttnleipzig.github.io/regenfass-docs/).すぐに始めたい場合は、次の手順に従ってください。
 
-### クイック - ハードウェアの概要
+### Quick - Hardware overview
 
 次の部品が必要です。
 
@@ -71,25 +71,20 @@
 
 ## ハードウェア
 
-1.  センサー
-2.  電源
-3.  ハウジング
-4.  マイクロコントローラ
-5.  アンテナ
+1.  [センサー](#Sensors)
+2.  [電源](#Power-supply)
+3.  [ハウジング](#Housing)
+4.  [マイクロコントローラ](#Microcontroller)
+5.  [アンテナ](#Antenna)
 
 ### センサー
 
 水位を測るにはセンサーが必要です。防水で水槽内で使用できるセンサーを見つけるのは簡単なことではありません。次のセンサーがサポートされており、推奨されています。
 
-| 部                                                           | 説明                                                                                                                                                                                                                      |
-| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![HC-SR04](_media/hardware/sensor-hcsr04.svg)               | [HC-SR04 超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。防水ではありません。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。                  |
-| ![Laser distance sensor](_media/hardware/sensor-hcsr04.svg) | [レーザーセンサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。 HC-SRo4 と同様、防水ではありませんが精度が向上しています。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。 |
-
-| 部                                               | 説明                                                                                                                                                                                                                      |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/sensor-hcsr04.svg" /> | [HC-SR04 超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。防水ではありません。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。                  |
-| <img src="_media/hardware/sensor-hcsr04.svg">   | [レーザーセンサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。 HC-SRo4 と同様、防水ではありませんが精度が向上しています。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。 |
+| 部                                                                    | 説明                                                                                                                                                                                                                      |
+| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S$04 sensor" /> | [HC-SR04 超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。防水ではありません。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。                  |
+| <img src="_media/hardware/sensor-hcsr04.svg">                        | [レーザーセンサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。 HC-SRo4 と同様、防水ではありませんが精度が向上しています。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。 |
 
 #### 初心者
 
@@ -98,17 +93,26 @@
 
 #### 高度
 
--   [Water Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [水センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [防水超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
-| Part                                                              | 説明                                                                                                              |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [HC-SR04 超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
-| <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [放牧に向かう](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)          |
-| <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650 バッテリー                                                                                                     |
-| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | ソーラーパネル                                                                                                         |
+### 電源
 
-### 部品
+To power the microcontroller you need a power supply. The 18650 battery is the best option. It is cheap and you can charge it with a solar panel. But you can also use a power bank or a USB power supply.
+
+| 部                                                     | 説明                                                                                                                                                                                |
+| ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/hardware-18650.svg" />      | **18650 バッテリー:**18650 バッテリーが最適です。安いし、ソーラーパネルで充電できます。リチウムイオンでできており、最大500回充電できます。バッテリーは防水ではありません。防水ケースに入れる必要があります。また、高温にも注意してください。熱すぎるとバッテリーが爆発する可能性があります。長く使いたい方はこちらのバッテリーがおすすめです。 |
+| <img src="_media/hardware/hardware-solarpanel.svg" /> | **ソーラーパネル：**ソーラーパネルは必須ではありませんが、バッテリーと一緒に使用すると最適なオプションです。ソーラーパネルは防水仕様で雨天でも使用可能。多結晶シリコンでできており、2Wの電力を持っています。ソーラー パネルを購入する場合は、少なくとも 400mA の 5V 出力があることを確認する必要があります。                   |
+
+* * *
+
+| 部                                                                 | 説明                                                                                                                        |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
+| <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [放牧に向かう](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)                    |
+| <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650 バッテリー                                                                                                               |
+| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | ソーラーパネル                                                                                                                   |
 
 次の部分は推奨事項です。必要に応じて、他のパーツを使用できます。ただし、コードを変更する必要がある場合があります。以下の部品が推奨されます。
 
