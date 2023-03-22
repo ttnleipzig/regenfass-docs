@@ -36,7 +36,7 @@
     3.  Client MQTT
     4.  Pièges
 6.  **Ingénierie des données**
-    1.  Nœud ROUGE
+    1.  Node RED
     2.  Grafana
     3.  Compétence Alexa
     4.  Azure Connect
@@ -69,7 +69,7 @@ Vous avez besoin des pièces suivantes :
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
-?> Si vous voulez en savoir plus sur le processus de clignotement, vous pouvez lire le[documentation d'installation](#Setup).
+?> If you want to know more about the flashing process, you can read the [documentation d'installation](#Setup).
 
 ## Matériel
 
@@ -106,6 +106,21 @@ Pour alimenter le microcontrôleur, vous avez besoin d'une alimentation. La batt
 | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/hardware-18650.svg" />      | **Batterie 18650 :**La batterie 18650 est la meilleure option. Il est bon marché et vous pouvez le recharger avec un panneau solaire. Il est composé de lithium-ion et peut être rechargé jusqu'à 500 fois. La batterie 18650 a une tension de 3,7 V et une capacité de 2200 mAh. Le panneau solaire a une tension de 5V et une puissance de 2W. Le panneau solaire peut charger la batterie en 3 heures. Notre capteur a besoin de 5V et 100mA. Le microcontrôleur a besoin de 5V et 100mA. Nous avons donc besoin de deux batteries 18650 et d'un régulateur de tension pour obtenir 5V. La batterie n'est pas étanche. Il faut le mettre dans un boîtier étanche. Attention également aux températures élevées. La batterie peut exploser si elle est trop chaude. Nous recommandons cette batterie si vous souhaitez l'utiliser pendant une longue période. |
 | <img src="_media/hardware/hardware-solarpanel.svg" /> | **Panneau solaire:**Le panneau solaire n'est pas nécessaire mais avec la batterie c'est la meilleure option. Le panneau solaire est étanche et peut être utilisé sous la pluie. Il est composé de silicium polycristallin et a une puissance de 2W. Si vous achetez un panneau solaire, vous devez vous assurer qu'il a une sortie 5V avec au moins 400mA.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+
+### Logement
+
+Pour protéger le capteur et le microcontrôleur, vous avez besoin d'un boîtier. Le boîtier doit être étanche et un peu résistant aux hautes températures et aux rayons UV.
+Utilisez le PLA uniquement pour les prototypes. Il n'est pas étanche et peut être détruit par les rayons UV. Utilisez l'ABS pour une utilisation à long terme. Il est étanche et résistant aux UV. Vous pouvez également utiliser le PETG. Il est étanche et résistant aux UV. Mais ce n'est pas aussi solide que l'ABS.
+
+Même tupperware est une bonne option. Il est étanche et résistant aux UV.
+
+### Microcontrôleur
+
+Le microcontrôleur est le cerveau du système. Il est chargé de mesurer le niveau d'eau et d'envoyer les données au serveur. Les microcontrôleurs suivants sont pris en charge et recommandés :
+
+| Partie                                             | Description                                                                                                                                                                                                                                                                                                                             |
+| -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/hardware-esplora.svg" /> | **ont tendance à fréquenter :**Le TTGO LoRa32 est un microcontrôleur avec un module LoRa. Il est bon marché et facile à utiliser. Il n'est pas étanche. Il faut le mettre dans un boîtier étanche. Nous recommandons ce microcontrôleur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme. |
 
 * * *
 
