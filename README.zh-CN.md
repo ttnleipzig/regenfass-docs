@@ -45,7 +45,7 @@
 
 ## 快速开始
 
-### Quick - Introduction
+### 快速介绍
 
 快速入门专为想要立即开始的人而设计。它不是为想要了解其工作原理的人而设计的。如果你想了解它是如何工作的，你可以阅读[文档](https://ttnleipzig.github.io/regenfass-docs/).如果您想立即开始，可以按照以下步骤操作：
 
@@ -121,7 +121,7 @@
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印部件
+### 3D 打印零件
 
 ## 软件
 
