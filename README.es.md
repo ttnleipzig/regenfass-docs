@@ -128,7 +128,7 @@ Es obvio que necesita una placa para ejecutar el software. Pero también necesit
 
 ### robot de telegramas
 
--   [robot de telegramas](Software/TelegramBot/README.md)
+-   [Telegram Bot](Software/TelegramBot/README.md)
 
 ## Licencia
 
