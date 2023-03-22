@@ -2,16 +2,81 @@
 
 > Este proyecto trata sobre un tanque de agua inteligente. Mide el nivel del agua y envía los datos a un servidor. El servidor se puede utilizar para controlar la bomba de agua. La bomba se puede controlar a través de una interfaz web o mediante un bot de Telegram. Utiliza un sensor ultrasónico HC-SR04 para medir el nivel del agua. Los datos se envían a TTN a través de una puerta de enlace LoRaWAN.
 
+* * *
+
+## Tabla de contenidos
+
+1.  **Inicio rápido**
+    1.  Introducción
+    2.  Hardware
+    3.  programa flash
+2.  **Hardware**
+    1.  Sensores
+    2.  Fuente de alimentación
+    3.  Alojamiento
+    4.  microcontrolador
+    5.  Antena
+3.  **Montaje**
+    1.  Sensor a controlador
+    2.  Alimentación al controlador
+    3.  Solución de problemas
+4.  **Configuración**
+    1.  TTN
+        1.  Crear una cuenta
+        2.  Crear aplicación
+        3.  Configurar decodificador
+        4.  Copiar credenciales
+    2.  Dispositivo
+        1.  Descargar controlador
+        2.  Flashing
+        3.  Configuración
+5.  **depuración**
+    1.  monitor de serie
+    2.  Consola TTN
+    3.  Cliente MQTT
+    4.  Trampas
+6.  **Ingeniería de datos**
+    1.  Nodo ROJO
+    2.  Grafana
+    3.  Habilidad de Alexa
+    4.  conexión azul
+
+* * *
+
 ## Inicio rápido
 
-Si ya tiene el hardware y desea comenzar de inmediato,
+### Rápido - Introducción
 
-1.  conecte su tablero a su computadora y
-2.  haga clic en el siguiente botón:
+El inicio rápido está diseñado para personas que desean comenzar de inmediato. No está hecho para personas que quieren entender cómo funciona. Si quieres entender cómo funciona, puedes leer el[documentación](https://ttnleipzig.github.io/regenfass-docs/). Si desea comenzar de inmediato, puede seguir los siguientes pasos:
+
+### Rápido: descripción general del hardware
+
+Necesitas las siguientes piezas:
+
+![Overview](_media/hardware/hardware-overview.png)
+
+-   Microcontroller with LoRa chip
+-   Sensor
+-   Fuente de alimentación
+-   Alojamiento
+
+?> Si quieres saber más sobre las partes, puedes leer el[documentación de hardware](#Hardware).
+
+### Rápido - Software flash
+
+1.  Conecte su tablero a su computadora y
+2.  Haga clic en el siguiente botón:
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
 ## Hardware
+
+| Parte                                                             | Descripción                                                                                                                |
+| ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
+| <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [Rumbo a pastar](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)             |
+| <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650 batería                                                                                                              |
+| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Panel solar                                                                                                                |
 
 ### Partes
 
