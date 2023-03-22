@@ -22,7 +22,7 @@
     3.  故障排除
 4.  **设置**
     1.  TTN
-        1.  Create Account
+        1.  创建账户
         2.  创建应用程序
         3.  配置解码器
         4.  复制凭据
@@ -111,7 +111,7 @@
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印零件
+### 3D 打印部件
 
 -   [水箱](https://www.thingiverse.com/thing:2751000)
 -   [水泵](https://www.thingiverse.com/thing:2751000)
