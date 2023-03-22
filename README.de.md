@@ -38,7 +38,7 @@
 6.  **Datentechnik**
     1.  Knoten ROT
     2.  Grafana
-    3.  Alexa-Skill
+    3.  Alexa Skill
     4.  Azure Connect
 
 * * *
@@ -73,7 +73,7 @@ Sie benötigen folgende Teile:
 
 ## Hardware
 
-1.  [Sensors](#Sensors)
+1.  [Sensoren](#Sensors)
 2.  [Stromversorgung](#Power-supply)
 3.  [Gehäuse](#Housing)
 4.  [Mikrocontroller](#Microcontroller)
