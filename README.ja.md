@@ -71,7 +71,7 @@
 
 ## ハードウェア
 
-1.  センサー
+1.  Sensors
 2.  電源
 3.  ハウジング
 4.  マイクロコントローラ
@@ -82,8 +82,8 @@
 水位を測るにはセンサーが必要です。防水で水槽内で使用できるセンサーを見つけるのは簡単なことではありません。次のセンサーがサポートされており、推奨されています。
 | |パート |説明 |
 \| \| --- \| --- \|
-\| \|![HC-SR04](_media/hardware/sensor-hcsr04.svg)｜[HC-SR04 超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。防水ではありません。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。 | |
-\| \|![Laser distance sensor](_media/hardware/sensor-laser.svg)｜[レーザーセンサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。 HC-SRo4 と同様、防水ではありませんが精度が向上しています。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。 | |
+\| \|![HC-SR04](_media/hardware/sensor-hcsr04.svg)｜[HC-SR04 超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。防水ではありません。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。 | |  
+｜![Laser distance sensor](_media/hardware/sensor-hcsr04.svg)｜[レーザーセンサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。 HC-SRo4 と同様、防水ではありませんが精度が向上しています。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。 | |
 
 #### 初心者
 
