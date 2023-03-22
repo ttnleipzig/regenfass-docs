@@ -2,17 +2,81 @@
 
 > This project is about a smart water tank. It measures the water level and sends the data to a server. The server can be used to control the water pump. The pump can be controlled via a web interface or via a telegram bot. It uses a  HC-SR04 ultrasonic sensor to measure the water level. The data is sent to TTN via a LoRaWAN gateway.
 
+---
+
+## Table Of Content
+
+1. **Quickstart**
+   1. Introduction
+   2. Hardware
+   3. Flash software
+2. **Hardware**
+   1. Sensors
+   2. Power supply
+   3. Housing
+   4. Microcontroller
+   5. Antenna
+3. **Assembeling**
+   1. Sensor to controller
+   2. Power to controller
+   3. Trouble shooting
+4. **Setup**
+   1. TTN
+      1. Create Account
+      2. Create App
+      3. Configure Devoder
+      4. Copy Credentials
+   2. Device
+      1. Download driver
+      2. Flashing
+      3. Configuration
+5. **Debugging**
+   1. Serial Monitor
+   2. TTN Console
+   3. MQTT Client
+   4. Pit falls
+6. **Data Engineering**
+   1. Node RED
+   2. Grafana
+   3. Alexa Skill
+   4. Azure Connect
+
+---
+
 ## Quick start
 
-If you already have the hardware and want to start right away,
+### Quick - Introduction
 
-1. connect your board to your computer and
-2. click on the following button:
+The quickstart is made for people who want to start right away. It is not made for people who want to understand how it works. If you want to understand how it works, you can read the [documentation](https://ttnleipzig.github.io/regenfass-docs/). If you want to start right away, you can follow the following steps:
 
+### Quick - Hardware overview
+
+You need the following parts:
+
+![Overview](_media/hardware/hardware-overview.png)
+
+* Microcontroller with LoRa chip
+* Sensor
+* Power supply
+* Housing
+
+?> If you want to know more about the parts, you can read the [hardware documentation](#Hardware).
+
+### Quick - Flash software
+
+1. Connect your board to your computer and
+2. Click on the following button:
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
 ## Hardware
+
+| Part | Description |
+| --- | --- |
+|  <img src="_media/hardware/sensor-hcsr04.svg" width="244" /> | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
+|  <img src="_media/hardware/hardware-esplora.svg" width="244" /> | [TTGO LoRa32](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
+|  <img src="_media/hardware/hardware-18650.svg" width="144" /> | 18650 battery |
+|  <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Solar panel |
 
 ### Parts
 
