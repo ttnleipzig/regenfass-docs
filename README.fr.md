@@ -47,7 +47,7 @@
 
 ### Rapide - Introduction
 
-Le quickstart est fait pour les personnes qui veulent commencer tout de suite. Il n'est pas fait pour les personnes qui veulent comprendre comment cela fonctionne. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](https://ttnleipzig.github.io/regenfass-docs/). Si vous souhaitez commencer tout de suite, vous pouvez suivre les étapes suivantes :
+The quickstart is made for people who want to start right away. It is not made for people who want to understand how it works. If you want to understand how it works, you can read the [Documentation](https://ttnleipzig.github.io/regenfass-docs/). Si vous souhaitez commencer tout de suite, vous pouvez suivre les étapes suivantes :
 
 ### Rapide - Présentation du matériel
 
