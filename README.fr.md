@@ -2,6 +2,8 @@
 
 > Ce projet concerne un réservoir d'eau intelligent. Il mesure le niveau d'eau et envoie les données à un serveur. Le serveur peut être utilisé pour contrôler la pompe à eau. La pompe peut être contrôlée via une interface Web ou via un bot de télégramme. Il utilise un capteur à ultrasons HC-SR04 pour mesurer le niveau d'eau. Les données sont envoyées à TTN via une passerelle LoRaWAN.
 
+?> Le document original est écrit en[Anglais](README.md). La traduction est faite par Google Translate. Si vous trouvez des erreurs, essayez de les ignorer. Si vous voulez aider, vous pouvez créer une pull request.
+
 * * *
 
 ## Table des matières
@@ -47,7 +49,7 @@
 
 ### Rapide - Introduction
 
-Le quickstart est fait pour les personnes qui veulent commencer tout de suite. Il n'est pas fait pour les personnes qui veulent comprendre comment cela fonctionne. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](https://ttnleipzig.github.io/regenfass-docs/). Si vous souhaitez commencer tout de suite, vous pouvez suivre les étapes suivantes :
+Le démarrage rapide est conçu pour les personnes qui souhaitent démarrer tout de suite et avoir une connaissance approfondie de l'IoT avec le framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
 
 ### Rapide - Présentation du matériel
 
