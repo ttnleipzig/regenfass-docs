@@ -9,7 +9,7 @@
 1.  **Inicio rápido**
     1.  Introducción
     2.  Hardware
-    3.  Flash software
+    3.  programa flash
 2.  **Hardware**
     1.  Sensores
     2.  Fuente de alimentación
@@ -82,8 +82,8 @@ Necesitas las siguientes piezas:
 Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontrar un sensor que sea resistente al agua y pueda usarse en un tanque de agua. Los siguientes sensores son compatibles y recomendados:
 | Parte | Descripción |
 \| --- \| --- \|
-\|![HC-SR04](_media/hardware/sensor-hcsr04.svg)\|[Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
-\|![Laser distance sensor](_media/hardware/sensor-laser.svg)\|[Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. Al igual que el HC-SRo4, no es resistente al agua pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
+\|![HC-SR04](_media/hardware/sensor-hcsr04.svg)\|[Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |  
+\|![Laser distance sensor](_media/hardware/sensor-hcsr04.svg)\|[Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. Al igual que el HC-SRo4, no es resistente al agua pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
 
 #### Principiante
 
@@ -144,7 +144,7 @@ Es obvio que necesita una placa para ejecutar el software. Pero también necesit
 **Eres libre de:**
 
 -   Compartir — copiar y redistribuir el material en cualquier medio o formato
--   Adapt — remix, transform, and build upon the material
+-   Adaptar: remezclar, transformar y construir sobre el material.
 
 * * *
 
