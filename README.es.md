@@ -107,6 +107,21 @@ Para alimentar el microcontrolador necesita una fuente de alimentación. La bate
 | <img src="_media/hardware/hardware-18650.svg" />      | **18650 batería:**La batería 18650 es la mejor opción. Es barato y puedes cargarlo con un panel solar. Está hecho de iones de litio y se puede cargar hasta 500 veces. La batería 18650 tiene un voltaje de 3.7V y una capacidad de 2200mAh. El panel solar tiene un voltaje de 5V y una potencia de 2W. El panel solar puede cargar la batería en 3 horas. Nuestro sensor necesita 5V y 100mA. El microcontrolador necesita 5V y 100mA. Entonces necesitamos dos baterías 18650 y un regulador de voltaje para obtener 5V. La batería no es resistente al agua. Tienes que ponerlo en una carcasa impermeable. También tenga cuidado con las altas temperaturas. La batería puede explotar si está demasiado caliente. Recomendamos esta batería si desea usarla durante mucho tiempo. |
 | <img src="_media/hardware/hardware-solarpanel.svg" /> | **Panel solar:**El panel solar no es necesario pero junto con la batería es la mejor opción. El panel solar es resistente al agua y se puede utilizar bajo la lluvia. Está fabricado en silicio policristalino y tiene una potencia de 2W. Si compra un panel solar, debe asegurarse de que tenga una salida de 5V con al menos 400mA.                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
+### Alojamiento
+
+Para proteger el sensor y el microcontrolador necesita una carcasa. La carcasa tiene que ser impermeable y un poco resistente a las altas temperaturas y la radiación UV.
+Use PLA solo para prototipos. No es resistente al agua y puede ser destruido por la radiación UV. Use ABS para uso a largo plazo. Es impermeable y resistente a los rayos UV. También puedes usar PETG. Es impermeable y resistente a los rayos UV. Pero no es tan fuerte como el ABS.
+
+Incluso tupperware es una buena opción. Es impermeable y resistente a los rayos UV.
+
+### microcontrolador
+
+El microcontrolador es el cerebro del sistema. Se encarga de medir el nivel del agua y enviar los datos al servidor. Los siguientes microcontroladores son compatibles y recomendados:
+
+| Parte                                              | Descripción                                                                                                                                                                                                                                                                                 |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/hardware-esplora.svg" /> | **tienden a patrocinar:**El TTGO LoRa32 es un microcontrolador con un módulo LoRa. Es barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este microcontrolador si solo quiere probarlo. No se recomienda para uso a largo plazo. |
+
 * * *
 
 | Parte                                                             | Descripción                                                                                                                |
