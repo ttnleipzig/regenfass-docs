@@ -30,7 +30,7 @@
         1.  Télécharger le pilote
         2.  Clignotant
         3.  Configuration
-5.  **Débogage**
+5.  **Debugging**
     1.  Moniteur série
     2.  Console TTN
     3.  Client MQTT
@@ -75,7 +75,7 @@ Vous avez besoin des pièces suivantes :
 | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
 | <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [En route pour paître](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)        |
-| <img src="_media/hardware/hardware-18650.svg" width="144" />      | Batterie 18650                                                                                                              |
+| <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650 battery                                                                                                               |
 | <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Panneau solaire                                                                                                             |
 
 ### les pièces
