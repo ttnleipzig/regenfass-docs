@@ -9,7 +9,7 @@
 1.  **快速开始**
     1.  介绍
     2.  硬件
-    3.  Flash software
+    3.  闪存软件
 2.  **硬件**
     1.  传感器
     2.  电源
@@ -35,7 +35,7 @@
     2.  TTN控制台
     3.  MQTT客户端
     4.  陷阱
-6.  **数据工程**
+6.  **Data Engineering**
     1.  节点红色
     2.  格拉法纳
     3.  Alexa 技能
@@ -43,7 +43,7 @@
 
 * * *
 
-## Quick start
+## 快速开始
 
 ### 快速介绍
 
@@ -65,7 +65,7 @@
 ### Quick-Flash软件
 
 1.  将您的电路板连接到您的计算机，然后
-2.  Click on the following button:
+2.  单击以下按钮：
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
