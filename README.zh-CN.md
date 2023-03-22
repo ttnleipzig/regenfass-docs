@@ -2,9 +2,67 @@
 
 > 这个项目是关于一个智能水箱的。它测量水位并将数据发送到服务器。服务器可用于控制水泵。该泵可以通过网络界面或电报机器人进行控制。它使用 HC-SR04 超声波传感器测量水位。数据通过 LoRaWAN 网关发送到 TTN。
 
+* * *
+
+## 表中的内容
+
+1.  **快速开始**
+    1.  介绍
+    2.  硬件
+    3.  闪存软件
+2.  **硬件**
+    1.  传感器
+    2.  电源
+    3.  住房
+    4.  微控制器
+    5.  天线
+3.  **组装**
+    1.  传感器到控制器
+    2.  控制器电源
+    3.  故障排除
+4.  **设置**
+    1.  TTN
+        1.  Create Account
+        2.  创建应用程序
+        3.  配置解码器
+        4.  复制凭据
+    2.  设备
+        1.  下载驱动程序
+        2.  闪烁
+        3.  配置
+5.  **调试**
+    1.  串行监视器
+    2.  TTN控制台
+    3.  MQTT客户端
+    4.  陷阱
+6.  **数据工程**
+    1.  节点红色
+    2.  格拉法纳
+    3.  Alexa 技能
+    4.  蔚蓝连接
+
+* * *
+
 ## 快速开始
 
-如果您已经拥有硬件并想立即开始，
+### 快速介绍
+
+快速入门专为想要立即开始的人而设计。它不是为想要了解其工作原理的人而设计的。如果你想了解它是如何工作的，你可以阅读[文档](https://ttnleipzig.github.io/regenfass-docs/).如果您想立即开始，可以按照以下步骤操作：
+
+### 快速 - 硬件概述
+
+您需要以下部分：
+
+![Overview](_media/hardware/hardware-overview.png)
+
+-   带 LoRa 芯片的微控制器
+-   传感器
+-   电源
+-   住房
+
+?> 如果您想了解更多有关零件的信息，可以阅读[硬件文档](#Hardware).
+
+### Quick-Flash软件
 
 1.  将您的电路板连接到您的计算机，然后
 2.  单击以下按钮：
@@ -12,6 +70,13 @@
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
 ## 硬件
+
+| 部分                                                                | 描述                                                                                                            |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
+| <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [去吃草](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)           |
+| <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650电池                                                                                                       |
+| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | 太阳能板                                                                                                          |
 
 ### 部分
 
@@ -46,7 +111,7 @@
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印部件
+### 3D 打印零件
 
 -   [水箱](https://www.thingiverse.com/thing:2751000)
 -   [水泵](https://www.thingiverse.com/thing:2751000)
