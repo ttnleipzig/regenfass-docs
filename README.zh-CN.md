@@ -158,7 +158,7 @@
 
 ### 服务器
 
--   [服务器](Software/Server/README.md)
+-   [Server](Software/Server/README.md)
 
 ### 电报机器人
 
