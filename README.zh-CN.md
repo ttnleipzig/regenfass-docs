@@ -19,7 +19,7 @@
 3.  **组装**
     1.  传感器到控制器
     2.  控制器电源
-    3.  故障排除
+    3.  Trouble shooting
 4.  **设置**
     1.  TTN
         1.  创建账户
@@ -34,7 +34,7 @@
     1.  串行监视器
     2.  TTN控制台
     3.  MQTT客户端
-    4.  陷阱
+    4.  Pit falls
 6.  **数据工程**
     1.  节点红色
     2.  格拉法纳
@@ -57,7 +57,7 @@
 
 -   带 LoRa 芯片的微控制器
 -   传感器
--   电源
+-   Power supply
 -   住房
 
 ?> 如果您想了解更多有关零件的信息，可以阅读[硬件文档](#Hardware).
@@ -71,6 +71,30 @@
 
 ## 硬件
 
+1.  传感器
+2.  电源
+3.  住房
+4.  微控制器
+5.  天线
+
+### 传感器
+
+要测量水位，您需要一个传感器。要找到一款既防水又能在水箱中使用的传感器并不是一件容易的事。支持并推荐以下传感器：
+|部分|说明 |
+\| --- \| --- \|
+\|![HC-SR04](_media/hardware/sensor-hcsr04.svg)\|[HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。它不防水。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。 |
+\|![Laser distance sensor](_media/hardware/sensor-laser.svg)\|[激光传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。与 HC-SRo4 一样，它不防水，但具有更高的精度。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。 |
+
+#### 初学者
+
+-   [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [激光传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+
+#### 先进的
+
+-   [水传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [防水超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+
 | 部分                                                                | 描述                                                                                                            |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
@@ -81,20 +105,6 @@
 ### 部分
 
 以下部分是建议。如果需要，您可以使用其他部件。但是您可能必须更改代码。推荐以下部分：
-
-#### 传感器
-
-要测量水位，您需要一个传感器。要找到一款既防水又能在水箱中使用的传感器并不是一件容易的事。支持并推荐以下传感器：
-
-##### 初学者
-
--   [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [激光传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
-
-#### 先进的
-
--   [水传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [防水超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### 罗拉万
 
@@ -112,9 +122,6 @@
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
 ### 3D 打印部件
-
--   [水箱](https://www.thingiverse.com/thing:2751000)
--   [水泵](https://www.thingiverse.com/thing:2751000)
 
 ## 软件
 
