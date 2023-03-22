@@ -71,25 +71,20 @@ Necesitas las siguientes piezas:
 
 ## Hardware
 
-1.  Sensores
-2.  Fuente de alimentación
-3.  Alojamiento
-4.  microcontrolador
-5.  Antena
+1.  [Sensores](#Sensors)
+2.  [Fuente de alimentación](#Power-supply)
+3.  [Alojamiento](#Housing)
+4.  [microcontrolador](#Microcontroller)
+5.  [Antena](#Antenna)
 
 ### Sensores
 
 Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontrar un sensor que sea resistente al agua y pueda usarse en un tanque de agua. Los siguientes sensores son compatibles y recomendados:
 
-| Parte                                                       | Descripción                                                                                                                                                                                                                                                                                                                                                                                 |
-| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![HC-SR04](_media/hardware/sensor-hcsr04.svg)               | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.                                           |
-| ![Laser distance sensor](_media/hardware/sensor-hcsr04.svg) | [Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. Al igual que el HC-SRo4, no es resistente al agua pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
-
-| Parte                                           | Descripción                                                                                                                                                                                                                                                                                                                                                                                 |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/sensor-hcsr04.svg" /> | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.                                           |
-| <img src="_media/hardware/sensor-hcsr04.svg">   | [Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. Al igual que el HC-SRo4, no es resistente al agua pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
+| Parte                                                                | Descripción                                                                                                                                                                                                                                                                                                                                                                                 |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S$04 sensor" /> | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.                                           |
+| <img src="_media/hardware/sensor-hcsr04.svg">                        | [Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. Al igual que el HC-SRo4, no es resistente al agua pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
 
 #### Principiante
 
@@ -101,14 +96,23 @@ Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontr
 -   [sensor de agua](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Sensor ultrasónico a prueba de agua](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
-| Part                                                              | Descripción                                                                                                                |
+### Fuente de alimentación
+
+Para alimentar el microcontrolador necesita una fuente de alimentación. La batería 18650 es la mejor opción. Es barato y puedes cargarlo con un panel solar. Pero también puedes usar un banco de energía o una fuente de alimentación USB.
+
+| Parte                                                 | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/hardware-18650.svg" />      | **18650 batería:**La batería 18650 es la mejor opción. Es barato y puedes cargarlo con un panel solar. Está hecho de iones de litio y se puede cargar hasta 500 veces. La batería no es resistente al agua. Tienes que ponerlo en una carcasa impermeable. También tenga cuidado con las altas temperaturas. La batería puede explotar si está demasiado caliente. Recomendamos esta batería si desea usarla durante mucho tiempo. |
+| <img src="_media/hardware/hardware-solarpanel.svg" /> | **Panel solar:**El panel solar no es necesario pero junto con la batería es la mejor opción. El panel solar es resistente al agua y se puede utilizar bajo la lluvia. Está fabricado en silicio policristalino y tiene una potencia de 2W. Si compra un panel solar, debe asegurarse de que tenga una salida de 5V con al menos 400mA.                                                                                             |
+
+* * *
+
+| Parte                                                             | Descripción                                                                                                                |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
 | <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [Rumbo a pastar](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)             |
 | <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650 batería                                                                                                              |
 | <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Panel solar                                                                                                                |
-
-### Partes
 
 Las siguientes partes son recomendaciones. Puedes usar otras partes si quieres. Pero puede que tenga que cambiar el código. Se recomiendan las siguientes piezas:
 
