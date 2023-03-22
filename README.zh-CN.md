@@ -56,7 +56,7 @@
 ![Overview](_media/hardware/hardware-overview.png)
 
 -   带 LoRa 芯片的微控制器
--   传感器
+-   Sensor
 -   电源
 -   住房
 
@@ -111,7 +111,7 @@
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印部件
+### 3D 打印零件
 
 -   [水箱](https://www.thingiverse.com/thing:2751000)
 -   [水泵](https://www.thingiverse.com/thing:2751000)
