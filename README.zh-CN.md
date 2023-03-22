@@ -71,25 +71,20 @@
 
 ## 硬件
 
-1.  传感器
-2.  电源
-3.  住房
-4.  微控制器
-5.  天线
+1.  [传感器](#Sensors)
+2.  [电源](#Power-supply)
+3.  [住房](#Housing)
+4.  [微控制器](#Microcontroller)
+5.  [天线](#Antenna)
 
 ### 传感器
 
 要测量水位，您需要一个传感器。要找到一款既防水又能在水箱中使用的传感器并不是一件容易的事。支持并推荐以下传感器：
 
-| 部分                                                          | 描述                                                                                                                                                                                       |
-| ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![HC-SR04](_media/hardware/sensor-hcsr04.svg)               | [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。它不防水。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。               |
-| ![Laser distance sensor](_media/hardware/sensor-hcsr04.svg) | [激光传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。与 HC-SRo4 一样，它不防水，但具有更高的精度。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。 |
-
-| 部分                                              | 描述                                                                                                                                                                                       |
-| ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/sensor-hcsr04.svg" /> | [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。它不防水。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。               |
-| <img src="_media/hardware/sensor-hcsr04.svg">   | [激光传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。与 HC-SRo4 一样，它不防水，但具有更高的精度。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。 |
+| 部分                                                                   | 描述                                                                                                                                                                                       |
+| -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S$04 sensor" /> | [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。它不防水。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。               |
+| <img src="_media/hardware/sensor-hcsr04.svg">                        | [激光传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。与 HC-SRo4 一样，它不防水，但具有更高的精度。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。 |
 
 #### 初学者
 
@@ -101,14 +96,23 @@
 -   [水传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [防水超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
+### 电源
+
+要为微控制器供电，您需要一个电源。 18650电池是最佳选择。它很便宜，你可以用太阳能电池板给它充电。但您也可以使用移动电源或 USB 电源。
+
+| 部分                                                    | 描述                                                                                                                            |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/hardware-18650.svg" />      | **18650电池：**18650电池是最佳选择。它很便宜，你可以用太阳能电池板给它充电。它由锂离子制成，最多可充电 500 次。电池不防水。你必须把它放在防水外壳里。还要注意高温。如果太热，电池可能会爆炸。如果您想长时间使用，我们推荐使用这种电池。 |
+| <img src="_media/hardware/hardware-solarpanel.svg" /> | **太阳能板：**太阳能电池板不是必需的，但与电池一起使用是最佳选择。太阳能电池板是防水的，可以在雨中使用。它由多晶硅制成，功率为2W。如果您购买太阳能电池板，则必须确保它具有至少 400mA 的 5V 输出。                     |
+
+* * *
+
 | 部分                                                                | 描述                                                                                                            |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
 | <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [去吃草](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)           |
 | <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650电池                                                                                                       |
 | <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | 太阳能板                                                                                                          |
-
-### 部分
 
 以下部分是建议。如果需要，您可以使用其他部件。但是您可能必须更改代码。推荐以下部分：
 
@@ -127,7 +131,7 @@
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印部件
+### 3D 打印零件
 
 ## 软件
 
