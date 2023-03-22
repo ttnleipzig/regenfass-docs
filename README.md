@@ -2,8 +2,7 @@
 
 > This project is about a smart water tank. It measures the water level and sends the data to a server. The server can be used to control the water pump. The pump can be controlled via a web interface or via a telegram bot. It uses a  HC-SR04 ultrasonic sensor to measure the water level. The data is sent to TTN via a LoRaWAN gateway.
 
-?> The original document  is written in [English](README.md). The translation is done by Google Translate. If you find any errors, please try to ignore them. If you want to help, you can create a pull request.
-
+?> The original document was written in [English](README.md). The translation was made with Google Translate. If you find any errors, please try to ignore them. Thank you!
 ---
 
 ## Table Of Content
@@ -106,8 +105,8 @@ To power the microcontroller you need a power supply. The 18650 battery is the b
 
 | Part | Description |
 | --- | --- |
-|  <img src="_media/hardware/hardware-18650.svg" /> | **18650 battery:** The 18650 battery is the best option. It is cheap and you can charge it with a solar panel. It is made of Lithium Ion and can be charged up to 500 times. 18650 battery has a voltage of 3.7V and a capacity of 2200mAh. The solar panel has a voltage of 5V and a power of 2W. The solar panel can charge the battery in 3 hours. Our sensor needs 5V and 100mA. The microcontroller needs 5V and 100mA. So we need two 18650 batteries an a voltage regulator to get 5V. The battery is not waterproof. You have to put it in a waterproof housing. Also take care about high temperatures. The battery can explode if it is too hot. We recommend this battery if you want to use it for a long time. |
-|  <img src="_media/hardware/hardware-solarpanel.svg" /> | **Solar panel:** The solar panel is not necessary but together with the battery it is the best option. The solar panel is waterproof and can be used in the rain. It is made of polycrystalline silicon and has a power of 2W. If you buy a solar panel, you have to make shure that it has a 5V output with at least 400mA.  |
+|  <img src="_media/hardware/hardware-18650.svg" /> | **18650 battery:** The 18650 battery is the best option. It is cheap and you can charge it with a solar panel. It is made of Lithium Ion and can be charged up to 500 times. 18650 battery has a voltage of 3.7V and can have a capacity of araound 2200mAh. The solar panel has a voltage of 5V and a power of 2W. The solar panel can charge the battery in 3 hours. Our sensor needs 5V and 100mA. The microcontroller needs 5V and 100mA. So we need two 18650 batteries an a voltage regulator to get 5V. The battery is not waterproof. You have to put it in a waterproof housing. Also take care about high temperatures. The battery can explode if it is too hot. We recommend this battery if you want to use it for a long time. |
+|  <img src="_media/hardware/hardware-solarpanel.png" /> | **Solar panel:** The solar panel is not necessary but together with the battery it is the best option. The solar panel is waterproof and can be used in the rain. It is made of polycrystalline silicon and has a power of 2W. If you buy a solar panel, you have to make shure that it has a 5V output with at least 400mA.  |
 
 ### Housing
 
