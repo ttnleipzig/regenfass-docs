@@ -28,7 +28,7 @@
         4.  Copiar credenciales
     2.  Dispositivo
         1.  Descargar controlador
-        2.  Brillante
+        2.  Flashing
         3.  Configuración
 5.  **depuración**
     1.  monitor de serie
