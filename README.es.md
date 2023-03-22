@@ -6,7 +6,7 @@
 
 ## Tabla de contenidos
 
-1.  **Inicio rápido**
+1.  **Quickstart**
     1.  Introducción
     2.  Hardware
     3.  programa flash
