@@ -29,7 +29,7 @@
         3.  Configurer le décodeur
         4.  Copier les informations d'identification
     2.  Appareil
-        1.  Télécharger le pilote
+        1.  Download driver
         2.  Clignotant
         3.  Configuration
 5.  **Débogage**
@@ -49,7 +49,7 @@
 
 ### Rapide - Introduction
 
-Le démarrage rapide est fait pour les personnes qui veulent commencer tout de suite et avoir une connaissance approfondie de l'IoT avec le Framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
+Le démarrage rapide est conçu pour les personnes qui souhaitent démarrer tout de suite et avoir une connaissance approfondie de l'IoT avec le framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
 
 ### Rapide - Présentation du matériel
 
