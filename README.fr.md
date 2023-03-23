@@ -170,7 +170,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 
 [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**You are free to:**
+**Vous êtes libre de :**
 
 -   Partager - copier et redistribuer le matériel sur n'importe quel support ou format
 -   Adaptez - remixez, transformez et construisez sur le matériel
