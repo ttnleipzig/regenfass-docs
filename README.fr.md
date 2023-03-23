@@ -2,22 +2,22 @@
 
 > Ce projet concerne un réservoir d'eau intelligent. Il mesure le niveau d'eau et envoie les données à un serveur. Le serveur peut être utilisé pour contrôler la pompe à eau. La pompe peut être contrôlée via une interface Web ou via un bot de télégramme. Il utilise un capteur à ultrasons HC-SR04 pour mesurer le niveau d'eau. Les données sont envoyées à TTN via une passerelle LoRaWAN.
 
-?> Le document original a été rédigé en[English](README.md). La traduction a été faite avec Google Translate. Si vous trouvez des erreurs, essayez de les ignorer. Merci!
+?> Le document original a été rédigé en[Anglais](README.md). La traduction a été faite avec Google Translate. Si vous trouvez des erreurs, essayez de les ignorer. Merci!
 
 * * *
 
 ## Table des matières
 
-1.  **Démarrage rapide**
-    1.  Introduction
-    2.  Matériel
-    3.  Logiciel flash
-2.  **Matériel**
-    1.  Capteurs
-    2.  Source de courant
-    3.  Logement
-    4.  Microcontrôleur
-    5.  Antenne
+1.  **[Démarrage rapide](#Quickstart)**
+    1.  [Introduction](#Quickstart-Introduction)
+    2.  [Matériel](#Quickstart-Hardware)
+    3.  [Logiciel flash](#Quickstart-Flash-software)
+2.  **[Matériel](#Hardware)**
+    1.  [Capteurs](#Sensors)
+    2.  [Source de courant](#Power-supply)
+    3.  [Logement](#Housing)
+    4.  [Microcontrôleur](#Microcontroller)
+    5.  [Antenne](#Antenna)
 3.  **Assemblage**
     1.  Capteur vers contrôleur
     2.  Alimentation du contrôleur
@@ -47,24 +47,24 @@
 
 ## Démarrage rapide
 
-### Quick - Introduction
+### Démarrage rapide - Présentation
 
 Le démarrage rapide est conçu pour les personnes qui souhaitent démarrer tout de suite et avoir une connaissance approfondie de l'IoT avec le framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
 
-### Rapide - Présentation du matériel
+### Démarrage rapide - Présentation du matériel
 
 Vous avez besoin des pièces suivantes :
 
 ![Overview](_media/hardware/hardware-overview.png)
 
 -   Microcontrôleur avec puce LoRa
--   Sensor
+-   Capteur
 -   Source de courant
 -   Logement
 
 ?> Si vous voulez en savoir plus sur les pièces, vous pouvez lire le[documentation sur le matériel](#Hardware).
 
-### Rapide - Logiciel Flash
+### Démarrage rapide - Logiciel Flash
 
 1.  Connectez votre carte à votre ordinateur et
 2.  Cliquez sur le bouton suivant :
@@ -172,7 +172,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 
 **Vous êtes libre de :**
 
--   Share — copy and redistribute the material in any medium or format
+-   Partager - copier et redistribuer le matériel sur n'importe quel support ou format
 -   Adaptez - remixez, transformez et construisez sur le matériel
 
 * * *
