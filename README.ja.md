@@ -8,7 +8,7 @@
 
 ## 目次
 
-1.  **Quickstart**
+1.  **クイックスタート**
     1.  序章
     2.  ハードウェア
     3.  フラッシュソフトウェア
@@ -17,24 +17,24 @@
     2.  電源
     3.  ハウジング
     4.  マイクロコントローラ
-    5.  Antenna
+    5.  アンテナ
 3.  **組み立て**
     1.  センサーからコントローラー
-    2.  Power to controller
+    2.  コントローラへの電源
     3.  トラブルシューティング
 4.  **設定**
     1.  TTN
         1.  アカウントを作成する
         2.  アプリの作成
-        3.  Configure Devoder
+        3.  デコーダーの構成
         4.  資格証明のコピー
     2.  デバイス
         1.  ドライバをダウンロード
         2.  点滅
         3.  構成
-5.  **Debugging**
+5.  **デバッグ**
     1.  シリアルモニター
-    2.  TTN Console
+    2.  TTN コンソール
     3.  MQTT クライアント
     4.  落とし穴
 6.  **データエンジニアリング**
@@ -53,7 +53,7 @@
 
 ### クイック - ハードウェアの概要
 
-You need the following parts:
+次の部品が必要です。
 
 ![Overview](_media/hardware/hardware-overview.png)
 
@@ -62,7 +62,7 @@ You need the following parts:
 -   電源
 -   ハウジング
 
-?> パーツについて詳しく知りたい場合は、[hardware documentation](#Hardware)。
+?> パーツについて詳しく知りたい場合は、[ハードウェアのドキュメント](#Hardware)。
 
 ### クイック - フラッシュ ソフトウェア
 
@@ -71,7 +71,7 @@ You need the following parts:
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
-?> 点滅プロセスについて詳しく知りたい場合は、[セットアップ ドキュメント](#Setup).
+?> 点滅プロセスについて詳しく知りたい場合は、[セットアップ ドキュメント](#Setup)。
 
 ## ハードウェア
 
@@ -79,7 +79,7 @@ You need the following parts:
 2.  [電源](#Power-supply)
 3.  [ハウジング](#Housing)
 4.  [マイクロコントローラ](#Microcontroller)
-5.  [Antenna](#Antenna)
+5.  [アンテナ](#Antenna)
 
 ### センサー
 
@@ -90,7 +90,7 @@ You need the following parts:
 | <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S$04 sensor" /> | [HC-SR04 超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。防水ではありません。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。                  |
 | <img src="_media/hardware/sensor-hcsr04.svg">                        | [レーザーセンサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)センサーは比較的安価で使いやすいです。 HC-SRo4 と同様、防水ではありませんが精度が向上しています。防水ケースに入れる必要があります。試してみたいだけなら、このセンサーをお勧めします。長期間の使用はお勧めできません。 |
 
-#### Beginner
+#### 初心者
 
 -   [HC-SR04 超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [レーザーセンサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
@@ -104,10 +104,10 @@ You need the following parts:
 
 マイクロコントローラに電力を供給するには、電源が必要です。 18650 バッテリーが最適です。安いし、ソーラーパネルで充電できます。ただし、モバイルバッテリーまたは USB 電源を使用することもできます。
 
-| Part                                                  | 説明                                                                                                                                                                                                                                                                                                                                                                      |
-| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/hardware-18650.svg" />      | **18650 battery:**18650 バッテリーが最適です。安いし、ソーラーパネルで充電できます。リチウムイオンでできており、最大500回充電できます。 18650バッテリーの電圧は3.7Vで、容量は約2200mAhです。ソーラーパネルの電圧は5V、電力は2Wです。ソーラーパネルは3時間でバッテリーを充電できます。当社のセンサーには 5V と 100mA が必要です。マイクロコントローラには 5V と 100mA が必要です。したがって、5Vを得るには電圧レギュレーターと18650バッテリーが2つ必要です。バッテリーは防水ではありません。防水ケースに入れる必要があります。また、高温にも注意してください。熱すぎるとバッテリーが爆発する可能性があります。長く使いたい方はこちらのバッテリーがおすすめです。 |
-| <img src="_media/hardware/hardware-solarpanel.png" /> | **ソーラーパネル：** The solar panel is not necessary but together with the battery it is the best option. The solar panel is waterproof and can be used in the rain. It is made of polycrystalline silicon and has a power of 2W. If you buy a solar panel, you have to make shure that it has a 5V output with at least 400mA.                                                |
+| 部                                                     | 説明                                                                                                                                                                                                                                                                                                                                                                    |
+| ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/hardware-18650.svg" />      | **18650 バッテリー:**18650 バッテリーが最適です。安いし、ソーラーパネルで充電できます。リチウムイオンでできており、最大500回充電できます。 18650バッテリーの電圧は3.7Vで、容量は約2200mAhです。ソーラーパネルの電圧は5V、電力は2Wです。ソーラーパネルは3時間でバッテリーを充電できます。当社のセンサーには 5V と 100mA が必要です。マイクロコントローラには 5V と 100mA が必要です。したがって、5Vを得るには電圧レギュレーターと18650バッテリーが2つ必要です。バッテリーは防水ではありません。防水ケースに入れる必要があります。また、高温にも注意してください。熱すぎるとバッテリーが爆発する可能性があります。長く使いたい方はこちらのバッテリーがおすすめです。 |
+| <img src="_media/hardware/hardware-solarpanel.png" /> | **ソーラーパネル：**ソーラーパネルは必須ではありませんが、バッテリーと一緒に使用すると最適なオプションです。ソーラーパネルは防水仕様で雨天でも使用可能。多結晶シリコンでできており、2Wの電力を持っています。ソーラー パネルを購入する場合は、少なくとも 400mA の 5V 出力があることを確認する必要があります。                                                                                                                                                                                                       |
 
 ### ハウジング
 
@@ -143,10 +143,10 @@ You need the following parts:
 
 ソフトウェアを実行するにはボードが必要であることは明らかです。ただし、データを TTN に送信するには LoRa チップも必要です。次のボードがサポートされています。
 
--   [TTGO LoRa32](Hardware/TTGOLoRa32.md)
+-   [放牧に向かう](Hardware/TTGOLoRa32.md)
 -   [ヘルテック LoRa32](Hardware/HeltecLoRa32.md)
 
-### Schematic
+### 回路図
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
@@ -177,4 +177,4 @@ You need the following parts:
 
 * * *
 
-_Made with ❤️ by [文書化する](https://docsify.js.org/)_
+_❤️で作られました[文書化する](https://docsify.js.org/)_
