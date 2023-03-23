@@ -33,6 +33,10 @@
     <meta itemprop="description"
         content="regenfass enables you to mesure the water level in you tank and send it to LoRanWAN">
     <meta itemprop="image" content="_media/regenfass-opengraph.png">
+
+    <!-- Plugins -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 </head>
 
 <body>
@@ -46,7 +50,10 @@
             name: 'regenfass',
             coverpage: ['/', '/de/'],
             repo: 'https://github.com/ttnleipzig/regenfass-docs',
-            loadSidebar: false
+            loadSidebar: false,
+            plugins: [
+                EditOnGithubPlugin.create('https://github.com/ttnleipzig/regenfass-docs/blob/main/docs/', null, 'Edit on GitHub')
+            ]
         }
     </script>
     <!-- Docsify v4 -->
