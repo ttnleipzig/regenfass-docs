@@ -133,7 +133,7 @@
 | <img src="_media/hardware/hardware-18650.svg" width="144" />      | Батарея 18650                                                                                                                 |
 | <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Сонячна панель                                                                                                                |
 
-Наступні частини є рекомендаціями. Ви можете використовувати інші частини, якщо хочете. Але вам, можливо, доведеться змінити код. Рекомендуються такі частини:
+Наступні частини є рекомендаціями. Ви можете використовувати інші частини, якщо хочете. Але, можливо, вам доведеться змінити код. Рекомендуються такі частини:
 
 #### LoRaWAN
 
@@ -162,9 +162,9 @@
 
 -   [Сервер](Software/Server/README.md)
 
-### Telegram Bot
+### Telegram бот
 
--   [Telegram Bot](Software/TelegramBot/README.md)
+-   [Telegram бот](Software/TelegramBot/README.md)
 
 ## Ліцензія
 
