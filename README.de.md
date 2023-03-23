@@ -57,7 +57,7 @@ Sie benötigen folgende Teile:
 
 ![Overview](_media/hardware/hardware-overview.png)
 
--   Mikrocontroller mit LoRa-Chip
+-   Microcontroller with LoRa chip
 -   Sensor
 -   Stromversorgung
 -   Gehäuse
@@ -120,7 +120,7 @@ Auch Tupperware ist eine gute Option. Es ist wasserdicht und UV-beständig.
 
 Der Mikrocontroller ist das Gehirn des Systems. Es ist dafür verantwortlich, den Wasserstand zu messen und die Daten an den Server zu senden. Die folgenden Mikrocontroller werden unterstützt und empfohlen:
 
-| Part                                               | Beschreibung                                                                                                                                                                                                                                                                                                                                  |
+| Teil                                               | Beschreibung                                                                                                                                                                                                                                                                                                                                  |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/hardware-esplora.svg" /> | **eher bevormunden:**Der TTGO LoRa32 ist ein Mikrocontroller mit einem LoRa-Modul. Es ist billig und einfach zu bedienen. Es ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Wir empfehlen diesen Mikrocontroller, wenn Sie ihn nur ausprobieren möchten. Es wird nicht für eine langfristige Anwendung empfohlen. |
 
@@ -131,7 +131,7 @@ Der Mikrocontroller ist das Gehirn des Systems. Es ist dafür verantwortlich, de
 | <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [HC-SR04 Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
 | <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [Auf dem Weg zum Grasen](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)    |
 | <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650er Akku                                                                                                              |
-| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Sonnenkollektor                                                                                                           |
+| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Solar panel                                                                                                               |
 
 Die folgenden Teile sind Empfehlungen. Sie können andere Teile verwenden, wenn Sie möchten. Möglicherweise müssen Sie jedoch den Code ändern. Folgende Teile werden empfohlen:
 
