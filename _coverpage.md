@@ -4,9 +4,11 @@
 
 # regenfass <small>0.1</small>
 
-> A magical smart rain barrel
+> The project made for IoT + LoRaWAN beginners
 
-*This is a preview of the documentation. We are still working on it. If you want to help us, you can contribute to the project on [GitHub](https://gitgub.com/ttnleipzig/regenfass-docs).*
+*We build this project as an example how to start with IoT and LoRaWAN. We hope you enjoy it.*
+
+<div style="font-size: 2rem">
 
 [🇨🇳](README.zh-CN.md) ‧
 [🇫🇷](README.fr.md) ‧
@@ -14,6 +16,8 @@
 [🇪🇸](README.es.md) ‧
 [🇯🇵](README.ja.md) ‧
 [🇺🇦](README.uk.md)
+
+</div>
 
 [GitHub](https://github.com/ttnleipzig/regenfass)
 [Get Started](#regenfass)
