@@ -8,16 +8,16 @@
 
 ## Table des matières
 
-1.  **[Démarrage rapide](#Quickstart)**
-    1.  [Introduction](#Quickstart-Introduction)
-    2.  [Matériel](#Quickstart-Hardware)
-    3.  [Logiciel flash](#Quickstart-Flash-software)
-2.  **[Matériel](#Hardware)**
-    1.  [Sensors](#Sensors)
-    2.  [Source de courant](#Power-supply)
-    3.  [Logement](#Housing)
-    4.  [Microcontrôleur](#Microcontroller)
-    5.  [Antenne](#Antenna)
+1.  **Démarrage rapide**
+    1.  Introduction
+    2.  Matériel
+    3.  Logiciel flash
+2.  **Matériel**
+    1.  Capteurs
+    2.  Source de courant
+    3.  Logement
+    4.  Microcontrôleur
+    5.  Antenne
 3.  **Assemblage**
     1.  Capteur vers contrôleur
     2.  Alimentation du contrôleur
@@ -67,7 +67,7 @@ Vous avez besoin des pièces suivantes :
 ### Démarrage rapide - Logiciel Flash
 
 1.  Connectez votre carte à votre ordinateur et
-2.  Click on the following button:
+2.  Cliquez sur le bouton suivant :
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
@@ -79,7 +79,7 @@ Vous avez besoin des pièces suivantes :
 2.  [Source de courant](#Power-supply)
 3.  [Logement](#Housing)
 4.  [Microcontrôleur](#Microcontroller)
-5.  [Antenne](#Antenna)
+5.  [Antenna](#Antenna)
 
 ### Capteurs
 
@@ -104,10 +104,10 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 
 Pour alimenter le microcontrôleur, vous avez besoin d'une alimentation. La batterie 18650 est la meilleure option. Il est bon marché et vous pouvez le recharger avec un panneau solaire. Mais vous pouvez également utiliser une banque d'alimentation ou une alimentation USB.
 
-| Partie                                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/hardware-18650.svg" />      | Il existe de nombreux types de piles. Les plus courants sont le Lithium Ion, le Lithium Polymère et le Lithium Fer Phosphate. Le**Batterie 18650**est une batterie lithium-ion. C'est la meilleure option pour ce projet. Il est bon marché et vous pouvez le recharger avec un panneau solaire. Il est composé de lithium-ion et peut être rechargé jusqu'à 500 fois. La batterie 18650 a une tension de 3,7 V et peut avoir une capacité d'environ 2200 mAh. Le panneau solaire a une tension de 5V et une puissance de 2W. Le panneau solaire peut charger la batterie en 3 heures. Notre capteur a besoin de 5V et 100mA. Le microcontrôleur a besoin de 5V et 100mA. Nous avons donc besoin de deux batteries 18650 et d'un régulateur de tension pour obtenir 5V. La batterie n'est pas étanche. Il faut le mettre dans un boîtier étanche. Attention également aux températures élevées. La batterie peut exploser si elle est trop chaude. Nous recommandons cette batterie si vous souhaitez l'utiliser pendant une longue période. |
-| <img src="_media/hardware/hardware-solarpanel.png" /> | **Panneau solaire:**Puisque les articles sont dans notre jardin, nous pouvons utiliser un panneau solaire. Il est étanche et peut être utilisé sous la pluie. Il est composé de silicium polycristallin et a une puissance de 2W. Si vous achetez un panneau solaire, vous devez vous assurer qu'il a une sortie 5V avec au moins 400mA. Pour recharger nos batteries, nous avons besoin d'un régulateur de charge. Heureusement, le microcontrôleur a un contrôleur de charge intégré. Nous pouvons donc utiliser directement le panneau solaire.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Partie                                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/hardware-18650.svg" />      | There are many types of batteries. The most common are Lithium Ion, Lithium Polymer and Lithium Iron Phosphate. The **Batterie 18650**est une batterie lithium-ion. C'est la meilleure option pour ce projet. Il est bon marché et vous pouvez le recharger avec un panneau solaire. Il est composé de lithium-ion et peut être rechargé jusqu'à 500 fois. La batterie 18650 a une tension de 3,7 V et peut avoir une capacité d'environ 2200 mAh. Le panneau solaire a une tension de 5V et une puissance de 2W. Le panneau solaire peut charger la batterie en 3 heures. Notre capteur a besoin de 5V et 100mA. Le microcontrôleur a besoin de 5V et 100mA. Nous avons donc besoin de deux batteries 18650 et d'un régulateur de tension pour obtenir 5V. La batterie n'est pas étanche. Il faut le mettre dans un boîtier étanche. Attention également aux températures élevées. La batterie peut exploser si elle est trop chaude. Nous recommandons cette batterie si vous souhaitez l'utiliser pendant une longue période. |
+| <img src="_media/hardware/hardware-solarpanel.png" /> | **Panneau solaire:**Puisque les articles sont dans notre jardin, nous pouvons utiliser un panneau solaire. Il est étanche et peut être utilisé sous la pluie. Il est composé de silicium polycristallin et a une puissance de 2W. Si vous achetez un panneau solaire, vous devez vous assurer qu'il a une sortie 5V avec au moins 400mA. Pour recharger nos batteries, nous avons besoin d'un contrôleur de charge. Heureusement, le microcontrôleur a un contrôleur de charge intégré. Nous pouvons donc utiliser directement le panneau solaire.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 ### Logement
 
