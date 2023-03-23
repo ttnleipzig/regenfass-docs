@@ -26,7 +26,7 @@
     1.  TTN
         1.  Benutzerkonto erstellen
         2.  App erstellen
-        3.  Configure Devoder
+        3.  Decoder konfigurieren
         4.  Anmeldeinformationen kopieren
     2.  Gerät
         1.  Treiber herunterladen
@@ -120,7 +120,7 @@ Auch Tupperware ist eine gute Option. Es ist wasserdicht und UV-beständig.
 
 Der Mikrocontroller ist das Gehirn des Systems. Es ist dafür verantwortlich, den Wasserstand zu messen und die Daten an den Server zu senden. Die folgenden Mikrocontroller werden unterstützt und empfohlen:
 
-| Teil                                               | Beschreibung                                                                                                                                                                                                                                                                                                                                  |
+| Part                                               | Beschreibung                                                                                                                                                                                                                                                                                                                                  |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/hardware-esplora.svg" /> | **eher bevormunden:**Der TTGO LoRa32 ist ein Mikrocontroller mit einem LoRa-Modul. Es ist billig und einfach zu bedienen. Es ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Wir empfehlen diesen Mikrocontroller, wenn Sie ihn nur ausprobieren möchten. Es wird nicht für eine langfristige Anwendung empfohlen. |
 
