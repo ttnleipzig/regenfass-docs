@@ -4,11 +4,9 @@
 
 # regenfass <small>0.1</small>
 
-> The project made for IoT & LoRaWAN beginners
+> The **IoT & LoRaWAN** project made for  beginners!
 
-*We build this project as an example how to start with IoT and LoRaWAN. We hope you enjoy it.*
-
-<div style="font-size: 1.2rem">
+<div style="font-size: 1.6rem">
 
 [🇨🇳](README.zh-CN.md) ‧
 [🇫🇷](README.fr.md) ‧
