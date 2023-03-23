@@ -26,7 +26,7 @@
     1.  TTN
         1.  Benutzerkonto erstellen
         2.  App erstellen
-        3.  Decoder konfigurieren
+        3.  Configure Devoder
         4.  Anmeldeinformationen kopieren
     2.  Gerät
         1.  Treiber herunterladen
