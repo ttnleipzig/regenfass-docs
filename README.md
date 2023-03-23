@@ -2,22 +2,22 @@
 
 > This project is about a smart water tank. It measures the water level and sends the data to a server. The server can be used to control the water pump. The pump can be controlled via a web interface or via a telegram bot. It uses a  HC-SR04 ultrasonic sensor to measure the water level. The data is sent to TTN via a LoRaWAN gateway.
 
-?> The original document was written in  [English](README.md). The translation was made with Google Translate. If you find any errors, please try to ignore them. Thank you!
+?> The original document was written in  [ English](README.md). The translation was made with Google Translate. If you find any errors, please try to ignore them. Thank you!
 
 ---
 
 ## Table Of Content
 
-1. **[Quickstart](#Quickstart)**
-   1. [Introduction](#Quickstart-Introduction)
-   2. [Hardware](#Quickstart-Hardware)
-   3. [Flash software](#Quickstart-Flash-software)
-2. **[Hardware](#Hardware)**
-   1. [Sensors](#Sensors)
-   2. [Power supply](#Power-supply)
-   3. [Housing](#Housing)
-   4. [Microcontroller](#Microcontroller)
-   5. [Antenna](#Antenna)
+1. **Quickstart**
+   1. Introduction
+   2. Hardware
+   3. Flash software
+2. **Hardware**
+   1. Sensors
+   2. Power supply
+   3. Housing
+   4. Microcontroller
+   5. Antenna
 3. **Assembeling**
    1. Sensor to controller
    2. Power to controller
@@ -46,10 +46,9 @@
 ---
 
 ## Quick start
-
 ### Quick start - Introduction
 
-The quickstart is made for people who want to start right away and deep knowledge about IoT with the Arudino Framework. If you want to understand how it works, you can read the [documentation](#hardware).
+The quickstart is made for people who want to start right away and deep knowledge about IoT with the Arudino Framework. If you want to understand how it works, you can read the [ documentation](#hardware).
 
 ### Quick start - Hardware overview
 
@@ -62,7 +61,7 @@ You need the following parts:
 * Power supply
 * Housing
 
-?> If you want to know more about the parts, you can read the [hardware documentation](#Hardware).
+?> If you want to know more about the parts, you can read the [ hardware documentation](#Hardware).
 
 ### Quick start - Flash software
 
@@ -71,7 +70,7 @@ You need the following parts:
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
-?> If you want to know more about the flashing process, you can read the [setup documentation](#Setup).
+?> If you want to know more about the flashing process, you can read the [ setup documentation](#Setup).
 
 ## Hardware
 
@@ -138,7 +137,6 @@ The following parts are recomnondations. You can use other parts if you want. Bu
 #### LoRaWAN
 
 * LoRaWAN Gateway
-
 #### Micro controller
 
 It is ovious that you need a board to run the software. But you also need a LoRa chip to send the data to TTN. The following boards are supported:
@@ -176,4 +174,5 @@ It is ovious that you need a board to run the software. But you also need a LoRa
 * Adapt — remix, transform, and build upon the material
 
 ---
+
 *Made with ❤️ by [docsify](https://docsify.js.org/)*
