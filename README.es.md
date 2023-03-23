@@ -8,16 +8,16 @@
 
 ## Tabla de contenidos
 
-1.  **[Inicio rápido](#Quickstart)**
-    1.  [Introducción](#Quickstart-Introduction)
-    2.  [Hardware](#Quickstart-Hardware)
-    3.  [programa flash](#Quickstart-Flash-software)
-2.  **[Hardware](#Hardware)**
-    1.  [Sensores](#Sensors)
-    2.  [Fuente de alimentación](#Power-supply)
-    3.  [Alojamiento](#Housing)
-    4.  [microcontrolador](#Microcontroller)
-    5.  [Antena](#Antenna)
+1.  **Inicio rápido**
+    1.  Introducción
+    2.  Hardware
+    3.  programa flash
+2.  **Hardware**
+    1.  Sensores
+    2.  Fuente de alimentación
+    3.  Alojamiento
+    4.  microcontrolador
+    5.  Antena
 3.  **Montaje**
     1.  Sensor a controlador
     2.  Alimentación al controlador
@@ -57,7 +57,7 @@ Necesitas las siguientes piezas:
 
 ![Overview](_media/hardware/hardware-overview.png)
 
--   Microcontroller with LoRa chip
+-   Microcontrolador con chip LoRa
 -   Sensor
 -   Fuente de alimentación
 -   Alojamiento
@@ -85,10 +85,10 @@ Necesitas las siguientes piezas:
 
 Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontrar un sensor que sea resistente al agua y pueda usarse en un tanque de agua. Los siguientes sensores son compatibles y recomendados:
 
-| Parte                                                                | Descripción                                                                                                                                                                                                                                                                                                                                                                 |
-| -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S$04 sensor" /> | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.                           |
-| <img src="_media/hardware/sensor-hcsr04.svg">                        | [Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) The sensor is relativly cheap and easy to use. As like the HC-SRo4 it is not waterproof but has a higher acuracy. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. |
+| Parte                                                                | Descripción                                                                                                                                                                                                                                                                                                                                                                                 |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S$04 sensor" /> | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.                                           |
+| <img src="_media/hardware/sensor-hcsr04.svg">                        | [Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. Al igual que el HC-SRo4, no es resistente al agua pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
 
 #### Principiante
 
@@ -126,12 +126,12 @@ El microcontrolador es el cerebro del sistema. Se encarga de medir el nivel del 
 
 * * *
 
-| Parte                                                             | Descripción                                                                                                               |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
-| <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [Rumbo a pastar](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)            |
-| <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650 batería                                                                                                             |
-| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Panel solar                                                                                                               |
+| Parte                                                             | Descripción                                                                                                                |
+| ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
+| <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [Rumbo a pastar](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)             |
+| <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650 batería                                                                                                              |
+| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Panel solar                                                                                                                |
 
 Las siguientes partes son recomendaciones. Puedes usar otras partes si quieres. Pero puede que tenga que cambiar el código. Se recomiendan las siguientes piezas:
 
