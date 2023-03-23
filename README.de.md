@@ -2,7 +2,7 @@
 
 > Bei diesem Projekt geht es um einen intelligenten Wassertank. Es misst den Wasserstand und sendet die Daten an einen Server. Der Server kann zur Steuerung der Wasserpumpe verwendet werden. Die Pumpe kann über ein Webinterface oder über einen Telegrammbot gesteuert werden. Es verwendet einen HC-SR04-Ultraschallsensor, um den Wasserstand zu messen. Die Daten werden über ein LoRaWAN-Gateway an TTN gesendet.
 
-?> Das Originaldokument wurde eingeschrieben[Englisch](README.md). Die Übersetzung wurde mit Google Translate erstellt. Wenn Sie Fehler finden, versuchen Sie bitte, diese zu ignorieren. Danke schön!
+?> Das Originaldokument wurde eingeschrieben[Englisch](README.md). Die Übersetzung wurde mit Google Translate erstellt. Wenn Sie Fehler finden, versuchen Sie diese bitte zu ignorieren. Danke schön!
 
 * * *
 
