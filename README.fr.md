@@ -49,7 +49,7 @@
 
 ### Rapide - Introduction
 
-Le démarrage rapide est fait pour les personnes qui veulent commencer tout de suite et avoir une connaissance approfondie de l'IoT avec le Framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
+Le démarrage rapide est conçu pour les personnes qui souhaitent démarrer tout de suite et avoir une connaissance approfondie de l'IoT avec le framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
 
 ### Rapide - Présentation du matériel
 
@@ -76,7 +76,7 @@ Vous avez besoin des pièces suivantes :
 ## Matériel
 
 1.  [Capteurs](#Sensors)
-2.  [Power supply](#Power-supply)
+2.  [Source de courant](#Power-supply)
 3.  [Logement](#Housing)
 4.  [Microcontrôleur](#Microcontroller)
 5.  [Antenne](#Antenna)
@@ -92,7 +92,7 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 
 #### Débutant
 
--   [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Capteur laser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### Avancé
@@ -100,7 +100,7 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 -   [Capteur d'eau](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Capteur à ultrasons étanche à l'eau](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
-### Power supply
+### Source de courant
 
 Pour alimenter le microcontrôleur, vous avez besoin d'une alimentation. La batterie 18650 est la meilleure option. Il est bon marché et vous pouvez le recharger avec un panneau solaire. Mais vous pouvez également utiliser une banque d'alimentation ou une alimentation USB.
 
@@ -118,7 +118,7 @@ Même tupperware est une bonne option. Il est étanche et résistant aux UV.
 
 ### Microcontrôleur
 
-The microcontroller is the brain of the system. It is responsible for measuring the water level and sending the data to the server. The following microcontrollers are supported and recommended:
+Le microcontrôleur est le cerveau du système. Il est chargé de mesurer le niveau d'eau et d'envoyer les données au serveur. Les microcontrôleurs suivants sont pris en charge et recommandés :
 
 | Partie                                             | Description                                                                                                                                                                                                                                                                                                                             |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -162,11 +162,11 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 
 -   [Serveur](Software/Server/README.md)
 
-### Telegram Bot
+### Robot de télégramme
 
 -   [Robot de télégramme](Software/TelegramBot/README.md)
 
-## Licence
+## License
 
 [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
