@@ -26,7 +26,7 @@
     1.  NTT
         1.  Créer un compte
         2.  Créer une application
-        3.  Configure Devoder
+        3.  Configurer le décodeur
         4.  Copier les informations d'identification
     2.  Appareil
         1.  Télécharger le pilote
@@ -126,7 +126,7 @@ Le microcontrôleur est le cerveau du système. Il est chargé de mesurer le niv
 
 * * *
 
-| Part                                                              | Description                                                                                                                 |
+| Partie                                                            | Description                                                                                                                 |
 | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
 | <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [En route pour paître](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)        |
@@ -170,7 +170,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 
 [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**Vous êtes libre de :**
+**You are free to:**
 
 -   Partager - copier et redistribuer le matériel sur n'importe quel support ou format
 -   Adaptez - remixez, transformez et construisez sur le matériel
