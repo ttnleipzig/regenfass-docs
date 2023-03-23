@@ -27,7 +27,7 @@
         1.  アカウントを作成する
         2.  アプリの作成
         3.  デコーダーの構成
-        4.  Copy Credentials
+        4.  資格証明のコピー
     2.  デバイス
         1.  ドライバをダウンロード
         2.  点滅
@@ -39,7 +39,7 @@
     4.  落とし穴
 6.  **データエンジニアリング**
     1.  ノードレッド
-    2.  グラファナ
+    2.  グラファーナ
     3.  アレクサスキル
     4.  アズール コネクト
 
@@ -71,7 +71,7 @@
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
-?> 点滅プロセスについて詳しく知りたい場合は、[セットアップ ドキュメント](#Setup)。
+?> 点滅プロセスについて詳しく知りたい場合は、[setup documentation](#Setup)。
 
 ## ハードウェア
 
@@ -98,7 +98,7 @@
 #### 高度
 
 -   [水センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [防水超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 ### 電源
 
