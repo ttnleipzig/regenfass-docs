@@ -2,7 +2,7 @@
 
 > Bei diesem Projekt geht es um einen intelligenten Wassertank. Es misst den Wasserstand und sendet die Daten an einen Server. Der Server kann zur Steuerung der Wasserpumpe verwendet werden. Die Pumpe kann über ein Webinterface oder über einen Telegrammbot gesteuert werden. Es verwendet einen HC-SR04-Ultraschallsensor, um den Wasserstand zu messen. Die Daten werden über ein LoRaWAN-Gateway an TTN gesendet.
 
-?> Das Originaldokument wurde eingeschrieben[Englisch](README.md). Die Übersetzung wurde mit Google Translate erstellt. Wenn Sie Fehler finden, versuchen Sie bitte, diese zu ignorieren. Danke schön!
+?> Das Originaldokument wurde eingeschrieben[Englisch](README.md). Die Übersetzung wurde mit Google Translate erstellt. Wenn Sie Fehler finden, versuchen Sie diese bitte zu ignorieren. Danke schön!
 
 * * *
 
@@ -16,11 +16,11 @@
     1.  Sensoren
     2.  Stromversorgung
     3.  Gehäuse
-    4.  Mikrocontroller
+    4.  Microcontroller
     5.  Antenne
 3.  **Zusammenbauen**
     1.  Sensor zum Steuergerät
-    2.  Strom zum Controller
+    2.  Power to controller
     3.  Fehlerbehebung
 4.  **Aufstellen**
     1.  TTN
@@ -34,7 +34,7 @@
         3.  Aufbau
 5.  **Debuggen**
     1.  Serieller Monitor
-    2.  TTN-Konsole
+    2.  TTN Console
     3.  MQTT-Client
     4.  Tücken
 6.  **Datentechnik**
@@ -66,7 +66,7 @@ Sie benötigen folgende Teile:
 
 ### Schnell - Flash-Software
 
-1.  Verbinden Sie Ihr Board mit Ihrem Computer und
+1.  Connect your board to your computer and
 2.  Klicken Sie auf die folgende Schaltfläche:
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
@@ -92,7 +92,7 @@ Um den Wasserstand zu messen, benötigen Sie einen Sensor. Es ist keine leichte 
 
 #### Anfänger
 
--   [HC-SR04 Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### Fortschrittlich
@@ -104,10 +104,10 @@ Um den Wasserstand zu messen, benötigen Sie einen Sensor. Es ist keine leichte 
 
 Um den Mikrocontroller mit Strom zu versorgen, benötigen Sie ein Netzteil. Der 18650 Akku ist die beste Option. Es ist billig und Sie können es mit einem Solarpanel aufladen. Sie können aber auch eine Powerbank oder ein USB-Netzteil verwenden.
 
-| Teil                                                  | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/hardware-18650.svg" />      | **18650 Akku:**Der 18650 Akku ist die beste Option. Es ist billig und Sie können es mit einem Solarpanel aufladen. Es besteht aus Lithium-Ionen und kann bis zu 500 Mal aufgeladen werden. Der 18650-Akku hat eine Spannung von 3,7 V und kann eine Kapazität von etwa 2200 mAh haben. Das Solarpanel hat eine Spannung von 5V und eine Leistung von 2W. Das Solarpanel kann den Akku in 3 Stunden aufladen. Unser Sensor benötigt 5V und 100mA. Der Mikrocontroller benötigt 5V und 100mA. Wir brauchen also zwei 18650-Batterien und einen Spannungsregler, um 5 V zu erhalten. Der Akku ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Achten Sie auch auf hohe Temperaturen. Der Akku kann explodieren, wenn er zu heiß wird. Wir empfehlen diesen Akku, wenn Sie ihn über einen längeren Zeitraum verwenden möchten. |
-| <img src="_media/hardware/hardware-solarpanel.png" /> | **Sonnenkollektor:**Das Solarpanel ist nicht notwendig, aber zusammen mit der Batterie ist es die beste Option. Das Solarpanel ist wasserdicht und kann bei Regen verwendet werden. Es besteht aus polykristallinem Silizium und hat eine Leistung von 2W. Wenn Sie ein Solarpanel kaufen, müssen Sie darauf achten, dass es einen 5V-Ausgang mit mindestens 400mA hat.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Teil                                                  | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/hardware-18650.svg" />      | **18650 Akku:**Der 18650 Akku ist die beste Option. Es ist billig und Sie können es mit einem Solarpanel aufladen. Es besteht aus Lithium-Ionen und kann bis zu 500 Mal aufgeladen werden. Der 18650-Akku hat eine Spannung von 3,7 V und kann eine Kapazität von etwa 2200 mAh haben. Das Solarpanel hat eine Spannung von 5V und eine Leistung von 2W. Das Solarpanel kann den Akku in 3 Stunden aufladen. Unser Sensor benötigt 5V und 100mA. Der Mikrocontroller benötigt 5V und 100mA. Wir brauchen also zwei 18650-Batterien und einen Spannungsregler, um 5 V zu erhalten. Der Akku ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Achten Sie auch auf hohe Temperaturen. Der Akku kann explodieren, wenn er zu heiß ist. Wir empfehlen diesen Akku, wenn Sie ihn über einen längeren Zeitraum verwenden möchten. |
+| <img src="_media/hardware/hardware-solarpanel.png" /> | **Sonnenkollektor:**Das Solarpanel ist nicht notwendig, aber zusammen mit der Batterie ist es die beste Option. Das Solarpanel ist wasserdicht und kann bei Regen verwendet werden. Es besteht aus polykristallinem Silizium und hat eine Leistung von 2W. Wenn Sie ein Solarpanel kaufen, müssen Sie darauf achten, dass es einen 5V-Ausgang mit mindestens 400mA hat.                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 ### Gehäuse
 
@@ -139,7 +139,7 @@ Die folgenden Teile sind Empfehlungen. Sie können andere Teile verwenden, wenn 
 
 -   LoRaWAN-Gateway
 
-#### Mikrocontroller
+#### Micro controller
 
 Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführen. Sie benötigen aber auch einen LoRa-Chip, um die Daten an TTN zu senden. Folgende Boards werden unterstützt:
 
