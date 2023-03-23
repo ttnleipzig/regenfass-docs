@@ -11,7 +11,7 @@
 1.  **Швидкий початок**
     1.  вступ
     2.  Обладнання
-    3.  Програмне забезпечення Flash
+    3.  Flash software
 2.  **Обладнання**
     1.  Датчики
     2.  Блок живлення
@@ -66,7 +66,7 @@
 
 ### Quick - Flash програмне забезпечення
 
-1.  Підключіть дошку до комп’ютера та
+1.  Connect your board to your computer and
 2.  Натисніть на наступну кнопку:
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
@@ -162,9 +162,9 @@
 
 -   [Сервер](Software/Server/README.md)
 
-### Telegram Bot
+### Telegram бот
 
--   [Telegram Bot](Software/TelegramBot/README.md)
+-   [Telegram бот](Software/TelegramBot/README.md)
 
 ## Ліцензія
 
