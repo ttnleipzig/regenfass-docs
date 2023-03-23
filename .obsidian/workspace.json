@@ -20,8 +20,19 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c0eb20a4cef1785a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "_source/drawings/sketches.excalidraw"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_source/drawings/sketches.excalidraw",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_source/drawings/sketches.excalidraw",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_source/drawings/sketches.excalidraw"
               }
             }
           }
@@ -151,11 +162,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a91000fd4aabd065",
+  "active": "c0eb20a4cef1785a",
   "lastOpenFiles": [
-    "_source/drawings/sketches.excalidraw",
-    "_source/drawings/sketches.excalidraw",
     "README.md",
+    "_source/drawings/sketches.excalidraw",
+    "_source/drawings/sketches.excalidraw",
     "Untitled.md",
     "_source/drawings",
     "_media/hardware/sensor-hcsr04.svg\".md"
