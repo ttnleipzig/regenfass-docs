@@ -8,19 +8,19 @@
 
 ## Tabla de contenidos
 
-1.  **Inicio rápido**
-    1.  Introducción
-    2.  Hardware
-    3.  programa flash
-2.  **Hardware**
-    1.  Sensores
-    2.  Fuente de alimentación
-    3.  Alojamiento
-    4.  microcontrolador
-    5.  Antena
+1.  **[Inicio rápido](#Quickstart)**
+    1.  [Introducción](#Quickstart-Introduction)
+    2.  [Hardware](#Quickstart-Hardware)
+    3.  [programa flash](#Quickstart-Flash-software)
+2.  **[Hardware](#Hardware)**
+    1.  [Sensores](#Sensors)
+    2.  [Fuente de alimentación](#Power-supply)
+    3.  [Alojamiento](#Housing)
+    4.  [microcontrolador](#Microcontroller)
+    5.  [Antena](#Antenna)
 3.  **Montaje**
     1.  Sensor a controlador
-    2.  Power to controller
+    2.  Alimentación al controlador
     3.  Solución de problemas
 4.  **Configuración**
     1.  TTN
@@ -47,11 +47,11 @@
 
 ## Inicio rápido
 
-### Rápido - Introducción
+### Inicio rápido - Introducción
 
 El inicio rápido está diseñado para personas que desean comenzar de inmediato y tener un conocimiento profundo sobre IoT con Arudino Framework. Si quieres entender cómo funciona, puedes leer el[documentación](#hardware).
 
-### Rápido: descripción general del hardware
+### Inicio rápido: descripción general del hardware
 
 Necesitas las siguientes piezas:
 
@@ -64,7 +64,7 @@ Necesitas las siguientes piezas:
 
 ?> Si quieres saber más sobre las partes, puedes leer el[documentación de hardware](#Hardware).
 
-### Rápido - Software flash
+### Inicio rápido: software flash
 
 1.  Conecte su tablero a su computadora y
 2.  Haga clic en el siguiente botón:
