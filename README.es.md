@@ -20,7 +20,7 @@
     5.  Antena
 3.  **Montaje**
     1.  Sensor a controlador
-    2.  Alimentación al controlador
+    2.  Power to controller
     3.  Solución de problemas
 4.  **Configuración**
     1.  TTN
