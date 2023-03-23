@@ -36,7 +36,7 @@
     1.  串行监视器
     2.  TTN控制台
     3.  MQTT客户端
-    4.  陷阱
+    4.  Pit falls
 6.  **数据工程**
     1.  节点红色
     2.  格拉法纳
@@ -131,7 +131,7 @@
 | <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
 | <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [去吃草](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)           |
 | <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650电池                                                                                                       |
-| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Solar panel                                                                                                   |
+| <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | 太阳能板                                                                                                          |
 
 以下部分是建议。如果需要，您可以使用其他部件。但是您可能必须更改代码。推荐以下部分：
 
