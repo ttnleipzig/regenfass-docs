@@ -22,7 +22,7 @@
     1.  传感器到控制器
     2.  控制器电源
     3.  故障排除
-4.  **设置**
+4.  **Setup**
     1.  TTN
         1.  创建账户
         2.  创建应用程序
@@ -33,7 +33,7 @@
         2.  闪烁
         3.  配置
 5.  **调试**
-    1.  Serial Monitor
+    1.  串行监视器
     2.  TTN控制台
     3.  MQTT客户端
     4.  陷阱
@@ -49,7 +49,7 @@
 
 ### 快速介绍
 
-本快速入门专为希望立即开始使用 Arudino 框架深入了解物联网的人员而设计。如果你想了解它是如何工作的，你可以阅读[文档](#hardware).
+本快速入门适用于希望立即开始使用 Arudino 框架深入了解物联网的人员。如果你想了解它是如何工作的，你可以阅读[文档](#hardware).
 
 ### 快速 - 硬件概述
 
@@ -97,7 +97,7 @@
 
 #### 先进的
 
--   [Water Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [水传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [防水超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 ### 电源
@@ -130,7 +130,7 @@
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/sensor-hcsr04.svg" width="244" />       | [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
 | <img src="_media/hardware/hardware-esplora.svg" width="244" />    | [去吃草](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)           |
-| <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650电池                                                                                                       |
+| <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650 battery                                                                                                 |
 | <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | 太阳能板                                                                                                          |
 
 以下部分是建议。如果需要，您可以使用其他部件。但是您可能必须更改代码。推荐以下部分：
@@ -150,7 +150,7 @@
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印零件
+### 3D 打印部件
 
 ## 软件
 
