@@ -1,4 +1,4 @@
-# Regenfass
+# regenfass
 
 > This project is about a smart water tank. It measures the water level and sends the data to a server. The server can be used to control the water pump. The pump can be controlled via a web interface or via a telegram bot. It uses a  HC-SR04 ultrasonic sensor to measure the water level. The data is sent to TTN via a LoRaWAN gateway.
 
@@ -8,16 +8,16 @@
 
 ## Table Of Content
 
-1. **Quickstart**
-   1. Introduction
-   2. Hardware
-   3. Flash software
-2. **Hardware**
-   1. Sensors
-   2. Power supply
-   3. Housing
-   4. Microcontroller
-   5. Antenna
+1. **[Quickstart](#Quickstart)**
+   1. [Introduction](#Quickstart-Introduction)
+   2. [Hardware](#Quickstart-Hardware)
+   3. [Flash software](#Quickstart-Flash-software)
+2. **[Hardware](#Hardware)**
+   1. [Sensors](#Sensors)
+   2. [Power supply](#Power-supply)
+   3. [Housing](#Housing)
+   4. [Microcontroller](#Microcontroller)
+   5. [Antenna](#Antenna)
 3. **Assembeling**
    1. Sensor to controller
    2. Power to controller
@@ -47,11 +47,11 @@
 
 ## Quick start
 
-### Quick - Introduction
+### Quick start - Introduction
 
 The quickstart is made for people who want to start right away and deep knowledge about IoT with the Arudino Framework. If you want to understand how it works, you can read the [documentation](#hardware).
 
-### Quick - Hardware overview
+### Quick start - Hardware overview
 
 You need the following parts:
 
@@ -64,7 +64,7 @@ You need the following parts:
 
 ?> If you want to know more about the parts, you can read the [hardware documentation](#Hardware).
 
-### Quick - Flash software
+### Quick start - Flash software
 
 1. Connect your board to your computer and
 2. Click on the following button:
