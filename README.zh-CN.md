@@ -45,11 +45,11 @@
 
 * * *
 
-## Quick start
+## 快速开始
 
 ### 快速入门 - 简介
 
-本快速入门专为希望立即开始使用 Arudino 框架深入了解物联网的人员而设计。如果你想了解它是如何工作的，你可以阅读[文档](#hardware).
+本快速入门适用于希望立即开始使用 Arudino 框架深入了解物联网的人员。如果你想了解它是如何工作的，你可以阅读[文档](#hardware).
 
 ### 快速入门 - 硬件概述
 
@@ -97,7 +97,7 @@
 
 #### 初学者
 
-HC-SR04传感器是一款用于测距的超声波传感器。它发出高频声波，并检测声波撞击物体后反弹所需的时间。这个时间然后用于计算传感器和物体之间的距离。它的范围可达 4 米，可以与 Arduino、Raspberry Pi 等微控制器连接。HC-SR04 常用于机器人、自动化、安全系统和其他需要准确可靠的距离感测的应用。
+The HC-SR04 sensor is an ultrasonic sensor used for distance measurement. It emits high frequency sound waves and detects the time it takes for the waves to bounce back after hitting an object. This time is then used to calculate the distance between the sensor and the object. It has a range of up to 4 meters and can be interfaced with microcontrollers like Arduino, Raspberry Pi, etc. The HC-SR04 is commonly used in robotics, automation, security systems, and other applications that require accurate and reliable distance sensing. 
 
 HC-SR04传感器是一种超声波距离传感设备。它由发射器和接收器两部分组成。发射器发出 40kHz 的超声波，在空气中传播，如果遇到物体，就会反射回接收器。然后传感器测量声波返回所需的时间，并使用该值计算到物体的距离。它可以测量从 2 厘米到 400 厘米的距离，精度高达 3 毫米。
 
@@ -111,12 +111,12 @@ HC-SR04传感器是一种超声波距离传感设备。它由发射器和接收�
 
 ### 电源
 
-To power the microcontroller you need a power supply. The 18650 battery is the best option. It is cheap and you can charge it with a solar panel. But you can also use a power bank or a USB power supply.
+要为微控制器供电，您需要一个电源。 18650电池是最好的选择。它很便宜，你可以用太阳能电池板给它充电。但您也可以使用移动电源或 USB 电源。
 
-| 部分                                                    | 描述                                                                                                                                                                                                                                                                                                    |
-| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/hardware-18650.svg" />      | 电池有很多种。最常见的是锂离子、锂聚合物和磷酸铁锂。这**18650电池**是锂离子电池。这是该项目的最佳选择。它很便宜，你可以用太阳能电池板给它充电。它由锂离子制成，最多可充电 500 次。 18650电池电压为3.7V，容量可达2200mAh左右。太阳能电池板电压为5V，功率为2W。太阳能电池板可以在 3 小时内为电池充电。我们的传感器需要 5V 和 100mA。微控制器需要 5V 和 100mA。所以我们需要两节 18650 电池和一个稳压器来获得 5V。电池不防水。你必须把它放在防水外壳里。还要注意高温。如果太热，电池可能会爆炸。如果您想长时间使用，我们推荐使用这种电池。 |
-| <img src="_media/hardware/hardware-solarpanel.png" /> | **太阳能板：**由于商品在我们的花园里，我们可以使用太阳能电池板。它是防水的，可以在雨中使用。它由多晶硅制成，功率为2W。如果您购买太阳能电池板，则必须确保它具有至少 400mA 的 5V 输出。要给电池充电，我们需要一个充电控制器。幸运的是，微控制器内置了一个充电控制器。所以我们可以直接使用太阳能电池板。                                                                                                                                           |
+| 部分                                                    | 描述                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="_media/hardware/hardware-18650.svg" />      | 电池有很多种。最常见的是锂离子、锂聚合物和磷酸铁锂。这**18650电池**是锂离子电池。这是该项目的最佳选择。它很便宜，你可以用太阳能电池板给它充电。它由锂离子制成，最多可充电 500 次。 18650电池电压为3.7V，容量可达2200mAh左右。太阳能电池板的电压为5V，功率为2W。太阳能电池板可以在 3 小时内为电池充电。我们的传感器需要 5V 和 100mA。微控制器需要 5V 和 100mA。所以我们需要两节 18650 电池和一个稳压器来获得 5V。电池不防水。你必须把它放在防水外壳里。还要注意高温。如果太热，电池可能会爆炸。如果您想长时间使用，我们推荐使用这种电池。 |
+| <img src="_media/hardware/hardware-solarpanel.png" /> | **太阳能板：**由于商品在我们的花园里，我们可以使用太阳能电池板。它是防水的，可以在雨中使用。它由多晶硅制成，功率为2W。如果您购买太阳能电池板，则必须确保它具有至少 400mA 的 5V 输出。要给电池充电，我们需要一个充电控制器。幸运的是，微控制器内置了一个充电控制器。所以我们可以直接使用太阳能电池板。                                                                                                                                            |
 
 ### 住房
 
@@ -159,7 +159,7 @@ To power the microcontroller you need a power supply. The 18650 battery is the b
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印部件
+### 3D 打印零件
 
 ## 软件
 
