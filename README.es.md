@@ -2,7 +2,7 @@
 
 > Este proyecto trata sobre un tanque de agua inteligente. Mide el nivel del agua y envía los datos a un servidor. El servidor se puede utilizar para controlar la bomba de agua. La bomba se puede controlar a través de una interfaz web o mediante un bot de Telegram. Utiliza un sensor ultrasónico HC-SR04 para medir el nivel del agua. Los datos se envían a TTN a través de una puerta de enlace LoRaWAN.
 
-?> The original document was written in  [Inglés](README.md). La traducción se hizo con Google Translate. Si encuentra algún error, intente ignorarlo. ¡Gracias!
+?> El documento original fue escrito en[Inglés](README.md). La traducción se hizo con Google Translate. Si encuentra algún error, intente ignorarlo. ¡Gracias!
 
 * * *
 
@@ -101,7 +101,7 @@ El sensor HC-SR04 es un sensor ultrasónico utilizado para medir distancias. Emi
 
 El sensor HC-SR04 es un dispositivo ultrasónico de detección de distancia. Se compone de dos partes, el emisor y el receptor. El emisor emite una onda de sonido ultrasónica a 40 kHz que viaja por el aire y, si encuentra un objeto, se refleja de regreso al receptor. Luego, el sensor mide el tiempo que tarda la onda de sonido en regresar y, utilizando este valor, calcula la distancia al objeto. Puede medir distancias desde 2 cm hasta 400 cm con una precisión de hasta 3 mm.
 
--   [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### Avanzado
