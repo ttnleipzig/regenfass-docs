@@ -20,7 +20,7 @@
     5.  Antenne
 3.  **Assemblage**
     1.  Capteur vers contrôleur
-    2.  Alimentation du contrôleur
+    2.  Power to controller
     3.  Dépannage
 4.  **Installation**
     1.  NTT
@@ -49,7 +49,7 @@
 
 ### Démarrage rapide - Présentation
 
-Le démarrage rapide est fait pour les personnes qui veulent commencer tout de suite et avoir une connaissance approfondie de l'IoT avec le Framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[ documentation](#hardware).
+Le démarrage rapide est fait pour les personnes qui veulent commencer tout de suite et avoir une connaissance approfondie de l'IoT avec le Framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
 
 ### Démarrage rapide - Présentation du matériel
 
@@ -94,6 +94,8 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![HC-S04 sensor](_media/hardware/sensor-hcsr04.png) | [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Le capteur est relativement bon marché et facile à utiliser. Il n'est pas étanche. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme. |
 | ![](_media/hardware/sensor-hcsr04.png)              | [BL6180X](https://amzn.to/3zVEFPM)Le capteur de temps de vol est relativement bon marché et facile à utiliser. Comme le HC-SRo4, il n'est pas étanche mais a une plus grande précision. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme.                       |
+
+!\[[Image collée 20230414163102.png]]
 
 #### Débutant
 
@@ -173,7 +175,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 
 ### Robot de télégramme
 
--   [Telegram Bot](Software/TelegramBot/README.md)
+-   [Robot de télégramme](Software/TelegramBot/README.md)
 
 ## Licence
 
@@ -182,7 +184,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 **Vous êtes libre de :**
 
 -   Partager - copier et redistribuer le matériel sur n'importe quel support ou format
--   Adapt — remix, transform, and build upon the material
+-   Adaptez - remixez, transformez et construisez sur le matériel
 
 * * *
 
