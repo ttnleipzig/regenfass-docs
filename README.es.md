@@ -33,10 +33,10 @@
         2.  Brillante
         3.  Configuración
 5.  **depuración**
-    1.  monitor de serie
+    1.  Serial Monitor
     2.  Consola TTN
     3.  Cliente MQTT
-    4.  Trampas
+    4.  Pit falls
 6.  **Ingeniería de datos**
     1.  Nodo ROJO
     2.  Grafana
@@ -90,16 +90,14 @@ Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontr
 | <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S04 sensor" /> | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.                                           |
 | <img src="_media/hardware/sensor-hcsr04.svg">                       | [Sensor láser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. Al igual que el HC-SRo4, no es resistente al agua pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
 
-| Parte                                               | Descripción                                                                                                                                                                                                                                                                                                                                       |
-| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![HC-S04 sensor](_media/hardware/sensor-hcsr04.png) | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
-| ![](_media/hardware/sensor-hcsr04.png)              | [BL6180X](https://amzn.to/3zVEFPM)El sensor de tiempo de vuelo es relativamente barato y fácil de usar. Al igual que el HC-SRo4, no es resistente al agua pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.              |
-
-!\[[Imagen pegada 20230414163102.png]]
+| Parte                                               | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![HC-S04 sensor](_media/hardware/sensor-hcsr04.svg) | [Sensor ultrasónico HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.                                                                                                                                                                                                                                                  |
+| ![](_media/hardware/sensor-vl6180x.svg)             | [BL6180X](https://amzn.to/3zVEFPM)El sensor de tiempo de vuelo es relativamente barato y fácil de usar. El módulo de distancia láser VL6180X es un sensor que utiliza un láser para medir la distancia entre el sensor y un objeto. Es un sensor de tiempo de vuelo (ToF), lo que significa que mide el tiempo que tarda la luz láser en rebotar en un objeto y regresar al sensor. El sensor no es resistente al agua, pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. |
 
 #### Principiante
 
-El sensor HC-SR04 es un sensor ultrasónico utilizado para medir distancias. Emite ondas de sonido de alta frecuencia y detecta el tiempo que tardan las ondas en rebotar después de golpear un objeto. Este tiempo se usa para calcular la distancia entre el sensor y el objeto. Tiene un alcance de hasta 4 metros y se puede interconectar con microcontroladores como Arduino, Raspberry Pi, etc. El HC-SR04 se usa comúnmente en robótica, automatización, sistemas de seguridad y otras aplicaciones que requieren detección de distancia precisa y confiable.
+El sensor HC-SR04 es un sensor ultrasónico utilizado para medir distancias. Emite ondas de sonido de alta frecuencia y detecta el tiempo que tardan las ondas en rebotar después de golpear un objeto. Este tiempo se usa para calcular la distancia entre el sensor y el objeto. Tiene un alcance de hasta 4 metros y se puede interconectar con microcontroladores como Arduino, Raspberry Pi, etc. El HC-SR04 se usa comúnmente en robótica, automatización, sistemas de seguridad y otras aplicaciones que requieren una detección de distancia precisa y confiable.
 
 El sensor HC-SR04 es un dispositivo ultrasónico de detección de distancia. Se compone de dos partes, el emisor y el receptor. El emisor emite una onda de sonido ultrasónica a 40 kHz que viaja por el aire y, si encuentra un objeto, se refleja de regreso al receptor. Luego, el sensor mide el tiempo que tarda la onda de sonido en regresar y, utilizando este valor, calcula la distancia al objeto. Puede medir distancias desde 2 cm hasta 400 cm con una precisión de hasta 3 mm.
 
@@ -109,7 +107,7 @@ El sensor HC-SR04 es un dispositivo ultrasónico de detección de distancia. Se 
 #### Avanzado
 
 -   [sensor de agua](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
--   [Sensor ultrasónico a prueba de agua](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 ### Fuente de alimentación
 
@@ -131,7 +129,7 @@ Incluso tupperware es una buena opción. Es impermeable y resistente a los rayos
 
 El microcontrolador es el cerebro del sistema. Se encarga de medir el nivel del agua y enviar los datos al servidor. Los siguientes microcontroladores son compatibles y recomendados:
 
-| Parte                                              | Descripción                                                                                                                                                                                                                                                                                 |
+| Parte                                              | Description                                                                                                                                                                                                                                                                                 |
 | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/hardware-esplora.svg" /> | **tienden a patrocinar:**El TTGO LoRa32 es un microcontrolador con un módulo LoRa. Es barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este microcontrolador si solo quiere probarlo. No se recomienda para uso a largo plazo. |
 
@@ -150,9 +148,9 @@ Las siguientes partes son recomendaciones. Puedes usar otras partes si quieres. 
 
 -   Puerta de enlace LoRaWAN
 
-#### microcontrolador
+#### Micro controller
 
-Es obvio que necesita una placa para ejecutar el software. Pero también necesitas un chip LoRa para enviar los datos a TTN. Se admiten las siguientes placas:
+It is ovious that you need a board to run the software. But you also need a LoRa chip to send the data to TTN. The following boards are supported:
 
 -   [Rumbo a pastar](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
