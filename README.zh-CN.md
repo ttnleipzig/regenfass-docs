@@ -27,7 +27,7 @@
         1.  创建账户
         2.  创建应用程序
         3.  配置解码器
-        4.  复制凭证
+        4.  复制凭据
     2.  设备
         1.  下载驱动程序
         2.  闪烁
@@ -49,7 +49,7 @@
 
 ### 快速入门 - 简介
 
-本快速入门适用于希望立即开始使用 Arudino 框架深入了解物联网的人员。如果你想了解它是如何工作的，你可以阅读[文档](#hardware).
+本快速入门专为希望立即开始使用 Arudino 框架深入了解物联网的人员而设计。如果你想了解它是如何工作的，你可以阅读[文档](#hardware).
 
 ### 快速入门 - 硬件概述
 
@@ -71,7 +71,7 @@
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
-?> 如果您想了解更多关于刷机过程，您可以阅读[安装文件](#Setup).
+?> 如果您想了解更多关于刷机过程，您可以阅读[安装文档](#Setup).
 
 ## 硬件
 
@@ -93,13 +93,15 @@
 | 部分                                                  | 描述                                                                                                                                                                         |
 | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![HC-S04 sensor](_media/hardware/sensor-hcsr04.png) | [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。它不防水。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。 |
-| ![](_media/hardware/sensor-hcsr04.png)              | [VL6180X](https://amzn.to/3zVEFPM)飞行时间传感器相对便宜且易于使用。与 HC-SRo4 一样，它不防水，但具有更高的精度。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。                                                   |
+| ![](_media/hardware/sensor-hcsr04.png)              | [BL6180X](https://amzn.to/3zVEFPM)飞行时间传感器相对便宜且易于使用。与 HC-SRo4 一样，它不防水，但具有更高的精度。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。                                                   |
+
+!\[[粘贴图像 20230414163102.png]]
 
 #### 初学者
 
-HC-SR04传感器是一款用于测距的超声波传感器。它发出高频声波，并检测声波撞击物体后反弹所需的时间。这个时间然后用于计算传感器和物体之间的距离。它的范围可达 4 米，可以与 Arduino、Raspberry Pi 等微控制器连接。HC-SR04 通常用于机器人、自动化、安全系统和其他需要准确可靠的距离感测的应用。
+HC-SR04传感器是一款用于测距的超声波传感器。它发出高频声波，并检测声波撞击物体后反弹所需的时间。这个时间然后用于计算传感器和物体之间的距离。它的范围可达 4 米，可以与 Arduino、Raspberry Pi 等微控制器连接。HC-SR04 常用于机器人、自动化、安全系统和其他需要准确可靠的距离感测的应用。
 
-The HC-SR04 sensor is an ultrasonic distance sensing device. It is composed of two parts, the emitter and the receiver. The emitter emits an ultrasonic sound wave at 40kHz which travels through the air and if it encounters an object, it is reflected back to the receiver. The sensor then measures the time taken for the sound wave to return and using this value, computes the distance to the object. It can measure distances from 2 cm to 400 cm with accuracy up to 3 mm. 
+HC-SR04传感器是一种超声波距离传感设备。它由发射器和接收器两部分组成。发射器发出 40kHz 的超声波，在空气中传播，如果遇到物体，就会反射回接收器。然后传感器测量声波返回所需的时间，并使用该值计算到物体的距离。它可以测量从 2 厘米到 400 厘米的距离，精度高达 3 毫米。
 
 -   [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [激光传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
@@ -111,7 +113,7 @@ The HC-SR04 sensor is an ultrasonic distance sensing device. It is composed of t
 
 ### 电源
 
-要为微控制器供电，您需要一个电源。 18650电池是最好的选择。它很便宜，你可以用太阳能电池板给它充电。但您也可以使用移动电源或 USB 电源。
+要为微控制器供电，您需要一个电源。 18650电池是最佳选择。它很便宜，你可以用太阳能电池板给它充电。但您也可以使用移动电源或 USB 电源。
 
 | 部分                                                    | 描述                                                                                                                                                                                                                                                                                                    |
 | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -159,7 +161,7 @@ The HC-SR04 sensor is an ultrasonic distance sensing device. It is composed of t
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印部件
+### 3D 打印零件
 
 ## 软件
 
