@@ -27,7 +27,7 @@
         1.  创建账户
         2.  创建应用程序
         3.  配置解码器
-        4.  复制凭据
+        4.  复制凭证
     2.  设备
         1.  下载驱动程序
         2.  闪烁
@@ -49,7 +49,7 @@
 
 ### 快速入门 - 简介
 
-本快速入门专为希望立即开始使用 Arudino 框架深入了解物联网的人员而设计。如果你想了解它是如何工作的，你可以阅读[文档](#hardware).
+本快速入门适用于希望立即开始使用 Arudino 框架深入了解物联网的人员。如果你想了解它是如何工作的，你可以阅读[文档](#hardware).
 
 ### 快速入门 - 硬件概述
 
@@ -71,7 +71,7 @@
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
-?> 如果您想了解更多关于刷机过程，您可以阅读[安装文件](#Setup).
+?> 如果您想了解更多关于刷机过程，您可以阅读[安装文档](#Setup).
 
 ## 硬件
 
@@ -92,8 +92,10 @@
 
 | 部分                                                  | 描述                                                                                                                                                                                       |
 | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![HC-S04 sensor](_media/hardware/sensor-hcsr04.svg) | [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。它不防水。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。               |
-| ![](_media/hardware/sensor-hcsr04.svg)              | [激光传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。与 HC-SRo4 一样，它不防水，但具有更高的精度。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。 |
+| ![HC-S04 sensor](_media/hardware/sensor-hcsr04.png) | [HC-SR04超声波传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。它不防水。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。               |
+| ![](_media/hardware/sensor-hcsr04.png)              | [激光传感器](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)该传感器相对便宜且易于使用。与 HC-SRo4 一样，它不防水，但具有更高的精度。你必须把它放在防水外壳里。如果您只是想试用一下，我们推荐这款传感器。不建议长期使用。 |
+
+BL6180X
 
 #### 初学者
 
@@ -159,7 +161,7 @@ HC-SR04传感器是一种超声波距离传感设备。它由发射器和接收�
 
 ![Schematic](https://raw.githubusercontent.com/Regenfass/Regenfass/master/Hardware/Schematic.png)
 
-### 3D 打印部件
+### 3D 打印零件
 
 ## 软件
 
