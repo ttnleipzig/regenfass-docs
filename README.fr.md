@@ -49,7 +49,7 @@
 
 ### Démarrage rapide - Présentation
 
-Le démarrage rapide est fait pour les personnes qui veulent commencer tout de suite et avoir une connaissance approfondie de l'IoT avec le Framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
+Le démarrage rapide est fait pour les personnes qui veulent commencer tout de suite et avoir une connaissance approfondie de l'IoT avec le Framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[ documentation](#hardware).
 
 ### Démarrage rapide - Présentation du matériel
 
@@ -90,12 +90,10 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 | <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S04 sensor" /> | [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Le capteur est relativement bon marché et facile à utiliser. Il n'est pas étanche. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme.                                      |
 | <img src="_media/hardware/sensor-hcsr04.svg">                       | [Capteur laser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Le capteur est relativement bon marché et facile à utiliser. Comme le HC-SRo4, il n'est pas étanche mais a une plus grande précision. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme. |
 
-| Partie                                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                |
-| --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![HC-S04 sensor](_media/hardware/sensor-hcsr04.png) | [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Le capteur est relativement bon marché et facile à utiliser. Il n'est pas étanche. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme.                                      |
-| ![](_media/hardware/sensor-hcsr04.png)              | [Capteur laser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Le capteur est relativement bon marché et facile à utiliser. Comme le HC-SRo4, il n'est pas étanche mais a une plus grande précision. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme. |
-
-BL6180X
+| Partie                                              | Description                                                                                                                                                                                                                                                                                                                                                                           |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![HC-S04 sensor](_media/hardware/sensor-hcsr04.png) | [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Le capteur est relativement bon marché et facile à utiliser. Il n'est pas étanche. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme. |
+| ![](_media/hardware/sensor-hcsr04.png)              | [BL6180X](https://amzn.to/3zVEFPM)Le capteur de temps de vol est relativement bon marché et facile à utiliser. Comme le HC-SRo4, il n'est pas étanche mais a une plus grande précision. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme.                       |
 
 #### Débutant
 
@@ -103,7 +101,7 @@ Le capteur HC-SR04 est un capteur à ultrasons utilisé pour la mesure de distan
 
 Le capteur HC-SR04 est un dispositif de détection de distance à ultrasons. Il est composé de deux parties, l'émetteur et le récepteur. L'émetteur émet une onde sonore ultrasonique à 40 kHz qui se déplace dans l'air et s'il rencontre un objet, il est réfléchi vers le récepteur. Le capteur mesure ensuite le temps mis par l'onde sonore pour revenir et, à l'aide de cette valeur, calcule la distance jusqu'à l'objet. Il peut mesurer des distances de 2 cm à 400 cm avec une précision allant jusqu'à 3 mm.
 
--   [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Capteur laser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### Avancé
@@ -175,7 +173,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 
 ### Robot de télégramme
 
--   [Robot de télégramme](Software/TelegramBot/README.md)
+-   [Telegram Bot](Software/TelegramBot/README.md)
 
 ## Licence
 
@@ -184,7 +182,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 **Vous êtes libre de :**
 
 -   Partager - copier et redistribuer le matériel sur n'importe quel support ou format
--   Adaptez - remixez, transformez et construisez sur le matériel
+-   Adapt — remix, transform, and build upon the material
 
 * * *
 
