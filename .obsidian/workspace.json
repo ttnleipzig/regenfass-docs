@@ -33,7 +33,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_source/drawings/sketches.excalidraw",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_source/drawings/sketches.excalidraw",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_source/drawings/sketches.excalidraw"
               }
             }
           }
@@ -163,10 +164,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a91000fd4aabd065",
+  "active": "778660095333dc63",
   "lastOpenFiles": [
-    "_source/drawings/sketches.excalidraw",
     "README.md",
+    "_source/drawings/sketches.excalidraw",
+    "_source/drawings/sketches.png",
     "_source/drawings/parts.excalidraw",
     "Untitled.md",
     "_source/drawings",
