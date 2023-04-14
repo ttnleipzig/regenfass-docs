@@ -40,7 +40,7 @@
 6.  **Ingénierie des données**
     1.  Nœud ROUGE
     2.  Grafana
-    3.  Alexa Skill
+    3.  Compétence Alexa
     4.  Azure Connect
 
 * * *
@@ -49,7 +49,7 @@
 
 ### Démarrage rapide - Présentation
 
-Le démarrage rapide est conçu pour les personnes qui souhaitent démarrer tout de suite et avoir une connaissance approfondie de l'IoT avec le framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
+Le démarrage rapide est fait pour les personnes qui veulent commencer tout de suite et avoir une connaissance approfondie de l'IoT avec le Framework Arudino. Si vous voulez comprendre comment cela fonctionne, vous pouvez lire le[Documentation](#hardware).
 
 ### Démarrage rapide - Présentation du matériel
 
@@ -92,8 +92,10 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 
 | Partie                                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                |
 | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![HC-S04 sensor](_media/hardware/sensor-hcsr04.svg) | [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Le capteur est relativement bon marché et facile à utiliser. Il n'est pas étanche. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme.                                      |
-| ![](_media/hardware/sensor-hcsr04.svg)              | [Capteur laser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Le capteur est relativement bon marché et facile à utiliser. Comme le HC-SRo4, il n'est pas étanche mais a une plus grande précision. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme. |
+| ![HC-S04 sensor](_media/hardware/sensor-hcsr04.png) | [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Le capteur est relativement bon marché et facile à utiliser. Il n'est pas étanche. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme.                                      |
+| ![](_media/hardware/sensor-hcsr04.png)              | [Capteur laser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)Le capteur est relativement bon marché et facile à utiliser. Comme le HC-SRo4, il n'est pas étanche mais a une plus grande précision. Il faut le mettre dans un boîtier étanche. Nous recommandons ce capteur si vous voulez simplement l'essayer. Il n'est pas recommandé pour une utilisation à long terme. |
+
+BL6180X
 
 #### Débutant
 
@@ -101,7 +103,7 @@ Le capteur HC-SR04 est un capteur à ultrasons utilisé pour la mesure de distan
 
 Le capteur HC-SR04 est un dispositif de détection de distance à ultrasons. Il est composé de deux parties, l'émetteur et le récepteur. L'émetteur émet une onde sonore ultrasonique à 40 kHz qui se déplace dans l'air et s'il rencontre un objet, il est réfléchi vers le récepteur. Le capteur mesure ensuite le temps mis par l'onde sonore pour revenir et, à l'aide de cette valeur, calcule la distance jusqu'à l'objet. Il peut mesurer des distances de 2 cm à 400 cm avec une précision allant jusqu'à 3 mm.
 
--   [Capteur à ultrasons HC-SR04](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 -   [Capteur laser](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 #### Avancé
@@ -116,7 +118,7 @@ Pour alimenter le microcontrôleur, vous avez besoin d'une alimentation. La batt
 | Partie                                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="_media/hardware/hardware-18650.svg" />      | Il existe de nombreux types de piles. Les plus courants sont le Lithium Ion, le Lithium Polymère et le Lithium Fer Phosphate. Le**Batterie 18650**est une batterie lithium-ion. C'est la meilleure option pour ce projet. Il est bon marché et vous pouvez le recharger avec un panneau solaire. Il est composé de lithium-ion et peut être rechargé jusqu'à 500 fois. La batterie 18650 a une tension de 3,7 V et peut avoir une capacité d'environ 2200 mAh. Le panneau solaire a une tension de 5V et une puissance de 2W. Le panneau solaire peut charger la batterie en 3 heures. Notre capteur a besoin de 5V et 100mA. Le microcontrôleur a besoin de 5V et 100mA. Nous avons donc besoin de deux batteries 18650 et d'un régulateur de tension pour obtenir 5V. La batterie n'est pas étanche. Il faut le mettre dans un boîtier étanche. Attention également aux températures élevées. La batterie peut exploser si elle est trop chaude. Nous recommandons cette batterie si vous souhaitez l'utiliser pendant une longue période. |
-| <img src="_media/hardware/hardware-solarpanel.png" /> | **Panneau solaire:**Puisque les articles sont dans notre jardin, nous pouvons utiliser un panneau solaire. Il est étanche et peut être utilisé sous la pluie. Il est composé de silicium polycristallin et a une puissance de 2W. Si vous achetez un panneau solaire, vous devez vous assurer qu'il a une sortie 5V avec au moins 400mA. Pour recharger nos batteries, nous avons besoin d'un contrôleur de charge. Heureusement, le microcontrôleur a un contrôleur de charge intégré. Nous pouvons donc utiliser directement le panneau solaire.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| <img src="_media/hardware/hardware-solarpanel.png" /> | **Panneau solaire:**Puisque les articles sont dans notre jardin, nous pouvons utiliser un panneau solaire. Il est étanche et peut être utilisé sous la pluie. Il est composé de silicium polycristallin et a une puissance de 2W. Si vous achetez un panneau solaire, vous devez vous assurer qu'il a une sortie 5V avec au moins 400mA. Pour recharger nos batteries, nous avons besoin d'un régulateur de charge. Heureusement, le microcontrôleur a un contrôleur de charge intégré. Nous pouvons donc utiliser directement le panneau solaire.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
 ### Logement
 
@@ -167,7 +169,7 @@ Il est évident que vous avez besoin d'une carte pour exécuter le logiciel. Mai
 
 -   [Arduino](Software/Arduino/README.md)
 
-### Server
+### Serveur
 
 -   [Serveur](Software/Server/README.md)
 
