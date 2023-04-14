@@ -4732,7 +4732,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "defaultTrayMode": true,
+  "defaultTrayMode": false,
   "previousRelease": "1.8.20",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,

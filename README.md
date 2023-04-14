@@ -98,6 +98,9 @@ To messure the water level you need a sensor.  It is not an easy task to find a 
 | ![](_media/hardware/sensor-hcsr04.png) | [VL6180X](https://amzn.to/3zVEFPM) The time of flight sensor is relativly cheap and easy to use. As like the HC-SRo4 it is not waterproof but has a higher acuracy. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. |
 
 
+![[Pasted image 20230414163102.png]]
+
+
 
 
 #### Beginner
