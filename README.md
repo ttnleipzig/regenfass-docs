@@ -102,9 +102,12 @@ To messure the water level you need a sensor.  It is not an easy task to find a 
 
 | Part | Description |
 | --- | --- |
-| | |
+| ![[sensor-water-CQRobot.png]] | [Contact water level sensor](https://amzn.to/41sKAaL) This sensor utilizes optical principles to detect liquid levels and is known as a photoelectric water liquid level sensor. One major advantage of this type of sensor is its excellent sensitivity and lack of mechanical parts, which leads to less frequent calibration. The sensor probe itself is small and flexible in terms of placement orientation, allowing it to detect a variety of conditions such as solution spillage, dryness, and horizontal level. Additionally, this sensor can function as a reminder and alarm system. The device features a built-in emitting diode and phototransistor, with the charged portion completely isolated from the controlled liquid, ensuring safety. |
+
+
+
 * [Contact water level sensor](https://amzn.to/41sKAaL)
-* [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+* [Water proof Ultrasonic Sensor](https://amzn.to/3MNk4F2)
 
 ### Power supply
 
