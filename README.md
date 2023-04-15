@@ -126,16 +126,9 @@ The microcontroller is the brain of the system. It is responsible for measuring 
 
 | Part | Description |
 | --- | --- |
-|  <img src="_media/hardware/hardware-esplora.svg" /> | **TTGO LoRa32:** The TTGO LoRa32 is a microcontroller with a LoRa module. It is cheap and easy to use. It is not waterproof. You have to put it in a waterproof housing. We recoment this microcontroller if you just want to try it out. It is not recommended for long term use. |
+|  ![Seamuing SX1262 LoRa Modul](_media/hardware/hardware-esplora.svg) | The [Seamuing SX1262 LoRa Modul 868](https://amzn.to/3UFRGq5) is a microcontroller with a LoRa module. It is cheap and easy to use.The SX1262 is a highly integrated low-power, long-range transceiver designed for use in a variety of wireless communication applications. It features an ultra-low power consumption mode, which makes it ideal for battery-powered applications that require long battery life. The SX1262 utilizes the LoRa modulation technique, which enables long-range communication with minimal power consumption. With a range of up to 15 km in line-of-sight conditions and up to 2 km in urban environments, the SX1262 is an excellent choice for long-range wireless communication applications. The transceiver operates in the 860-930 MHz frequency range, making it compatible with a wide range of regional regulatory requirements. It also features a high sensitivity of -148 dBm, enabling reliable communication even in noisy or weak signal environments. The SX1262 is designed with a highly configurable interface, making it easy to integrate into a wide range of applications. It also features a low-power standby mode, which reduces power consumption when the transceiver is not in use. Overall, the SX1262 is a highly versatile and reliable transceiver solution that is ideal for a wide range of wireless communication applications, including IoT, smart metering, and industrial automation.  It is not waterproof. You have to put it in a waterproof housing. We recoment this microcontroller if you just want to try it out. It is not recommended for long term use. |
 
 ---
-
-| Part | Description |
-| --- | --- |
-|  <img src="_media/hardware/sensor-hcsr04.svg" width="244" /> | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
-|  <img src="_media/hardware/hardware-esplora.svg" width="244" /> | [TTGO LoRa32](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
-|  <img src="_media/hardware/hardware-18650.svg" width="144" /> | 18650 battery |
-|  <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Solar panel |
 
 The following parts are recomnondations. You can use other parts if you want. But you may have to change the code. The following parts are recommended:
 

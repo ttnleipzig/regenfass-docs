@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_source/drawings/parts.excalidraw",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_source/drawings/parts.excalidraw",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_source/drawings/parts.excalidraw"
+                "file": "README.md"
               }
             }
           }
@@ -174,12 +173,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2f727d3fea6b1698",
+  "active": "a91000fd4aabd065",
   "lastOpenFiles": [
+    "_source/drawings/parts.excalidraw",
     "README.md",
     "_media/hardware/hardware-housing.svg",
     "_media/hardware/hardware-housing.png",
-    "_source/drawings/parts.excalidraw",
     "_media/hardware/sensor-JSN-SR04T.svg",
     "_media/hardware/sensor-JSN-SR04T.png",
     "_media/hardware/sensor-water-CQRobot.svg",
