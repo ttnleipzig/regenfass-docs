@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_source/drawings/parts.excalidraw",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_source/drawings/parts.excalidraw",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_source/drawings/parts.excalidraw"
               }
             }
           }
@@ -173,15 +174,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a91000fd4aabd065",
+  "active": "2f727d3fea6b1698",
   "lastOpenFiles": [
+    "_media/hardware/sensor-water-CQRobot.svg",
+    "_media/hardware/sensor-water-CQRobot.png",
+    "_source/drawings/parts.png",
+    "README.md",
     "_source/drawings/sketches.excalidraw",
     "_source/drawings/parts.excalidraw",
-    "README.md",
     "Pasted image 20230414164117.png",
     "_media/hardware/sensor-vl6180x.svg",
     "_media/hardware/sensor-vl6180x.png",
-    "_source/drawings/parts.png",
     "Pasted image 20230414162352.png",
     "Pasted image 20230414163033.png",
     "Pasted image 20230414163102.png",
