@@ -45,7 +45,7 @@
 
 * * *
 
-## Quick start
+## Inicio rápido
 
 ### Inicio rápido - Introducción
 
@@ -77,7 +77,7 @@ Necesitas las siguientes piezas:
 
 1.  [Sensores](#Sensors)
 2.  [Fuente de alimentación](#Power-supply)
-3.  [Housing](#Housing)
+3.  [Alojamiento](#Housing)
 4.  [microcontrolador](#Microcontroller)
 5.  [Antena](#Antenna)
 
@@ -99,12 +99,12 @@ Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontr
 
 #### Avanzado
 
-| Parte | Descripción |
-| ----- | ----------- |
-|       |             |
+| Parte                         | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| !\[[sensor-agua-CQRobot.png]] | [sensor de nivel de agua de contacto](https://amzn.to/41sKAaL)Este sensor utiliza principios ópticos para detectar niveles de líquido y se conoce como sensor de nivel de líquido de agua fotoeléctrico. Una de las principales ventajas de este tipo de sensor es su excelente sensibilidad y la falta de piezas mecánicas, lo que conduce a una calibración menos frecuente. La sonda del sensor en sí es pequeña y flexible en términos de orientación de ubicación, lo que le permite detectar una variedad de condiciones, como derrames de solución, sequedad y nivel horizontal. Además, este sensor puede funcionar como un sistema de recordatorio y alarma. El dispositivo cuenta con un diodo emisor y un fototransistor integrados, con la parte cargada completamente aislada del líquido controlado, lo que garantiza la seguridad. |
 
 -   [sensor de nivel de agua de contacto](https://amzn.to/41sKAaL)
--   [Sensor ultrasónico a prueba de agua](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Sensor ultrasónico a prueba de agua](https://amzn.to/3MNk4F2)
 
 ### Fuente de alimentación
 

@@ -2,7 +2,7 @@
 
 > Bei diesem Projekt geht es um einen intelligenten Wassertank. Es misst den Wasserstand und sendet die Daten an einen Server. Der Server kann zur Steuerung der Wasserpumpe verwendet werden. Die Pumpe kann über ein Webinterface oder über einen Telegrammbot gesteuert werden. Es verwendet einen HC-SR04-Ultraschallsensor, um den Wasserstand zu messen. Die Daten werden über ein LoRaWAN-Gateway an TTN gesendet.
 
-?> Das Originaldokument wurde eingeschrieben[Englisch](README.md). Die Übersetzung wurde mit Google Translate erstellt. Wenn Sie Fehler finden, versuchen Sie bitte, diese zu ignorieren. Danke schön!
+?> Das Originaldokument wurde eingeschrieben[Englisch](README.md). Die Übersetzung wurde mit Google Translate erstellt. Wenn Sie Fehler finden, versuchen Sie diese bitte zu ignorieren. Danke schön!
 
 * * *
 
@@ -20,7 +20,7 @@
     5.  Antenne
 3.  **Zusammenbauen**
     1.  Sensor zum Steuergerät
-    2.  Stromversorgung zum Controller
+    2.  Strom zum Controller
     3.  Fehlerbehebung
 4.  **Aufstellen**
     1.  TTN
@@ -49,7 +49,7 @@
 
 ### Schnellstart - Einführung
 
-Der Quickstart ist für Leute gemacht, die sofort loslegen möchten und tiefes Wissen über IoT mit dem Arudino Framework haben. Wenn Sie verstehen möchten, wie es funktioniert, können Sie die lesen[ documentation](#hardware).
+Der Quickstart ist für Leute gemacht, die sofort loslegen möchten und tiefes Wissen über IoT mit dem Arudino Framework haben. Wenn Sie verstehen möchten, wie es funktioniert, können Sie die lesen[Dokumentation](#hardware).
 
 ### Schnellstart - Hardware-Übersicht
 
@@ -99,21 +99,21 @@ Um den Wasserstand zu messen, benötigen Sie einen Sensor. Es ist keine leichte 
 
 #### Fortschrittlich
 
-| Teil | Beschreibung |
-| ---- | ------------ |
-|      |              |
+| Teil                            | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| !\[[Sensor-Wasser-CQRobot.png]] | [Wasserstandssensor kontaktieren](https://amzn.to/41sKAaL)Dieser Sensor verwendet optische Prinzipien zum Erfassen von Flüssigkeitsständen und ist als photoelektrischer Flüssigkeitsstandssensor für Wasser bekannt. Ein großer Vorteil dieses Sensortyps ist seine hervorragende Empfindlichkeit und das Fehlen mechanischer Teile, was zu einer selteneren Kalibrierung führt. Die Sensorsonde selbst ist klein und flexibel in Bezug auf die Platzierungsausrichtung, sodass sie eine Vielzahl von Bedingungen erkennen kann, z. B. das Verschütten von Lösung, Trockenheit und horizontalen Füllstand. Zusätzlich kann dieser Sensor als Erinnerungs- und Alarmsystem fungieren. Das Gerät verfügt über eine eingebaute Leuchtdiode und einen Fototransistor, wobei der geladene Teil vollständig von der kontrollierten Flüssigkeit isoliert ist, um die Sicherheit zu gewährleisten. |
 
 -   [Wasserstandssensor kontaktieren](https://amzn.to/41sKAaL)
--   [Wasserdichter Ultraschallsensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Wasserdichter Ultraschallsensor](https://amzn.to/3MNk4F2)
 
 ### Stromversorgung
 
 Um den Mikrocontroller mit Strom zu versorgen, benötigen Sie ein Netzteil. Der 18650 Akku ist die beste Option. Es ist billig und Sie können es mit einem Solarpanel aufladen. Sie können aber auch eine Powerbank oder ein USB-Netzteil verwenden.
 
-| Teil                                                  | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_media/hardware/hardware-18650.svg" />      | Es gibt viele Arten von Batterien. Die gebräuchlichsten sind Lithium-Ionen, Lithium-Polymer und Lithium-Eisen-Phosphat. Der**18650er Akku**ist ein Lithium-Ionen-Akku. Es ist die beste Option für dieses Projekt. Es ist billig und Sie können es mit einem Solarpanel aufladen. Es besteht aus Lithium-Ionen und kann bis zu 500 Mal aufgeladen werden. Der 18650-Akku hat eine Spannung von 3,7 V und kann eine Kapazität von etwa 2200 mAh haben. Das Solarpanel hat eine Spannung von 5V und eine Leistung von 2W. Das Solarpanel kann den Akku in 3 Stunden aufladen. Unser Sensor benötigt 5V und 100mA. Der Mikrocontroller benötigt 5V und 100mA. Wir brauchen also zwei 18650-Batterien und einen Spannungsregler, um 5 V zu erhalten. Der Akku ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Achten Sie auch auf hohe Temperaturen. Der Akku kann explodieren, wenn er zu heiß wird. Wir empfehlen diesen Akku, wenn Sie ihn über einen längeren Zeitraum verwenden möchten. |
-| <img src="_media/hardware/hardware-solarpanel.png" /> | **Sonnenkollektor:**Da Geschirr in unserem Garten steht, können wir ein Solarpanel nutzen. Es ist wasserdicht und kann im Regen verwendet werden. Es besteht aus polykristallinem Silizium und hat eine Leistung von 2W. Wenn Sie ein Solarpanel kaufen, müssen Sie darauf achten, dass es einen 5V-Ausgang mit mindestens 400mA hat. Um unsere Batterien aufzuladen, benötigen wir einen Laderegler. Zum Glück hat der Mikrocontroller einen Laderegler eingebaut. So können wir das Solarpanel direkt nutzen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Teil                                                  | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_media/hardware/hardware-18650.svg" />      | Es gibt viele Arten von Batterien. Die gebräuchlichsten sind Lithium-Ionen, Lithium-Polymer und Lithium-Eisen-Phosphat. Der**18650er Akku**ist ein Lithium-Ionen-Akku. Es ist die beste Option für dieses Projekt. Es ist billig und Sie können es mit einem Solarpanel aufladen. Es besteht aus Lithium-Ionen und kann bis zu 500 Mal aufgeladen werden. 18650 Akku hat eine Spannung von 3,7 V und kann eine Kapazität von ca. 2200 mAh haben. Das Solarpanel hat eine Spannung von 5V und eine Leistung von 2W. Das Solarpanel kann den Akku in 3 Stunden aufladen. Unser Sensor benötigt 5V und 100mA. Der Mikrocontroller benötigt 5V und 100mA. Wir brauchen also zwei 18650-Batterien und einen Spannungsregler, um 5 V zu erhalten. Der Akku ist nicht wasserdicht. Sie müssen es in ein wasserdichtes Gehäuse stecken. Achten Sie auch auf hohe Temperaturen. Der Akku kann explodieren, wenn er zu heiß ist. Wir empfehlen diesen Akku, wenn Sie ihn über einen längeren Zeitraum verwenden möchten. |
+| <img src="_media/hardware/hardware-solarpanel.png" /> | **Sonnenkollektor:**Da Geschirr in unserem Garten steht, können wir ein Solarpanel nutzen. Es ist wasserdicht und kann im Regen verwendet werden. Es besteht aus polykristallinem Silizium und hat eine Leistung von 2W. Wenn Sie ein Solarpanel kaufen, müssen Sie darauf achten, dass es einen 5V-Ausgang mit mindestens 400mA hat. Um unsere Batterien aufzuladen, benötigen wir einen Laderegler. Zum Glück hat der Mikrocontroller einen Laderegler eingebaut. So können wir das Solarpanel direkt nutzen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 ### Gehäuse
 
@@ -139,7 +139,7 @@ Der Mikrocontroller ist das Gehirn des Systems. Es ist dafür verantwortlich, de
 | <img src="_media/hardware/hardware-18650.svg" width="144" />      | 18650er Akku                                                                                                              |
 | <img src="_media/hardware/hardware-solarpanel.svg" width="244" /> | Sonnenkollektor                                                                                                           |
 
-Die folgenden Teile sind Empfehlungen. Sie können andere Teile verwenden, wenn Sie möchten. Aber möglicherweise müssen Sie den Code ändern. Folgende Teile werden empfohlen:
+Die folgenden Teile sind Empfehlungen. Sie können andere Teile verwenden, wenn Sie möchten. Möglicherweise müssen Sie jedoch den Code ändern. Folgende Teile werden empfohlen:
 
 #### LoRaWAN
 
@@ -176,7 +176,7 @@ Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführ
 
 [Namensnennung-Nichtkommerziell-Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**Es steht Ihnen frei:**
+**You are free to:**
 
 -   Teilen – Kopieren und Weitergeben des Materials in jedem Medium oder Format
 -   Anpassen – Material neu mischen, transformieren und darauf aufbauen
