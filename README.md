@@ -143,6 +143,10 @@ Check the TTN map to see if there is a gateway near you. If there is no gateway 
 
 ### Sensor to controller
 
+This example illustrates how to assemble the HC-SR04 sensor to the microcontroller. The sensor is connected to the microcontroller with a 4 pin cable. The yellow cable is the trigger cable. The blue cable is the echo cable. The red cable is the 5V cable. The black cable is the ground cable.
+
+![Schema](_media/schema/schema-regenfass-ultrasonic.svg)
+
 ### Power to controller
 
 ### Trouble shooting
