@@ -17,7 +17,7 @@
    2. Power supply
    3. Housing
    4. Microcontroller
-   5. Antenna
+   5. Gateway (optional)
 3. **Assembeling**
    1. Sensor to controller
    2. Power to controller
@@ -72,7 +72,6 @@ You need the following parts:
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
 ?> If you want to know more about the flashing process, you can read the [ setup documentation](#Setup).
-
 
 ## Hardware
 
@@ -130,13 +129,19 @@ The microcontroller is the brain of the system. It is responsible for measuring 
 
 ### Gateway
 
-To send the data to the server you need a gateway. The following gateways are supported and recommended:
+Check the TTN map to see if there is a gateway near you. If there is no gateway near you, you can buy a gateway but you need a internet connection. The gateway is the bridge between the microcontroller and the TTN server. The following gateways are supported and recommended:
 
 | Part | Description |
 | --- | --- |
-| ![TTN gateway](_media/hardware/hardware-gateway.svg) |  |
+| ![TTN gateway](_media/hardware/hardware-gateway.svg) | [TTN Indoor Gateway](https://amzn.to/3L1x1JN) The gateway is designed to work seamlessly with The Things Network v3, which offers a range of features such as secure device activation, global coverage, and easy device management. It also features built-in support for Bluetooth Low Energy (BLE) and Wi-Fi, enabling easy configuration and management using a smartphone or computer. Overall, the Things Indoor LoRaWAN Indoor Gateway TTNv3 is an excellent choice for anyone looking for a reliable, easy-to-use gateway for their LoRaWAN network. It is affordable, energy-efficient, and packed with features that make it an ideal choice for both commercial and industrial IoT applications. |
 
-https://amzn.to/43xS2Dg
+## 3. Assembeling
+
+   1. Sensor to controller
+   2. Power to controller
+   3. Trouble shooting
+
+
 
 ---
 
