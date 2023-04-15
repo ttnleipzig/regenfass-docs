@@ -79,7 +79,7 @@ You need the following parts:
    2. [Power supply](#Power-supply)
    3. [Housing](#Housing)
    4. [Microcontroller](#Microcontroller)
-   5. [Antenna](#Antenna)
+   5. [Gateway](#Gateway)
 
 ### Sensors
 
@@ -137,11 +137,15 @@ Check the TTN map to see if there is a gateway near you. If there is no gateway 
 
 ## 3. Assembeling
 
-   1. Sensor to controller
-   2. Power to controller
-   3. Trouble shooting
+   1. [Sensor to controller](#sensor-to-controller)
+   2. [Power to controller](#power-to-controller)
+   3. [Trouble shooting](#trouble-shooting)
 
+### Sensor to controller
 
+### Power to controller
+
+### Trouble shooting
 
 ---
 
