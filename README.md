@@ -88,26 +88,21 @@ To messure the water level you need a sensor.  It is not an easy task to find a 
 
 #### Beginner
 
-| Part | Description |
-| --- | --- |
-| <img src="_media/hardware/sensor-hcsr04.svg" alt="HC-S04 sensor" /> | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) The sensor is relativly cheap and easy to use. It is not waterproof. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. |  
-| <img src="_media/hardware/sensor-hcsr04.svg"> | [Lasersensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) The sensor is relativly cheap and easy to use. As like the HC-SRo4 it is not waterproof but has a higher acuracy. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. |
+If you are a beginner, we recommend using cheap sensors to build your first prototype. The following sensors are supported and recommended:
 
 | Part | Description |
 | --- | --- |
-| ![HC-S04 sensor](_media/hardware/sensor-hcsr04.svg) | [HC-SR04 Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) The sensor is relativly cheap and easy to use. It is not waterproof. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. The **HC-SR04** sensor is an ultrasonic sensor used for distance measurement. It emits high frequency sound waves and detects the time it takes for the waves to bounce back after hitting an object. This time is then used to calculate the distance between the sensor and the object. It has a range of up to 4 meters and can be interfaced with microcontrollers like Arduino, Raspberry Pi, etc. The HC-SR04 is commonly used in robotics, automation, security systems, and other applications that require accurate and reliable distance sensing.  |  
+| ![HC-S04 sensor](_media/hardware/sensor-hcsr04.svg) | [HC-SR04 Ultrasonic Sensor](https://amzn.to/3MHNrbJ) The sensor is relativly cheap and easy to use. It is not waterproof. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. The **HC-SR04** sensor is an ultrasonic sensor used for distance measurement. It emits high frequency sound waves and detects the time it takes for the waves to bounce back after hitting an object. This time is then used to calculate the distance between the sensor and the object. It has a range of up to 4 meters and can be interfaced with microcontrollers like Arduino, Raspberry Pi, etc. The HC-SR04 is commonly used in robotics, automation, security systems, and other applications that require accurate and reliable distance sensing.  |  
 | ![](_media/hardware/sensor-vl6180x.svg) | [VL6180X](https://amzn.to/3zVEFPM) The time of flight sensor is relativly cheap and easy to use. The VL6180X Laser Distance Module is a sensor that uses a laser to measure the distance between the sensor and an object. It is a time-of-flight (ToF) sensor, which means that it measures the time it takes for the laser light to bounce off an object and return to the sensor. The sensor is not waterproof but has a higher acuracy. You have to put it in a waterproof housing. We recoment this sensor if you just want to try it out. It is not recommended for long term use. |
 
 #### Advanced
 
+If you want to use that project for a long time, we recommend using more expensive sensors. The following sensors are supported and recommended:
+
 | Part | Description |
 | --- | --- |
 | ![[sensor-water-CQRobot.png]] | [Contact water level sensor](https://amzn.to/41sKAaL) This sensor utilizes optical principles to detect liquid levels and is known as a photoelectric water liquid level sensor. One major advantage of this type of sensor is its excellent sensitivity and lack of mechanical parts, which leads to less frequent calibration. The sensor probe itself is small and flexible in terms of placement orientation, allowing it to detect a variety of conditions such as solution spillage, dryness, and horizontal level. Additionally, this sensor can function as a reminder and alarm system. The device features a built-in emitting diode and phototransistor, with the charged portion completely isolated from the controlled liquid, ensuring safety. |
-|  ||
-
-
-* [Contact water level sensor](https://amzn.to/41sKAaL)
-* [Water proof Ultrasonic Sensor](https://amzn.to/3MNk4F2)
+| ![[sensor-JSN-SR04T.png]] | [Water proof Ultrasonic Sensor](https://amzn.to/3MNk4F2) The JSN-SR04T is an ultrasonic sensor module that utilizes sonar technology to detect the distance of objects. This compact and easy-to-use module features high accuracy and reliability, making it an ideal choice for a wide range of applications including robotics, automation, and security systems. The sensor has a detection range of up to 5 meters and can detect objects within a 15-degree angle. It operates at a frequency of 40 kHz and has a resolution of 1 cm. The module also includes a built-in temperature compensation function, ensuring stable and accurate readings even in varying temperature conditions. **The JSN-SR04T** module is designed with a waterproof and dustproof casing, making it suitable for use in harsh environments. It is easy to install and integrates seamlessly with a wide range of microcontrollers, such as Arduino and Raspberry Pi, through its simple three-pin interface. Overall, the JSN-SR04T ultrasonic sensor module is an excellent choice for anyone looking for a reliable and accurate distance measurement solution for their projects. |
 
 ### Power supply
 
