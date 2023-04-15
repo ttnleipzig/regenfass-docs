@@ -62,7 +62,7 @@ Vous avez besoin des pièces suivantes :
 -   Source de courant
 -   Logement
 
-?> Si vous voulez en savoir plus sur les pièces, vous pouvez lire le[documentation sur le matériel](#Hardware).
+?> Si vous voulez en savoir plus sur les pièces, vous pouvez lire le[ hardware documentation](#Hardware).
 
 ### Démarrage rapide - Logiciel Flash
 
@@ -81,7 +81,7 @@ Vous avez besoin des pièces suivantes :
 4.  [Microcontrôleur](#Microcontroller)
 5.  [Antenne](#Antenna)
 
-### Capteurs
+### Sensors
 
 Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile de trouver un capteur étanche et pouvant être utilisé dans un réservoir d'eau. Les capteurs suivants sont pris en charge et recommandés :
 
@@ -103,7 +103,7 @@ Pour mesurer le niveau d'eau, vous avez besoin d'un capteur. Il n'est pas facile
 | ------ | ----------- |
 |        |             |
 
--   [Capteur d'eau](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [Contacter le capteur de niveau d'eau](https://amzn.to/41sKAaL)
 -   [Capteur à ultrasons étanche à l'eau](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 ### Source de courant
