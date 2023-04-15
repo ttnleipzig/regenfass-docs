@@ -103,7 +103,7 @@ To messure the water level you need a sensor.  It is not an easy task to find a 
 | Part | Description |
 | --- | --- |
 | | |
-* [Water Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+* [Contact water level sensor](https://amzn.to/41sKAaL)
 * [Water proof Ultrasonic Sensor](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 ### Power supply
