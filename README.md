@@ -111,14 +111,14 @@ To power the microcontroller you need a power supply. The 18650 battery is the b
 | Part | Description |
 | --- | --- |
 |  ![18650 battery](_media/hardware/hardware-18650.svg)  |There are many types of batteries. The most common are Lithium Ion, Lithium Polymer and Lithium Iron Phosphate. The **18650 battery** is a Lithium Ion battery. It is the best option for this project. It is cheap and you can charge it with a solar panel. It is made of Lithium Ion and can be charged up to 500 times. 18650 battery has a voltage of 3.7V and can have a capacity of araound 2200mAh. The solar panel has a voltage of 5V and a power of 2W. The solar panel can charge the battery in 3 hours. Our sensor needs 5V and 100mA. The microcontroller needs 5V and 100mA. So we need two 18650 batteries an a voltage regulator to get 5V. The battery is not waterproof. You have to put it in a waterproof housing. Also take care about high temperatures. The battery can explode if it is too hot. We recommend this battery if you want to use it for a long time. |
-|  ![Solar panel](_media/hardware/hardware-solarpanel.svg) | **Solar panel:** Since ware are in our garden, we can use a solar panel. It is waterproof and can be used in the rain. It is made of polycrystalline silicon and has a power of 2W. If you buy a solar panel, you have to make shure that it has a 5V output with at least 400mA. To charge our batteries, we need a charge controller. Luckely the Microcontroller has a charge controller build in. So we can use the solar panel directly.  |
+|  ![Solar panel](_media/hardware/hardware-solarpanel.svg) | **Solar panel:** Since we are in our garden, we can use a solar panel. It is waterproof and can be used in the rain. It is made of polycrystalline silicon and has a power of 2W. If you buy a solar panel, you have to make shure that it has a 5V output with at least 400mA. To charge our batteries, we need a charge controller. Luckely the Microcontroller has a charge controller build in. So we can use the solar panel directly.  |
 
 ### Housing
 
 To protect the sensor and the microcontroller you need a housings. The housing has to be waterproof and a little bit resistant to high temperatures and UV radiation.
-Use PLA just for prototypes. It is not waterproof and can be destroyed by UV radiation. Use ABS for long term use. It is waterproof and UV resistant. You can also use PETG. It is waterproof and UV resistant. But it is not as strong as ABS.
+Use **PETG** is good for prototypes. It is not waterproof and can be destroyed by UV radiation. Use **PETG** for long term use. It is waterproof and UV resistant. You can also use **ABS**. It is waterproof and UV resistant.
 
-Even tupperware is a good option. It is waterproof and UV resistant.
+Even **tupperware** is a good option. It is waterproof and UV resistant.
 
 ### Microcontroller
 
