@@ -29,7 +29,7 @@
         3.  デコーダーの構成
         4.  資格証明のコピー
     2.  デバイス
-        1.  ドライバをダウンロード
+        1.  Download driver
         2.  点滅
         3.  構成
 5.  **デバッグ**
@@ -103,7 +103,7 @@
 | - | -- |
 |   |    |
 
--   [水センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+-   [接触式水位センサー](https://amzn.to/41sKAaL)
 -   [防水超音波センサー](https://www.amazon.de/gp/product/B07B4J8QZK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 ### 電源
@@ -178,7 +178,7 @@
 
 **あなたは自由にできます：**
 
--   共有 — 素材をコピーし、任意の媒体または形式で再配布します
+-   共有 — 任意の媒体または形式で資料をコピーおよび再配布します
 -   適応 — 素材をリミックス、変換、構築する
 
 * * *
