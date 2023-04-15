@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_source/drawings/parts.excalidraw",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_source/drawings/parts.excalidraw",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_source/drawings/parts.excalidraw"
               }
             }
           }
@@ -173,10 +174,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a91000fd4aabd065",
+  "active": "2f727d3fea6b1698",
   "lastOpenFiles": [
-    "_source/drawings/parts.excalidraw",
+    "_media/hardware/hardware-gateway.svg",
+    "_media/hardware/hardware-gateway.png",
     "README.md",
+    "_source/drawings/parts.excalidraw",
     "_media/hardware/hardware-housing.svg",
     "_media/hardware/hardware-housing.png",
     "_media/hardware/sensor-JSN-SR04T.svg",
@@ -187,7 +190,6 @@
     "_source/drawings/sketches.excalidraw",
     "Pasted image 20230414164117.png",
     "_media/hardware/sensor-vl6180x.svg",
-    "_media/hardware/sensor-vl6180x.png",
     "Untitled.md",
     "_source/drawings",
     "_media/hardware/sensor-hcsr04.svg\".md"

@@ -128,6 +128,18 @@ The microcontroller is the brain of the system. It is responsible for measuring 
 | --- | --- |
 |  ![Seamuing SX1262 LoRa Modul](_media/hardware/hardware-esplora.svg) | The [Seamuing SX1262 LoRa Modul 868](https://amzn.to/3UFRGq5) is a microcontroller with a LoRa module. It is cheap and easy to use.The SX1262 is a highly integrated low-power, long-range transceiver designed for use in a variety of wireless communication applications. It features an ultra-low power consumption mode, which makes it ideal for battery-powered applications that require long battery life. The SX1262 utilizes the LoRa modulation technique, which enables long-range communication with minimal power consumption. With a range of up to 15 km in line-of-sight conditions and up to 2 km in urban environments, the SX1262 is an excellent choice for long-range wireless communication applications. The transceiver operates in the 860-930 MHz frequency range, making it compatible with a wide range of regional regulatory requirements. It also features a high sensitivity of -148 dBm, enabling reliable communication even in noisy or weak signal environments. The SX1262 is designed with a highly configurable interface, making it easy to integrate into a wide range of applications. It also features a low-power standby mode, which reduces power consumption when the transceiver is not in use. Overall, the SX1262 is a highly versatile and reliable transceiver solution that is ideal for a wide range of wireless communication applications, including IoT, smart metering, and industrial automation. **It is not waterproof.** You have to put it in a waterproof housing. We recoment this microcontroller if you just want to try it out. It is not recommended for long term use. |
 
+### Gateway
+
+To send the data to the server you need a gateway. The following gateways are supported and recommended:
+
+| Part | Description |
+| --- | --- |
+| ![TTN gateway](_media/hardware/hardware-gateway.svg) |  |
+
+https://amzn.to/43xS2Dg
+
+---
+
 #### LoRaWAN
 
 * LoRaWAN Gateway
