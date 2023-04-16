@@ -27,10 +27,10 @@
         1.  创建账户
         2.  创建应用程序
         3.  配置解码器
-        4.  复制凭据
+        4.  复制凭证
     2.  设备
         1.  下载驱动程序
-        2.  闪烁
+        2.  Flashing
         3.  配置
 5.  **调试**
     1.  串行监视器
@@ -71,7 +71,7 @@
 
 <esp-web-install-button manifest="/static/firmware_build/manifest.json"></esp-web-install-button>
 
-?> 如果您想了解更多关于刷机过程，您可以阅读[安装文件](#Setup).
+?> 如果您想了解更多关于刷机过程，您可以阅读[安装文档](#Setup).
 
 ## 硬件
 
