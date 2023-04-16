@@ -63,6 +63,25 @@
     <!-- ESP Web Tools -->
     <script type="module" src="https://unpkg.com/esp-web-tools@9/dist/web/install-button.js?module"></script>
     <link rel="stylesheet" href="_source/styles.css">
+    <style>
+        td:has(img) {
+            width: 50%;
+            vertical-align: top;
+        }
+
+        @media screen and (min-width: 1024px) {
+            td:has(img) {
+                width: 36%;
+            }
+        }
+
+        @media screen and (min-width: 1296px) {
+            td:has(img) {
+                width: 20%;
+            }
+        }
+
+    </style>
 </body>
 
 </html>
