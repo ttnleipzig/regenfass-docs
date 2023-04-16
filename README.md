@@ -55,7 +55,7 @@ The quickstart is made for people who want to start right away and deep knowledg
 
 You need the following parts:
 
-![Overview](_media/hardware/hardware-overview.png)
+![Overview](_media/hardware/hardware-overview.png ':size=200')
 
 * Microcontroller with LoRa chip
 * Sensor
@@ -145,7 +145,7 @@ Check the TTN map to see if there is a gateway near you. If there is no gateway 
 
 This example illustrates how to assemble the HC-SR04 sensor to the microcontroller. The sensor is connected to the microcontroller with a 4 pin cable. The yellow cable is the trigger cable. The blue cable is the echo cable. The red cable is the 5V cable. The black cable is the ground cable.
 
-![Schema](_media/schema/schema-regenfass-ultrasonic.svg)
+![Schema for ultra sonic sensor](_media/schema/schema-regenfass-ultrasonic.png)
 
 ### Power to controller
 
