@@ -176,6 +176,11 @@
   },
   "active": "2f727d3fea6b1698",
   "lastOpenFiles": [
+    "_source/schemas/regenfass.fzz",
+    "_source/schemas",
+    "_media/schema/schema-regenfass-ultrasonic.svg",
+    "_media/schema/schema-regenfass-ultrasonic.png",
+    "_media/schema",
     "_media/hardware/hardware-gateway.svg",
     "_media/hardware/hardware-gateway.png",
     "README.md",
@@ -186,10 +191,7 @@
     "_media/hardware/sensor-JSN-SR04T.png",
     "_media/hardware/sensor-water-CQRobot.svg",
     "_media/hardware/sensor-water-CQRobot.png",
-    "_source/drawings/parts.png",
     "_source/drawings/sketches.excalidraw",
-    "Pasted image 20230414164117.png",
-    "_media/hardware/sensor-vl6180x.svg",
     "Untitled.md",
     "_source/drawings",
     "_media/hardware/sensor-hcsr04.svg\".md"
