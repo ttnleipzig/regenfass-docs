@@ -20,31 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "778660095333dc63",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "_source/drawings/sketches.excalidraw"
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "2f727d3fea6b1698",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "_source/drawings/parts.excalidraw"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_source/drawings/parts.excalidraw",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_source/drawings/parts.excalidraw",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_source/drawings/parts.excalidraw"
+                "file": "README.md"
               }
             }
           }
@@ -174,8 +151,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2f727d3fea6b1698",
+  "active": "a91000fd4aabd065",
   "lastOpenFiles": [
+    "_source/drawings/sketches.excalidraw",
+    "_source/drawings/parts.excalidraw",
     "_source/schemas/regenfass.fzz",
     "_source/schemas",
     "_media/schema/schema-regenfass-ultrasonic.svg",
@@ -184,14 +163,12 @@
     "_media/hardware/hardware-gateway.svg",
     "_media/hardware/hardware-gateway.png",
     "README.md",
-    "_source/drawings/parts.excalidraw",
     "_media/hardware/hardware-housing.svg",
     "_media/hardware/hardware-housing.png",
     "_media/hardware/sensor-JSN-SR04T.svg",
     "_media/hardware/sensor-JSN-SR04T.png",
     "_media/hardware/sensor-water-CQRobot.svg",
     "_media/hardware/sensor-water-CQRobot.png",
-    "_source/drawings/sketches.excalidraw",
     "Untitled.md",
     "_source/drawings",
     "_media/hardware/sensor-hcsr04.svg\".md"
