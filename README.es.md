@@ -89,7 +89,7 @@ Para medir el nivel del agua necesitas un sensor. No es una tarea fácil encontr
 
 Si eres principiante, te recomendamos usar sensores baratos para construir tu primer prototipo. Los siguientes sensores son compatibles y recomendados:
 
-| Parte                                               | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Part                                                | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![HC-S04 sensor](_media/hardware/sensor-hcsr04.svg) | [Sensor ultrasónico HC-SR04](https://amzn.to/3MHNrbJ)El sensor es relativamente barato y fácil de usar. No es resistente al agua. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo. El**HC-SR04**El sensor es un sensor ultrasónico utilizado para medir distancias. Emite ondas de sonido de alta frecuencia y detecta el tiempo que tardan las ondas en rebotar después de golpear un objeto. Este tiempo se usa para calcular la distancia entre el sensor y el objeto. Tiene un alcance de hasta 4 metros y se puede interconectar con microcontroladores como Arduino, Raspberry Pi, etc. El HC-SR04 se usa comúnmente en robótica, automatización, sistemas de seguridad y otras aplicaciones que requieren una detección de distancia precisa y confiable. |
 | ![](_media/hardware/sensor-vl6180x.svg)             | [BL6180X](https://amzn.to/3zVEFPM)El sensor de tiempo de vuelo es relativamente barato y fácil de usar. El módulo de distancia láser VL6180X es un sensor que utiliza un láser para medir la distancia entre el sensor y un objeto. Es un sensor de tiempo de vuelo (ToF), lo que significa que mide el tiempo que tarda la luz láser en rebotar en un objeto y regresar al sensor. El sensor no es resistente al agua, pero tiene una mayor precisión. Tienes que ponerlo en una carcasa impermeable. Recomendamos este sensor si solo quieres probarlo. No se recomienda para uso a largo plazo.                                                                                                                                                                                                                                                         |
@@ -115,7 +115,7 @@ Para alimentar el microcontrolador necesita una fuente de alimentación. La bate
 ### Alojamiento
 
 Para proteger el sensor y el microcontrolador necesita una carcasa. La carcasa tiene que ser impermeable y un poco resistente a las altas temperaturas y la radiación UV.
-Usar**PETG** is good for prototypes. It is not waterproof and can be destroyed by UV radiation. Use **PETG**para uso a largo plazo. Es impermeable y resistente a los rayos UV. También puedes usar**abdominales**. Es impermeable y resistente a los rayos UV.
+Usar**PETG**es bueno para los prototipos. No es resistente al agua y puede ser destruido por la radiación UV. Usar**PETG**para uso a largo plazo. Es impermeable y resistente a los rayos UV. También puedes usar**abdominales**. Es impermeable y resistente a los rayos UV.
 
 Incluso**tupperware**es una buena opción Es impermeable y resistente a los rayos UV.
 
@@ -183,6 +183,11 @@ Es obvio que necesita una placa para ejecutar el software. Pero también necesit
 ### robot de telegramas
 
 -   [robot de telegramas](Software/TelegramBot/README.md)
+
+## Contribuir
+
+-   <https://github.com/ttnleipzig/regenfass-hc-sr04/>
+-
 
 ## Licencia
 
