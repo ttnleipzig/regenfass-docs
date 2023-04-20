@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c47bea18a0201753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,10 +164,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a91000fd4aabd065",
+  "active": "212b38bd168bf466",
   "lastOpenFiles": [
-    "_source/drawings/sketches.excalidraw",
     "_source/drawings/parts.excalidraw",
+    "_source/drawings/sketches.excalidraw",
+    "README.md",
     "_source/schemas/regenfass.fzz",
     "_source/schemas",
     "_media/schema/schema-regenfass-ultrasonic.svg",
@@ -162,7 +176,6 @@
     "_media/schema",
     "_media/hardware/hardware-gateway.svg",
     "_media/hardware/hardware-gateway.png",
-    "README.md",
     "_media/hardware/hardware-housing.svg",
     "_media/hardware/hardware-housing.png",
     "_media/hardware/sensor-JSN-SR04T.svg",
