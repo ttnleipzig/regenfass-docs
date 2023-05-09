@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,6 +76,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "638a29f85bb4de24",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -164,7 +171,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "212b38bd168bf466",
+  "active": "a91000fd4aabd065",
   "lastOpenFiles": [
     "_source/drawings/parts.excalidraw",
     "_source/drawings/sketches.excalidraw",
