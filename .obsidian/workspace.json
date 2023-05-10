@@ -22,6 +22,16 @@
             }
           },
           {
+            "id": "91495d4bb2316ff3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
+          },
+          {
             "id": "c47bea18a0201753",
             "type": "leaf",
             "state": {
@@ -33,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,7 +182,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a91000fd4aabd065",
+  "active": "91495d4bb2316ff3",
   "lastOpenFiles": [
     "_source/drawings/parts.excalidraw",
     "_source/drawings/sketches.excalidraw",
