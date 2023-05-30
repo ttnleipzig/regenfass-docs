@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91495d4bb2316ff3",
+  "active": "c47bea18a0201753",
   "lastOpenFiles": [
     "_source/drawings/parts.excalidraw",
     "_source/drawings/sketches.excalidraw",
