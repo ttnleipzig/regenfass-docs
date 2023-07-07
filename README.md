@@ -17,7 +17,7 @@
    3. Housing
    4. Microcontroller
    5. Gateway (optional)
-3. **Assembeling**
+3. **Assembling**
    1. Sensor to controller
    2. Power to controller
    3. Trouble shooting
