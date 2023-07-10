@@ -53,7 +53,7 @@ Der Schnellstart richtet sich an Personen, die sofort loslegen und fundierte Ken
 
 ### Schnellstart – Hardware-Übersicht
 
-You need the following parts:
+Sie benötigen folgende Teile:
 
 ![Overview](_media/hardware/hardware-overview.png ":size=200")
 
@@ -143,7 +143,7 @@ Sehen Sie auf der TTN-Karte nach, ob sich in Ihrer Nähe ein Gateway befindet. W
 
 ### Sensor zum Controller
 
-Dieses Beispiel zeigt, wie der HC-SR04-Sensor an den Mikrocontroller montiert wird. Der Sensor wird über ein 4-poliges Kabel mit dem Mikrocontroller verbunden. Das gelbe Kabel ist das Auslösekabel. Das blaue Kabel ist das Echokabel. Das rote Kabel ist das 5V-Kabel. Das schwarze Kabel ist das Erdungskabel.
+This example illustrates how to assemble the HC-SR04 sensor to the microcontroller. The sensor is connected to the microcontroller with a 4 pin cable. The yellow cable is the trigger cable. The blue cable is the echo cable. The red cable is the 5V cable. The black cable is the ground cable.
 
 ![Schema for ultra sonic sensor](_media/schema/schema-regenfass-ultrasonic.png)
 
