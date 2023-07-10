@@ -1,9 +1,8 @@
-
-
 ## Sensors and Actors communication
 
 There should be a way to react on the metrics. Start a pump, open a valve or some other actions.
 
+➡ See [Wireless Bridge WiFi_LoRa Example](https://docs.heltec.org/en/node/esp32/dev-board/wireless_bridge/wifi_lora_user_manual.html)
 
 ## Actors hardware
 
