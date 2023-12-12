@@ -117,7 +117,7 @@ Um den Mikrocontroller mit Strom zu versorgen, benötigen Sie ein Netzteil. Der 
 Zum Schutz des Sensors und des Mikrocontrollers benötigen Sie ein Gehäuse. Das Gehäuse muss wasserdicht und ein wenig resistent gegen hohe Temperaturen und UV-Strahlung sein.
 Verwenden**PETG**ist gut für Prototypen. Es ist nicht wasserdicht und kann durch UV-Strahlung zerstört werden. Verwenden**PETG**für den Langzeitgebrauch. Es ist wasserdicht und UV-beständig. Sie können auch verwenden**ABS**. Es ist wasserdicht und UV-beständig.
 
-Selbst**Tupperware**ist eine gute Option. Es ist wasserdicht und UV-beständig.
+Sogar**Tupperware**ist eine gute Option. Es ist wasserdicht und UV-beständig.
 
 ### Mikrocontroller
 
@@ -161,7 +161,7 @@ Dieses Beispiel zeigt, wie der HC-SR04-Sensor an den Mikrocontroller montiert wi
 
 Es ist offensichtlich, dass Sie ein Board benötigen, um die Software auszuführen. Sie benötigen aber auch einen LoRa-Chip, um die Daten an TTN zu senden. Folgende Boards werden unterstützt:
 
--   [Auf dem Weg zum Grasen](Hardware/TTGOLoRa32.md)
+-   [Auf dem Weg nach Raa](Hardware/TTGOLoRa32.md)
 -   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
 
 ### Schematisch
