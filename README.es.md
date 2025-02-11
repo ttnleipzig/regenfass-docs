@@ -162,7 +162,7 @@ Este ejemplo ilustra cómo ensamblar el sensor HC-SR04 al microcontrolador. El s
 Es obvio que necesita un tablero para ejecutar el software. Pero también necesita un chip Lora para enviar los datos a TTN. Se admiten los siguientes tableros:
 
 -   [Ttgo lora32](Hardware/TTGOLoRa32.md)
--   [Heltec Lora32](Hardware/HeltecLoRa32.md)
+-   [Heltec LoRa32](Hardware/HeltecLoRa32.md)
 
 ### Esquemático
 
