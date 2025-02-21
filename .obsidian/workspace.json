@@ -53,12 +53,14 @@
             "id": "13c983bf6310d31f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "_source/drawings/parts.excalidraw"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "parts"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
@@ -224,13 +226,13 @@
   },
   "active": "13c983bf6310d31f",
   "lastOpenFiles": [
+    "_source/drawings/parts.excalidraw",
     "README.md",
     "Ideas.md",
     "Hardware/Sensors.md",
     "Hardware/ESP32.md",
     "Hardware/LoRaWAN.md",
     "de/README.md",
-    "_source/drawings/parts.excalidraw",
     "_source/drawings/sketches.excalidraw",
     "_source/schemas/regenfass.fzz",
     "_source/schemas",
