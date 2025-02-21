@@ -53,7 +53,7 @@ Le QuickStart est conçu pour les personnes qui veulent commencer tout de suite 
 
 ### Démarrage rapide - Présentation du matériel
 
-Vous avez besoin des parties suivantes:
+You need the following parts:
 
 ![Overview](_media/hardware/hardware-overview.png ":size=200")
 
@@ -115,7 +115,7 @@ Pour alimenter le microcontrôleur, vous avez besoin d'une alimentation. La batt
 ### Logement
 
 Pour protéger le capteur et le microcontrôleur, vous avez besoin de boîtiers. Le boîtier doit être étanche et un peu résistant aux températures élevées et aux rayonnements UV.
-Utiliser**Pivot**est bon pour les prototypes. Il n'est pas étanche et peut être détruit par le rayonnement UV. Utiliser**Pivot**pour une utilisation à long terme. Il est étanche et résistant aux UV. Vous pouvez également utiliser**Abs**. Il est étanche et résistant aux UV.
+Utiliser**Pivot** is good for prototypes. It is not waterproof and can be destroyed by UV radiation. Use **Pivot**pour une utilisation à long terme. Il est étanche et résistant aux UV. Vous pouvez également utiliser**Abs**. Il est étanche et résistant aux UV.
 
 Même**tupperware**est une bonne option. Il est étanche et résistant aux UV.
 
